@@ -1,0 +1,191 @@
+{
+  "status": "LOCKED_BEFORE_TARGET_SCORING",
+  "created_at_utc": "2026-09-30T20:27:28.393248+00:00",
+  "research_name": "local_constraint_check_feasibility",
+  "main_queries": 32,
+  "probes": 12,
+  "logical_requests_per_model": 176,
+  "candidate_rows_per_model": 352,
+  "target_logical_requests": 704,
+  "unique_M2_logical_requests": 352,
+  "neutral_logical_requests": 16,
+  "total_unique_logical_requests": 1072,
+  "logical_request_cap": 1200,
+  "rewrite_calls": 44,
+  "input_sha256": "5ed69c81f5078d28f5e8d250ed175894ed88ccb48d19f5feccd833d19c74d3cb",
+  "corpus_sha256": "412c26e33075d39736aa086d3b87b9f86c5b6c3d82710ebb2f8fc3575bc9dc6e",
+  "score_map_sha256": "8ba35a91edabacaf2bfbbd3d8952a1f5c1e7a80669ee4b678051bf319b9180ff",
+  "models": {
+    "bm25": {
+      "revision": "deterministic_bm25_v1",
+      "query_prefix": "",
+      "document_prefix": "",
+      "k1": 1.2,
+      "b": 0.75,
+      "corpus": "All36 unique new EVAL documents,auxiliary included;fixed across conditions",
+      "score": "BM25float64"
+    },
+    "bge_small": {
+      "repo_id": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "Represent this sentence for searching relevant passages: ",
+      "document_prefix": "",
+      "pooling": "CLS L2-normalized",
+      "score": "unscaled cosine"
+    },
+    "e5_small": {
+      "repo_id": "intfloat/e5-small-v2",
+      "revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "query: ",
+      "document_prefix": "passage: ",
+      "pooling": "masked mean L2-normalized",
+      "score": "unscaled cosine"
+    },
+    "minilm_ce": {
+      "repo_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "",
+      "document_prefix": "",
+      "pooling": "raw one-output logit",
+      "score": "raw logit"
+    }
+  },
+  "BM25_corpus_contract": "All unique actual44-query candidate texts in scoring_corpus.jsonl; M0/M1 share one fixed index",
+  "main_path": "new_eval.jsonl",
+  "probe_path": "safety_probes.jsonl",
+  "semantic_truths_path": "reviews/final_semantic_truths.jsonl",
+  "inputs_path": "scoring/scoring_inputs.jsonl",
+  "corpus_path": "scoring/scoring_corpus.jsonl",
+  "score_map_path": "private/SCORE_MAP.jsonl",
+  "rewrite_records_path": "M1_REWRITE_RECORDS.jsonl",
+  "analysis_contract": {
+    "new_main_queries": 32,
+    "safety_probes": 12,
+    "primary_ranking": "both orientations correct after passage mapping; exact ties fail; technical missing kept separate",
+    "new_main_full_denominator_required": true,
+    "subset_coverage_never_primary": true,
+    "M0_M1_margin": "gold score minus counterpart raw score; +/-1e-6 and1e-5 near ties, report mean/median per model only",
+    "M2_margin": "not applicable; original M0 margin is recorded context",
+    "paired_transitions": [
+      "wrong_to_correct",
+      "correct_to_wrong",
+      "tie_to_correct",
+      "correct_to_tie",
+      "wrong_to_tie",
+      "unchanged"
+    ],
+    "harm_denominator": "number originally correct under M0, NA when zero",
+    "M1_preservation": "text-only canonical comparison plus independent sealed semantic audit, no private-label-driven rewrite",
+    "probes": "separate fallback/actions; no gold accuracy for semantic nonuniqueness",
+    "template_analysis": "fourtemplate descriptive block means andleave-one-template-out only; no population significance",
+    "data_designation": "template_related_exploratory unless independently defensible syntax holdout; oldreference excluded from new denominators"
+  },
+  "replay_is_same_input_deterministic_verification": true,
+  "no_extra_archived_diagnostic": true,
+  "no_model_calls_before_this_lock": true,
+  "file_locks": [
+    {
+      "path": "new_eval.jsonl",
+      "sha256": "910b55cc86c3f29be0a4255ef630bb116aefc6f9236ffd14076c8ffd5fa4d490"
+    },
+    {
+      "path": "safety_probes.jsonl",
+      "sha256": "1a76422581f3cea9bdf4de4fce1a864a64d3f8810c4e2291343d2a0cd4bd3902"
+    },
+    {
+      "path": "reviews/SEMANTIC_QA_SEAL.json",
+      "sha256": "5c74979b0bb8f3090c94cf766ec7e3dc87314e84c7e5e02ce30666dd420b2685"
+    },
+    {
+      "path": "reviews/DESIGN_QA_SEAL.json",
+      "sha256": "78b58a4f45f952a1e52110ce28bb2c837a51006805cbe1e6f1ac986c48253723"
+    },
+    {
+      "path": "reviews/final_semantic_truths.jsonl",
+      "sha256": "5c00f2b749c234b104589b1144a2bbebb1752b4431e89c406c5c738ccfba3d1d"
+    },
+    {
+      "path": "METHOD_AND_SCOPE_LOCK.json",
+      "sha256": "baac3fed7c6b8ca28bab6427cd16e0ab782e338910a99040406124573a0cadb2"
+    },
+    {
+      "path": "code/score_new.py",
+      "sha256": "5b4359995994aed50740235af4a9a1f4fc39bc9da49a13aa00489ecd5f14fd21"
+    },
+    {
+      "path": "code/analyze_new.py",
+      "sha256": "48a8da5cf4ae2a4fe12f74b050c3701160eb0ca7924fbd848f711bee7c9ccdd2"
+    },
+    {
+      "path": "scoring/scoring_inputs.jsonl",
+      "sha256": "5ed69c81f5078d28f5e8d250ed175894ed88ccb48d19f5feccd833d19c74d3cb"
+    },
+    {
+      "path": "scoring/scoring_corpus.jsonl",
+      "sha256": "412c26e33075d39736aa086d3b87b9f86c5b6c3d82710ebb2f8fc3575bc9dc6e"
+    },
+    {
+      "path": "private/SCORE_MAP.jsonl",
+      "sha256": "8ba35a91edabacaf2bfbbd3d8952a1f5c1e7a80669ee4b678051bf319b9180ff"
+    },
+    {
+      "path": "M1_REWRITE_RECORDS.jsonl",
+      "sha256": "018299475c77ec2c6692acf332f95d0aca94eb1426aca962feb202d1ea627a62"
+    },
+    {
+      "path": "scoring/neutral_precheck_bm25.json",
+      "sha256": "747f4946b9373f5de580bebf447b129446eb325e8d7b186dfb01d24ab96922c6"
+    },
+    {
+      "path": "scoring/resources_precheck_bm25.json",
+      "sha256": "91205e1ab56756397c62604fe9fd6102c5097d5325285341561d8ecace365610"
+    },
+    {
+      "path": "scoring/neutral_precheck_bge_small.json",
+      "sha256": "d430464541c3ad683198913dbd0a8accf04e165f1a5ec9e0d0cc4cfeee769e5c"
+    },
+    {
+      "path": "scoring/resources_precheck_bge_small.json",
+      "sha256": "460aacc2bb23bd5b848f65518b378fdea01ee286fa741c5076d1802a3a38b4fa"
+    },
+    {
+      "path": "scoring/neutral_precheck_e5_small.json",
+      "sha256": "f5bd2c39ab71d95296700f0939e15f86b2c2b4192839f15d1cc23931f326c084"
+    },
+    {
+      "path": "scoring/resources_precheck_e5_small.json",
+      "sha256": "2034f272cdc35553eac2c0c1c379105f57edd87cd5422b73be294c21c1ca2575"
+    },
+    {
+      "path": "scoring/neutral_precheck_minilm_ce.json",
+      "sha256": "05396c93b91e2c8e851d99d379b2d5cada5e742a998660f75ed4e5cfd37f518b"
+    },
+    {
+      "path": "scoring/resources_precheck_minilm_ce.json",
+      "sha256": "d30f41dd058638e906e2ee822a3ba17a60a29bb3c8a73c4261b100c4f5379d4b"
+    },
+    {
+      "path": "method/constraint_check.py",
+      "sha256": "d7f3c67943f434326f243b1013f440b4473400c2a423c34da71b96c92519e7ea"
+    },
+    {
+      "path": "tests/test_method.py",
+      "sha256": "d099774269e8f1a910e869041a44f4d5a443f65bb75c4a85329d4720cf6e6366"
+    }
+  ]
+}

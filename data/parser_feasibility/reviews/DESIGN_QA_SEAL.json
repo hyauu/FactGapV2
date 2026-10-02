@@ -1,0 +1,25 @@
+{
+  "status": "PASS_LIMITED",
+  "created_at_utc": "2026-09-30T20:24:46.810099+00:00",
+  "blocks": 8,
+  "design_judgments": 16,
+  "template_holdout": "template_related_exploratory",
+  "C": "NOT_NEEDED",
+  "raw_output_hashes": [
+    {
+      "path": "reviews\\design_A\\raw.json",
+      "sha256": "dded78003b5c1446d14f4da27b7d70ca14ba8bc9479c171f7deb13a5619cb4c6"
+    },
+    {
+      "path": "reviews\\design_B\\raw.json",
+      "sha256": "0006538d3df774bb9dfd3a1a2f185ddf871e184d4ae647c59fec9b66e05a0c2a"
+    }
+  ],
+  "data_sha256": {
+    "new_eval.jsonl": "910b55cc86c3f29be0a4255ef630bb116aefc6f9236ffd14076c8ffd5fa4d490",
+    "safety_probes.jsonl": "1a76422581f3cea9bdf4de4fce1a864a64d3f8810c4e2291343d2a0cd4bd3902"
+  },
+  "design_flag_checks": "All16 equivalent/invariants flags true, unique satisfier indices agree across A/B and sealed semantic truth, issues empty; generator corroboration is non-authoritative",
+  "evidence_grade": "OPERATIONALLY_BLINDED_AUTOMATED_REVIEW",
+  "technical_isolation_or_human_certification": false
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "research_request_bodies_verified": 436,
+  "unique_research_logical_requests": 432,
+  "expected_three_provider_logical_requests": 432,
+  "research_attempts": 436,
+  "raw_answers_reparsed": 432,
+  "source_query_candidate_order_hashes_verified": true,
+  "raw_body_lock_hashes_verified": true,
+  "phase_barrier_verified": true,
+  "final_selection_rule": "Last permitted technical attempt; valid/wrong/TIE/ABSTAIN never retried",
+  "budget_ledger_reconstructed": true,
+  "native_api_new_calls_during_replay": 0,
+  "source_scientific_lock_verified": true,
+  "output_hashes": {
+    "TASK_A_RESULTS.csv": "2969279891329de03075b33f4828e35ddeb311147b4d4f42ea6ef6834389b930",
+    "TASK_B_RESULTS.csv": "24100ba82550e4770cbc278fdc986d674bcb69d266ee2aea471a70f309463199",
+    "COMPONENT_DECOMPOSITION.csv": "6747de9b0b8e7d070f686a5d10d665c2f5728a707bdb5ec63c2d1a908cb24df6",
+    "ORDER_SENSITIVITY.csv": "1e996bcc94c5299fa074c17093d69cf79cf907607ef3bb2183ca204a2424c1b9",
+    "TEMPLATE_RESULTS.csv": "478b3c06a6fbd7a7bacf9699d3f89be0928aac2fee64d15711056a92c3534312",
+    "CONDITION_SUMMARY.csv": "4283cc7cf7e85bb6a5c9b85b51230f23486972117af824fd0efc8bfde7d35871",
+    "PAIRED_CONTRASTS.csv": "cae1def40a7c855e32db39a7ae42c55df4a54f8c7e6ec018caa481c875db7a12",
+    "LOTO_SUMMARY.csv": "51f8b2ff728b02485b94b5a09402d1bbe2f8df96da5f2669a7408fc2313be28d",
+    "OVERALL_METRICS.json": "2ca5fe51befe8f80e10c2c63705bc35bc5934cf75db2771852b0140d53025ee4"
+  }
+}

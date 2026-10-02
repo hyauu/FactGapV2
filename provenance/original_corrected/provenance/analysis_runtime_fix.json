@@ -1,0 +1,17 @@
+{
+  "schema_version": "phase1_scoring.analysis_runtime_fix.v1",
+  "recorded_at": "2026-09-26T02:49:14.224863+00:00",
+  "stage": "analysis_serialization",
+  "validation_results_already_visible": true,
+  "locked_execution_script_sha256": "fad76e75994fc6fbcc17b97779acf5cd181184d4968e8612294831fc3cedf731",
+  "analysis_execution_script_sha256": "a81404982244954dedc45f324ce7338b75e3aa220a0ab34c40f9e5c7b0e3b5f8",
+  "changes": [
+    "Handle an all-undefined joint pipeline ratio as NA/INSUFFICIENT_ELIGIBILITY instead of taking a quantile of an empty array.",
+    "Reconstruct pipeline strict correctness from sealed score margins using the locked epsilon, rather than from stable rank order, so ties are not treated as wins."
+  ],
+  "semantic_inputs_changed": false,
+  "estimands_changed": false,
+  "thresholds_changed": false,
+  "bootstrap_method_or_draws_changed": false,
+  "raw_outputs_changed": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-01T03:46:36.755418+00:00",
+  "final_manifest_sha256": "004ad4aaf4751cd502be5f70d1dcf6b48e066ed6deec39c6ba6c031f87280440",
+  "control_lock_sha256": "c3a1bc960c8a0ee37834ccdfc612b0df4a94fe2b7ef23d50f1e50738359cea99",
+  "all_manifest_file_hashes_match": true,
+  "all_control_lock_file_hashes_match": true,
+  "verified_files": 223,
+  "replay_status": "PASS",
+  "provenance_status": "PASS",
+  "target_raw_score_rows": 1152,
+  "pending_scientific_tasks": 0,
+  "inclusive_elapsed_minutes_at_final_seal": 90.6125903,
+  "budget_maximum_minutes": 240
+}

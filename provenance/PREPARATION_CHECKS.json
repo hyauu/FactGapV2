@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "source_integrity": "PASS",
+  "integration_replay": {
+    "align3": {
+      "status": "PASS",
+      "model_calls": 0,
+      "API_calls": 0
+    },
+    "boundary_expression": {
+      "status": "PASS",
+      "model_calls": 0,
+      "API_calls": 0
+    },
+    "original_corrected": {
+      "status": "PASS",
+      "model_calls": 0,
+      "API_calls": 0
+    },
+    "hosted_boundary": {
+      "status": "PASS",
+      "model_calls": 0,
+      "API_calls": 0
+    },
+    "parser_feasibility": {
+      "status": "PASS",
+      "model_calls": 0,
+      "API_calls": 0
+    }
+  },
+  "manuscript_labels_checked": 12,
+  "eight_page_baseline_preserved": true,
+  "scope": "Checks preceding the final ZIP-only replay; see external REPO_PREPARATION_REPORT.md for final ZIP hash/outcome"
+}

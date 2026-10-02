@@ -1,0 +1,83 @@
+schema_version: phase1.protocol.v1
+study: independent_replication_and_constraint_normalization_ablation
+task: query_conditioned_constraint_sensitive_retrieval
+status: pre_validation
+audit_mode: independent_two_reviewer
+validation:
+  n_pairs: 240
+  pairs_per_type: 60
+  families_per_type: 12
+  pairs_per_family: 5
+  source_backed_families_per_type: 6
+  authored_synthetic_families_per_type: 6
+  query_forms: [D0, D1, P0, P1, C0]
+development:
+  n_pairs: 40
+  families_per_type: 2
+  pairs_per_family: 5
+  smoke_pairs: 4
+transformation_types: [unit_normalization, relative_temporal, inverse_role, comparative_logical]
+corpora:
+  size: 27
+  gold: 1
+  critical_negative: 1
+  topical_distractors: 5
+  shared_unrelated: 20
+  extra_unrelated: 5
+seeds:
+  construction: 271828
+  candidate_order: 1729
+  audit_blinding: 314159
+  design_sensitivity: 57721
+  bootstrap: 1729
+scoring:
+  epsilon: 1.0e-8
+  top_k: 10
+  report_k: [1, 5, 10]
+  batch_size_legacy: 32
+  batch_size_qwen_embedding: 16
+  batch_size_qwen_reranker: 8
+  legacy_device: cpu
+  modern_device: cuda
+  legacy_dtype: float32
+  modern_dtype: float16
+  deterministic: true
+  max_length: 512
+resource_cap:
+  gpu_hours: 24
+  cpu_hours: 48
+  local_disk_gb: 20
+  paid_services: false
+paths:
+  phase05_freeze_manifest: data/phase0_5/freeze_manifest.json
+  preservation_manifest: manifests/phase1/phase05_preservation.json
+  model_lock: configs/phase1/models.lock.json
+  source_lock: configs/phase1/sources.lock.json
+  dev: data/phase1/dev
+  draft: data/phase1/draft
+  audit: data/phase1/audit
+  frozen: data/phase1/frozen/v1
+  preregistration: docs/phase1/preregistration.md
+generator:
+  enabled: false
+  status: not_run
+  generator_correct: null
+source_policy:
+  license: CC-BY-SA-4.0
+  provider: Wikimedia Foundation / English Wikipedia
+  api: https://en.wikipedia.org/w/api.php
+  snapshots_dir: data/phase1/source_snapshots
+  titles:
+    unit_normalization: [Metre, Kilometre, Gram, Litre, Hectare, Mile]
+    relative_temporal: [Gregorian calendar, Leap year, Calendar year, Decade, Century, ISO week date]
+    inverse_role: [Mentorship, Apprenticeship, Clinical supervision, Coaching, Management, Tutoring]
+    comparative_logical: [Minimum wage, Speed limit, University and college admission, Scholarship, Import quota, Threshold model]
+guards:
+  reject_generation: true
+  reject_unresolved_models: true
+  reject_unresolved_sources: true
+  reject_missing_reviews: true
+  reject_existing_freeze_directory: true
+  required_reviewers_per_item: 2
+  required_naturalness_min: 3
+  legacy_token_jaccard_flag: 0.50

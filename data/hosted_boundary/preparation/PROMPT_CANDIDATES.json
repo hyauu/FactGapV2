@@ -1,0 +1,69 @@
+{
+  "status": "DRAFT_NOT_FINAL_PROMPT_LOCK",
+  "task_a_prompt_sha256": "1d2f98c4aa369357da335fc2f95a3e92fbea63807b9a637a34bef0dc35999a88",
+  "task_b_prompt_sha256": "9162fe66058623b6c03104487d3d8023870b71ae0ad73078b07d414ca51ed6ec",
+  "schemas": {
+    "A": {
+      "type": "object",
+      "properties": {
+        "valid": {
+          "type": "boolean"
+        },
+        "lower_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "lower_inclusive": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "upper_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "upper_inclusive": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "valid",
+        "lower_bound",
+        "lower_inclusive",
+        "upper_bound",
+        "upper_inclusive"
+      ],
+      "additionalProperties": false
+    },
+    "B": {
+      "type": "object",
+      "properties": {
+        "choice": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "TIE",
+            "ABSTAIN"
+          ]
+        }
+      },
+      "required": [
+        "choice"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "final_freeze_requires_all_integration_toys_finished": true,
+  "provider_format_not_validated": true,
+  "no_chain_of_thought_requested": true,
+  "no_condition_ids_gold_history_or_task_a_answers_in_request_content": true
+}

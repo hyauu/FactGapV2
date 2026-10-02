@@ -1,0 +1,4 @@
+{"block_id":"dev_block_00","seed":431730,"trial":0,"parameters":{"L":137,"U":213,"G":181,"W":213,"N":165,"h":159,"a":54,"lower_inclusive":true,"upper_inclusive":false},"rejected":false,"reasons":[]}
+{"block_id":"dev_block_01","seed":431730,"trial":0,"parameters":{"L":206,"U":287,"G":228,"W":206,"N":207,"h":265,"a":59,"lower_inclusive":false,"upper_inclusive":true},"rejected":false,"reasons":[]}
+{"block_id":"dev_block_02","seed":431730,"trial":0,"parameters":{"L":419,"U":498,"G":455,"W":498,"N":512,"h":477,"a":21,"lower_inclusive":true,"upper_inclusive":false},"rejected":false,"reasons":[]}
+{"block_id":"dev_block_03","seed":431730,"trial":0,"parameters":{"L":565,"U":638,"G":592,"W":565,"N":548,"h":614,"a":49,"lower_inclusive":false,"upper_inclusive":true},"rejected":false,"reasons":[]}

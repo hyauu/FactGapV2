@@ -1,0 +1,5 @@
+endpoint_class,family_icc,true_effect,simulated_datasets,bootstrap_resamples_per_dataset,decision_probability,breadth_probability,validity_probability,mean_joint_lower,temporal_families,unit_families,temporal_pairs,unit_pairs,seed,method
+R1 paired degradation,0.1,0.2,500,5000,0.222,1.0,0.864,-0.039685096591711,12,10,80,67,57721,paired Dirichlet-multinomial family simulation with stratified family bootstrap
+R1 paired degradation,0.3,0.15,500,5000,0.016,0.882,0.748,-0.110507845878601,12,10,80,67,57721,paired Dirichlet-multinomial family simulation with stratified family bootstrap
+R1 paired degradation,0.3,0.2,500,5000,0.08,0.97,0.764,-0.0897018015384674,12,10,80,67,57721,paired Dirichlet-multinomial family simulation with stratified family bootstrap
+R1 paired degradation,0.5,0.2,500,5000,0.022,0.866,0.762,-0.1183452159166336,12,10,80,67,57721,paired Dirichlet-multinomial family simulation with stratified family bootstrap

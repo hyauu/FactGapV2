@@ -1,0 +1,39 @@
+{
+  "model_key": "minilm_ce",
+  "forward_batches": [
+    {
+      "batch_id": 0,
+      "sequences": 32,
+      "padded_width": 47,
+      "forward_tensors_sha256": "fcfd021a7a2daf674c309020b958d7c17c5f05c6f1e8983622f2a72c85e4170d"
+    },
+    {
+      "batch_id": 1,
+      "sequences": 32,
+      "padded_width": 47,
+      "forward_tensors_sha256": "c9eff8c3ae03d30bff234030e65da38670edfddd9c692596a60426813ad837d7"
+    },
+    {
+      "batch_id": 2,
+      "sequences": 32,
+      "padded_width": 47,
+      "forward_tensors_sha256": "0ad438ebb6e63123f36fa94efa02ba08b37cbb67b8e9d15864ab8a487e42ab9b"
+    },
+    {
+      "batch_id": 3,
+      "sequences": 32,
+      "padded_width": 47,
+      "forward_tensors_sha256": "cb3f5ab39fb3fdca26a87f4194d184c59d76868fa83634a87f82329b33c1f4ad"
+    },
+    {
+      "batch_id": 4,
+      "sequences": 16,
+      "padded_width": 44,
+      "forward_tensors_sha256": "035412b8bd09a07104151abb5d5269c7f3b02ecf6d8d0a68460d04f040370172"
+    }
+  ],
+  "actual_model_forward_calls": 5,
+  "actual_model_sequence_occurrences": 144,
+  "unique_query_embeddings": 0,
+  "unique_document_embeddings": 0
+}

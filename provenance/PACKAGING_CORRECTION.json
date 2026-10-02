@@ -1,0 +1,11 @@
+{
+  "campaign": 1,
+  "scope": "packaging_only",
+  "reason": [
+    "hosted cost replay also needs the existing budget ledger and archived toy usage records",
+    "parser canonical configuration digest uses sorted JSON keys",
+    "block CSVs routed to results rather than locks"
+  ],
+  "scientific_fields_changed": false,
+  "model_calls": 0
+}

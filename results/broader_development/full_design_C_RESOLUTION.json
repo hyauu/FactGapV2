@@ -1,0 +1,185 @@
+{
+  "records": [
+    {
+      "created_at_utc": "2026-09-30T06:47:04.759848+00:00",
+      "scope": "full",
+      "kind": "design",
+      "issue_id": "full-design-0004",
+      "query_id": null,
+      "block_id": "EVAL-TEMPORAL-1-0",
+      "C1_task_id": "full_design_C1_001",
+      "receipt_sha256": "a391c107c28e1a708f9929893f45ddac382f56f176e578c4d1e50cae3a539e52",
+      "verdict": "DISMISSED_WITH_EVIDENCE",
+      "evidence": [
+        "DESIGN_B_NON_PASS: the rendered two-candidate excerpts contain da1fb6850f3be (7202) and d0e52c6c50c95 (7188), in both orders. They do not contain da339f167f64a (7249). Hence code 7188 matches the actual paired nonanswer, not an auxiliary; this follows from the visible pair without treating the source scope declaration as a vote.",
+        "7205 - 3 = 7202. All eight conditions require lilac/year 7202 and explicitly exclude metadata from relevance. da1fb6850f3be is the unique year match in the pair and all three displayed documents; 7188 != 7202 and 7249 != 7202. These are point equalities, with no interval boundary.",
+        "Code 7216 occurs in no document year; 7188 occurs only in d0e52c6c50c95. Distances are 7216 - 7202 = 14, 7202 - 7188 = 14, and 7249 - 7202 = 47. The matching level is a surface match to a year numeral, not a claim that the documents contain reference-code fields.",
+        "Argument 2 maps d88339f7caaa9 to d0e52c6c50c95, which is visibly paired, and d742e7f521462 to da339f167f64a, which is absent from the pair. Its core/auxiliary counterexample therefore uses the wrong roles. Argument 1 maps its purported auxiliary answer d9313232378db to da1fb6850f3be, also visibly paired; the claimed auxiliary-answer role is another reviewer error.",
+        "All eight n/l/wording cells are present. l changes equal-length four-digit codes. n adds 15 characters and 3 whitespace words: direct queries have 149 characters and 22/21 words for wording 0/1; relative queries have 164 and 25/24. n also removes literal 7202 and introduces 3/7205. Wording moves metadata and changes request form. These limit isolated arithmetic, overlap, and wording-position claims without falsifying the stated narrow contrasts; the reversed pair excerpts also defeat an inference of a fixed scored answer position."
+      ],
+      "issues": [
+        "Reviewer role errors created the alleged counterpart-matching failure and auxiliary-answer concern.",
+        "The rendered treatments bundle length, numeral overlap, and arithmetic phrasing; wording bundles metadata position and syntax. These are limitations of the narrow comparison."
+      ],
+      "root_cause": null,
+      "required_action": "Correct the reviewer role assignments using the rendered pair and withdraw the auxiliary-only-match rejection. No dataset repair is required for the routed concern; retain the stated interpretation limits."
+    },
+    {
+      "created_at_utc": "2026-09-30T06:47:04.759848+00:00",
+      "scope": "full",
+      "kind": "design",
+      "issue_id": "full-design-0005",
+      "query_id": null,
+      "block_id": "EVAL-TEMPORAL-1-1",
+      "C1_task_id": "full_design_C1_001",
+      "receipt_sha256": "a391c107c28e1a708f9929893f45ddac382f56f176e578c4d1e50cae3a539e52",
+      "verdict": "DISMISSED_WITH_EVIDENCE",
+      "evidence": [
+        "DESIGN_B_NON_PASS: both rendered pair orientations contain d2c8fbf041907 (7219) and d3c7e90c7d2b2 (7233); neither contains dc4fac6ef922a (7266). Code 7233 therefore matches the actual paired nonanswer. The source role hypothesis is unnecessary to this conclusion.",
+        "7216 + 3 = 7219. All eight conditions require heron/year 7219, with reference metadata expressly irrelevant. d2c8fbf041907 is the unique year match in both the pair and full displayed set; 7233 != 7219 and 7266 != 7219. This is exact year equality, not an interval.",
+        "7205 matches no displayed year, whereas 7233 matches only d3c7e90c7d2b2. Distances are 7219 - 7205 = 14, 7233 - 7219 = 14, and 7266 - 7219 = 47. A reference code matching a document year is the rendered surface cue; there is no document reference-code attribute to retrieve.",
+        "Argument 2's d961a9f636d0c maps to d3c7e90c7d2b2, visibly in the pair; its supposed primary counterpart dd9338a740b25 maps to dc4fac6ef922a, absent from that pair. Its auxiliary-only-match rejection is a reviewer role error. The answer's third position in the fixed-document list does not make it an auxiliary: d2c8fbf041907 is visibly paired and appears in both scored positions.",
+        "All eight cells are present with unchanged candidate facts. l swaps equal-length four-digit codes. n adds 14 characters and 3 whitespace words: direct queries are 149 characters and 22/21 words for wording 0/1; relative queries are 163 and 25/24. n removes literal 7219 and introduces 7216/3; wording changes request form and metadata position. Those bundles limit pure-mechanism claims but do not invalidate the stated direct/relative or nonmatching/counterpart-matching contrasts."
+      ],
+      "issues": [
+        "Argument 2 inferred primary and auxiliary membership incorrectly; displayed list position is not scored pair membership.",
+        "The correct contrasts are narrow surface-year matching and one relative-year addition, with length, overlap, numeral identity, and wording-position limitations."
+      ],
+      "root_cause": null,
+      "required_action": "Correct the reviewer pair roles and withdraw the auxiliary-only-match rejection. No dataset repair is required for this routed concern; describe the cue as year-numeral overlap and preserve the comparison's limitations."
+    },
+    {
+      "created_at_utc": "2026-09-30T06:47:04.759848+00:00",
+      "scope": "full",
+      "kind": "design",
+      "issue_id": "full-design-0006",
+      "query_id": null,
+      "block_id": "EVAL-TEMPORAL-2-0",
+      "C1_task_id": "full_design_C1_001",
+      "receipt_sha256": "a391c107c28e1a708f9929893f45ddac382f56f176e578c4d1e50cae3a539e52",
+      "verdict": "CONFIRMED_DEFECT",
+      "evidence": [
+        "DESIGN_B_NON_PASS: 7298 + 5 = 7303 in every relative condition, and both wordings request a file stamped 7303. The documents assert only that a date appears on an entry. Neither the displayed pair nor the auxiliary explicitly asserts a stamp or identifies its value with the appearing date; C0 and argument 1 assume that missing correspondence.",
+        "The rendered pair is d4930cbf59f1d (date 7303) with d3166ec52039c (date 7319), in both orders; d7e593ef2e601 has date 7350. There is one unique displayed date match, d4930cbf59f1d, because 7319 != 7303 and 7350 != 7303. There is no entailed stamp match, so an unconditional unique stamped-file answer is not established.",
+        "Counterexample resolving argument 2's stamp concern: d4930cbf59f1d can have a handwritten date 7303 and no stamp, while d3166ec52039c has the stated date 7319 and a separate stamp 7303. Both displayed statements remain true, but the stamped-file match switches to d3166ec52039c. No stamp on either file, or stamp 7303 on both, is also compatible with the text. Thus zero, one, or multiple actual stamp matches are possible without changing any displayed fact.",
+        "The code manipulation itself is valid: 7287 matches no displayed date; 7319 matches paired d3166ec52039c only. 7303 - 7287 = 16; 7319 - 7303 = 16; 7350 - 7303 = 47. This is numeric surface overlap, not matching document code fields. Argument 2's alleged auxiliary date-answer dc5e016dad30d maps to d4930cbf59f1d, visibly in the pair; that role error does not remove the independently supported stamp/date defect.",
+        "All eight cells occur. l preserves code length. n replaces 4 characters/1 word with 31/7, adding 27 characters and 6 words; query characters for wording 0/1 change 147/138 to 174/165 and words 21/20 to 27/26. It also removes literal 7303 and introduces 7298/5; wording moves metadata and changes sentence form. These restrict mechanism claims, while the same missing stamp attribute affects every cell. No interval boundaries are involved."
+      ],
+      "issues": [
+        "The requested stamp-year predicate is not supplied by the date-only candidate template; a unique date match does not establish a unique stamp match.",
+        "Argument 2 incorrectly calls the date-matching scored candidate an auxiliary.",
+        "Code-field and isolated-mechanism interpretations exceed the rendered surface-overlap and one-addition contrasts."
+      ],
+      "root_cause": "Rendered query-document attribute mismatch: queries require a stamped year, while all candidates assert only an appearing date. The purported stamp answer depends on an unstated stamp=date correspondence.",
+      "required_action": "Make the candidate template explicitly assert each entry's stamped year, preserving values 7303, 7319, and 7350. Recheck semantic equivalence and unique satisfaction in the rendered pair and auxiliary set. Correct the reviewer role assignment and retain the narrow surface-numeral interpretation."
+    },
+    {
+      "created_at_utc": "2026-09-30T06:47:04.759848+00:00",
+      "scope": "full",
+      "kind": "design",
+      "issue_id": "full-design-0002",
+      "query_id": null,
+      "block_id": "EVAL-ARITHMETIC-2-1",
+      "C1_task_id": "full_design_C1_001",
+      "receipt_sha256": "a391c107c28e1a708f9929893f45ddac382f56f176e578c4d1e50cae3a539e52",
+      "verdict": "CONFIRMED_DEFECT",
+      "evidence": [
+        "DESIGN_B_NON_PASS: three hundred seventy three = 373, three hundred sixty three = 363, ten = 10, and 363 + 10 = 373. All eight conditions request exactly 373 items. Each document reports only an unqualified filed amount, so neither C0 nor argument 1 establishes that its numeric amount is an item count.",
+        "The rendered pair contains d5deef50b2b49 (amount 373) and d838bed6804ab (amount 362), in both orders. Auxiliary d6f985ebbbdc0 has amount 404. d5deef50b2b49 is the unique numeric-amount match: 362 != 373 and 404 != 373. No document explicitly establishes a 373-item count; hence there is no entailed item-count answer and no verified unconditional unique item-count match.",
+        "Argument 2's counterexample is valid: a filed monetary amount of 373 for 10 items satisfies d5deef50b2b49's displayed text but fails the requested 373-item predicate. Conversely, a filed monetary amount of 362 can cover 373 items, so d838bed6804ab's amount inequality alone does not rule out that count. Zero or multiple matching item counts are compatible with the untyped amounts; the numeric match remains unique only under the unstated amount=item-count assumption.",
+        "Both factors are correctly rendered in the complete eight-cell crossing: l changes query numerals from digits to number words and n changes a direct count to exact addition. Only addition is instantiated; the exact_add_subtract label does not supply evidence for subtraction. Wording changes question versus should-appear form but retains items and exact equality.",
+        "Query characters/whitespace words by (n,l), wording 0/1, are (0,0): 57/64 and 8/10; (0,1): 81/88 and 11/13; (1,0): 99/106 and 16/18; (1,1): 122/129 and 19/21. Thus l adds 24 characters directly or 23 in addition, each with 3 extra words; n adds 42 characters with digits or 41 with words, each with 8 extra words. Literal 373 appears only in direct digit queries; arithmetic uses 363/10, and 363 - 362 = 1. These length/overlap bundles limit mechanism claims but are separate from the missing unit.",
+        "Arguments 1 and 2 misdescribe d838bed6804ab, respectively under aliases d8e47b9c5495a and de0e433a85a14, as a third auxiliary. It is visibly paired; d6f985ebbbdc0 is absent from the pair. Correcting those role statements does not resolve the unit mismatch. This is exact equality, with no interval boundary."
+      ],
+      "issues": [
+        "The candidate template omits the item-count unit required by every query.",
+        "A unique unitless amount match was promoted to a unique item-count answer without textual support.",
+        "Reviewer auxiliary-role statements are incorrect; addition-only coverage and notation/length/overlap bundles constrain interpretation."
+      ],
+      "root_cause": "Rendered query-document unit mismatch: queries specify items, but the documents give untyped filed amounts that can denote monetary amounts or other quantities.",
+      "required_action": "Make each candidate explicitly state its filed item count, preserving 373, 362, and 404. Recheck unique satisfaction for the unchanged direct and addition expressions in both notations and wordings. Correct reviewer pair roles and limit arithmetic conclusions to the displayed addition."
+    },
+    {
+      "created_at_utc": "2026-09-30T06:47:04.759848+00:00",
+      "scope": "full",
+      "kind": "design",
+      "issue_id": "full-design-0001",
+      "query_id": null,
+      "block_id": "EVAL-ARITHMETIC-2-0",
+      "C1_task_id": "full_design_C1_002",
+      "receipt_sha256": "53f6a67dc8a1d3377ed81a2cd74264f96bde6f679d636c6d58585a1e0ba8d724",
+      "verdict": "CONFIRMED_DEFECT",
+      "evidence": [
+        "DESIGN_B_NON_PASS: the unit concern survives the pair correction. 357 + 9 = 366; three hundred sixty six = 366, three hundred fifty seven = 357, and nine = 9. All eight conditions request 366 items. The documents state only 'filed amount', never an item count.",
+        "If filed amount is an item count, d639097965ac2 is the unique answer; de5bfe186d458 has 377, a difference of 11, and db3229dd32272 has 397, a difference of 31. This conditional scalar answer is correct in C0 and both arguments; it does not establish the missing unit.",
+        "Countermodel to unconditional item-count inference: d639097965ac2 can truthfully report a monetary filed amount of 366 while the shipment has 365 items; de5bfe186d458 can truthfully report a monetary amount of 377 while the shipment has 366 items. Every displayed amount statement remains true. Argument 2's latter example demonstrates an unspecified unit, but does not itself make the displayed 377 statement explicitly record 366 items. On an explicit item-count-record reading no displayed candidate establishes satisfaction; on the count-field reading exactly one does. The packet cannot guarantee a unique typed answer.",
+        "The rendered scored pairs contain de5bfe186d458=377 and d639097965ac2=366 in both orders; db3229dd32272=397 is absent. This independently corroborates the proposed pair scope. Original aliases map to these same texts. Inferring an auxiliary from a third-row position is unsupported: the matching 366 candidate is scored, the 377 candidate is its scored counterpart, and the 397 candidate is outside these pairs. Pair order also refutes a universally first or second answer-position claim.",
+        "l implements digit/word notation and n implements direct 366 versus exact addition. Addition alone instantiates the stated add/subtract family; the packet supplies no requirement for both operations in this block. No arithmetic mismatch or second scalar match occurs. The two wordings preserve the requested entity and count under document selection, while changing question form to a modal requirement.",
+        "Length claims are checkable: query character counts for wording 0/1 are 57/64 at (n,l)=(0,0), 77/84 at (0,1), 98/105 at (1,0), and 123/130 at (1,1); corresponding whitespace-word counts are 8/10, 11/13, 16/18, and 19/21. Each document has eight words and a three-digit amount. Notation changes length and numeral overlap; arithmetic adds operands and operation language and removes literal 366. These limit isolated notation/arithmetic interpretations and subtraction generalization, rather than independently proving a failed treatment."
+      ],
+      "issues": [
+        "Rendered-data defect: a request for items is paired with an untyped filed amount, making unique item-count satisfaction depend on an unstated field interpretation.",
+        "Reviewer scope errors: row positions do not determine scored/auxiliary roles or a fixed answer position; the rendered pairs show the 366 and 377 candidates in both orders.",
+        "The addition-only instance, modal wording, and length/overlap bundles limit inference but do not supply additional demonstrated factor defects."
+      ],
+      "root_cause": "Candidate quantity wording omits the unit required by the item-count queries.",
+      "required_action": "Type the filed quantity explicitly as an item count in every candidate, preserving 397, 366, and 377, then regenerate the affected rendered inputs and reviews. Correct pair-role and answer-position descriptions from the visible scored pairs; retain the stated limits on operation and surface-form inference."
+    },
+    {
+      "created_at_utc": "2026-09-30T06:47:04.759848+00:00",
+      "scope": "full",
+      "kind": "design",
+      "issue_id": "full-design-0003",
+      "query_id": null,
+      "block_id": "EVAL-TEMPORAL-0-1",
+      "C1_task_id": "full_design_C1_002",
+      "receipt_sha256": "53f6a67dc8a1d3377ed81a2cd74264f96bde6f679d636c6d58585a1e0ba8d724",
+      "verdict": "DISMISSED_WITH_EVIDENCE",
+      "evidence": [
+        "DESIGN_A_NON_PASS and DESIGN_B_NON_PASS both allege an auxiliary-only code match. Both rendered scored-pair excerpts instead contain d5cd44b133168=7118 and dd8d200d969d8=7106, once in each order. The 7165 document d3f7068844a21 is absent. Thus 7106 belongs to the scored nonanswer counterpart, irrespective of its original review-row position. This visible membership corroborates the source scope declaration without using it as a semantic vote.",
+        "7119 - 1 = 7118. All eight conditions therefore have the same unique answer, d5cd44b133168. dd8d200d969d8=7106 differs by -12 and d3f7068844a21=7165 differs by +47; both fail the year predicate. The explicit metadata disclaimer prevents either reference code from becoming an additional relevance condition.",
+        "l=0 code 7130 is absent from {7118,7106,7165}; l=1 code 7106 equals exactly the scored counterpart's year. The reviewers' calculation 7106 != 7165 is true, but their inference fails because 7165 is not the rendered scored counterpart. Their aliases identify the same documents and do not establish the asserted first-two-row pair convention.",
+        "The absence of a document reference-code field does not defeat this stated surface-cue treatment: the cue is an explicitly irrelevant query code with numeric overlap to the counterpart's year. It does prevent interpreting the task as a legitimate reference-code lookup.",
+        "Wording preserves the selection predicate while moving metadata from prefix to suffix and changing imperative/declarative form. n adds four words and 22 characters: query lengths are 143 characters at n=0 and 165 at n=1 for either wording, with 21/22 and 25/26 whitespace words respectively. Both codes are four digits, so l changes neither character nor word length. The repeated 'year the year' is awkward but still resolves unambiguously to the predecessor of 7119.",
+        "Length, anchor substitution, literal-target removal, code identity, and metadata placement limit conclusions to these rendered treatment bundles. They do not invalidate direct/relative equivalence or the counterpart match. The pair is shown in both orders, so first/second answer-position generalizations from fixed_documents are not supported."
+      ],
+      "issues": [
+        "Reviewer error in both rejecting arguments: an original third-row candidate was treated as auxiliary despite its visible membership in the scored pair.",
+        "Reviewer order claims do not describe both displayed pair permutations.",
+        "Metadata placement, predecessor-phrase length, and numeral substitution are interpretation limits; no rendered answer or stated factor failure is demonstrated."
+      ],
+      "root_cause": null,
+      "required_action": "Correct the rejecting reviews to identify 7118 versus 7106 as the rendered scored pair, with 7165 outside that pair. Dismiss the alleged counterpart-match defect and retain the narrow treatment-bundle limitations. No rendered-data correction is required for the routed concerns."
+    },
+    {
+      "created_at_utc": "2026-09-30T06:47:04.759848+00:00",
+      "scope": "full",
+      "kind": "design",
+      "issue_id": "full-design-0007",
+      "query_id": null,
+      "block_id": "EVAL-TEMPORAL-3-2",
+      "C1_task_id": "full_design_C1_002",
+      "receipt_sha256": "53f6a67dc8a1d3377ed81a2cd74264f96bde6f679d636c6d58585a1e0ba8d724",
+      "verdict": "DISMISSED_WITH_EVIDENCE",
+      "evidence": [
+        "DESIGN_A_NON_PASS and DESIGN_B_NON_PASS both allege an auxiliary-only code match. The rendered scored pairs visibly contain dd54aa8e3c726=7438 and dcc0a1e431e4b=7420 in both orders; d3f5b6a6f12d6=7485 is absent. Therefore 7420 is the scored nonanswer counterpart's year. This membership independently corroborates the source scope declaration; no source answer label is needed.",
+        "7445 - 7 = 7438. All eight direct/relative and wording conditions have exactly one year-matching document, dd54aa8e3c726. dcc0a1e431e4b=7420 differs by -18 and d3f5b6a6f12d6=7485 differs by +47. The explicit irrelevance clause leaves these nonanswers ineligible even when metadata repeats 7420.",
+        "l=0 code 7456 matches none of {7438,7420,7485}; l=1 code 7420 matches exactly the scored counterpart. The rejecting arguments correctly compute 7420 != 7485 but assign the counterpart role to the wrong candidate. Their bridged aliases map 7420 to dcc0a1e431e4b and 7485 to d3f5b6a6f12d6; original row order cannot override the visible pair membership.",
+        "The cue matches a candidate year rather than a reference-code field. That realizes the stated surface-cue treatment under the metadata disclaimer; it cannot establish actual document reference-code retrieval. Both wording frames retain raven registry and year 7438, while also changing sentence form and metadata position.",
+        "Both codes contain four digits; l changes neither character nor whitespace-word length. n replaces one direct year token with a ten-word expression containing 7 and 7445, adding nine words and 49 characters. Character counts for wording 0/1 are 148/147 at n=0 and 197/196 at n=1; whitespace-word counts are 21/22 and 30/31. Each document has nine words and one four-digit year.",
+        "Arithmetic language, length, operand count, and literal-target removal accompany n; code identity and overlap accompany l; metadata placement accompanies wording. The code-to-anchor distances at n=1 are |7456-7445|=11 and |7420-7445|=25. These restrict interpretation to this rendered intervention, without proving a failed factor or changed answer. Both pair permutations are displayed, so a universal fixed first-answer position is unsupported."
+      ],
+      "issues": [
+        "Reviewer error in both rejecting arguments: the scored 7420 counterpart was classified as an auxiliary from its original row position.",
+        "Fixed-document order is not the order of every displayed scored pair.",
+        "Numeric identity, expression length, operand structure, and metadata placement remain limits on causal/mechanistic generalization."
+      ],
+      "root_cause": null,
+      "required_action": "Correct the rejecting reviews to use the visible 7438/7420 scored pair and treat 7485 as outside that pair. Dismiss the alleged counterpart-match defect; retain the documented treatment-bundle limitations. No rendered-data correction is required for the routed concerns."
+    }
+  ],
+  "counts": {
+    "DISMISSED_WITH_EVIDENCE": 4,
+    "CONFIRMED_DEFECT": 3
+  }
+}

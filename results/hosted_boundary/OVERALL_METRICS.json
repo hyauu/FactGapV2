@@ -1,0 +1,533 @@
+{
+  "actual_invoice_cost": "UNKNOWN; no provider billing invoice/administrative usage endpoint queried",
+  "concurrency_peak_HTTP": {
+    "global": 5,
+    "per_provider": {
+      "anthropic": 2,
+      "google": 2,
+      "openai": 2
+    }
+  },
+  "conservative_cost_usd_total": 0.6308035,
+  "cost_by_provider": {
+    "anthropic": {
+      "api_attempts": 148,
+      "conservative_usd": 0.22566,
+      "input_tokens_measured": 76070,
+      "output_tokens_including_thinking_measured": 7352,
+      "research_attempts": 144,
+      "research_final_non_OK": 0,
+      "research_max_reported_output_tokens": 108,
+      "returned_versions": {
+        "claude-sonnet-5": 148
+      },
+      "toy_attempts": 4,
+      "unknown_usage_attempts": 0,
+      "usage_repriced_usd": 0.22566
+    },
+    "google": {
+      "api_attempts": 148,
+      "conservative_usd": 0.0987075,
+      "input_tokens_measured": 23440,
+      "output_tokens_including_thinking_measured": 21634,
+      "research_attempts": 144,
+      "research_final_non_OK": 0,
+      "research_max_reported_output_tokens": 260,
+      "returned_versions": {
+        "gemini-3.8-flash": 148
+      },
+      "toy_attempts": 4,
+      "unknown_usage_attempts": 0,
+      "usage_repriced_usd": 0.0987075
+    },
+    "openai": {
+      "api_attempts": 154,
+      "conservative_usd": 0.306436,
+      "input_tokens_measured": 30432,
+      "output_tokens_including_thinking_measured": 3667,
+      "research_attempts": 148,
+      "research_final_non_OK": 0,
+      "research_max_reported_output_tokens": 59,
+      "returned_versions": {
+        "gpt-5.6-sol": 148
+      },
+      "toy_attempts": 6,
+      "unknown_usage_attempts": 6,
+      "usage_repriced_usd": 0.195068
+    }
+  },
+  "data_scope": "12 convenience-constructed blocks,4 shared templates,2 wordings; not24 independent constructs",
+  "last_attempt_status_counts": {
+    "OK": 432
+  },
+  "primary_ranking": "Both candidate orders must choose correct passage; per-order counts retained separately",
+  "providers": {
+    "anthropic": {
+      "LOTO": [
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T0",
+          "provider": "anthropic"
+        },
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T1",
+          "provider": "anthropic"
+        },
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T2",
+          "provider": "anthropic"
+        },
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T3",
+          "provider": "anthropic"
+        }
+      ],
+      "conditions": [
+        {
+          "TaskA_exact_accuracy": 1.0,
+          "TaskA_exact_correct": 24,
+          "TaskA_inclusivity_correct": 24,
+          "TaskA_invalid": 0,
+          "TaskA_lower_correct": 24,
+          "TaskA_malformed": 0,
+          "TaskA_planned_queries": 24,
+          "TaskA_technical_missing": 0,
+          "TaskA_upper_correct": 24,
+          "TaskA_valid_schema_queries": 24,
+          "TaskB_ABSTAIN": 0,
+          "TaskB_OK_order_responses": 48,
+          "TaskB_TIE": 0,
+          "TaskB_correct_order_responses": 48,
+          "TaskB_incorrect_order_responses": 0,
+          "TaskB_malformed": 0,
+          "TaskB_planned_order_responses": 48,
+          "TaskB_primary_query_accuracy": 1.0,
+          "TaskB_query_strict_both_orders_correct": 24,
+          "TaskB_technical_missing": 0,
+          "TaskB_valid_query_pairs": 24,
+          "components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 24}",
+          "condition": "LITERAL",
+          "order_flips": 0,
+          "provider": "anthropic",
+          "tie_abstain_interactions": 0
+        },
+        {
+          "TaskA_exact_accuracy": 1.0,
+          "TaskA_exact_correct": 24,
+          "TaskA_inclusivity_correct": 24,
+          "TaskA_invalid": 0,
+          "TaskA_lower_correct": 24,
+          "TaskA_malformed": 0,
+          "TaskA_planned_queries": 24,
+          "TaskA_technical_missing": 0,
+          "TaskA_upper_correct": 24,
+          "TaskA_valid_schema_queries": 24,
+          "TaskB_ABSTAIN": 0,
+          "TaskB_OK_order_responses": 48,
+          "TaskB_TIE": 0,
+          "TaskB_correct_order_responses": 48,
+          "TaskB_incorrect_order_responses": 0,
+          "TaskB_malformed": 0,
+          "TaskB_planned_order_responses": 48,
+          "TaskB_primary_query_accuracy": 1.0,
+          "TaskB_query_strict_both_orders_correct": 24,
+          "TaskB_technical_missing": 0,
+          "TaskB_valid_query_pairs": 24,
+          "components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 24}",
+          "condition": "RESOLVED",
+          "order_flips": 0,
+          "provider": "anthropic",
+          "tie_abstain_interactions": 0
+        }
+      ],
+      "model": "claude-sonnet-5",
+      "primary_delta_pp": 0.0,
+      "templates": [
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "anthropic",
+          "template_id": "T0"
+        },
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "anthropic",
+          "template_id": "T1"
+        },
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "anthropic",
+          "template_id": "T2"
+        },
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "anthropic",
+          "template_id": "T3"
+        }
+      ],
+      "transitions": {
+        "RANK_CORRECT -> RANK_CORRECT": 24
+      }
+    },
+    "google": {
+      "LOTO": [
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T0",
+          "provider": "google"
+        },
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T1",
+          "provider": "google"
+        },
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T2",
+          "provider": "google"
+        },
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T3",
+          "provider": "google"
+        }
+      ],
+      "conditions": [
+        {
+          "TaskA_exact_accuracy": 1.0,
+          "TaskA_exact_correct": 24,
+          "TaskA_inclusivity_correct": 24,
+          "TaskA_invalid": 0,
+          "TaskA_lower_correct": 24,
+          "TaskA_malformed": 0,
+          "TaskA_planned_queries": 24,
+          "TaskA_technical_missing": 0,
+          "TaskA_upper_correct": 24,
+          "TaskA_valid_schema_queries": 24,
+          "TaskB_ABSTAIN": 0,
+          "TaskB_OK_order_responses": 48,
+          "TaskB_TIE": 0,
+          "TaskB_correct_order_responses": 48,
+          "TaskB_incorrect_order_responses": 0,
+          "TaskB_malformed": 0,
+          "TaskB_planned_order_responses": 48,
+          "TaskB_primary_query_accuracy": 1.0,
+          "TaskB_query_strict_both_orders_correct": 24,
+          "TaskB_technical_missing": 0,
+          "TaskB_valid_query_pairs": 24,
+          "components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 24}",
+          "condition": "LITERAL",
+          "order_flips": 0,
+          "provider": "google",
+          "tie_abstain_interactions": 0
+        },
+        {
+          "TaskA_exact_accuracy": 1.0,
+          "TaskA_exact_correct": 24,
+          "TaskA_inclusivity_correct": 24,
+          "TaskA_invalid": 0,
+          "TaskA_lower_correct": 24,
+          "TaskA_malformed": 0,
+          "TaskA_planned_queries": 24,
+          "TaskA_technical_missing": 0,
+          "TaskA_upper_correct": 24,
+          "TaskA_valid_schema_queries": 24,
+          "TaskB_ABSTAIN": 0,
+          "TaskB_OK_order_responses": 48,
+          "TaskB_TIE": 0,
+          "TaskB_correct_order_responses": 48,
+          "TaskB_incorrect_order_responses": 0,
+          "TaskB_malformed": 0,
+          "TaskB_planned_order_responses": 48,
+          "TaskB_primary_query_accuracy": 1.0,
+          "TaskB_query_strict_both_orders_correct": 24,
+          "TaskB_technical_missing": 0,
+          "TaskB_valid_query_pairs": 24,
+          "components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 24}",
+          "condition": "RESOLVED",
+          "order_flips": 0,
+          "provider": "google",
+          "tie_abstain_interactions": 0
+        }
+      ],
+      "model": "gemini-3.8-flash",
+      "primary_delta_pp": 0.0,
+      "templates": [
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "google",
+          "template_id": "T0"
+        },
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "google",
+          "template_id": "T1"
+        },
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "google",
+          "template_id": "T2"
+        },
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "google",
+          "template_id": "T3"
+        }
+      ],
+      "transitions": {
+        "RANK_CORRECT -> RANK_CORRECT": 24
+      }
+    },
+    "openai": {
+      "LOTO": [
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T0",
+          "provider": "openai"
+        },
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T1",
+          "provider": "openai"
+        },
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T2",
+          "provider": "openai"
+        },
+        {
+          "delta_pp": 0.0,
+          "kept_templates": 3,
+          "omitted_template": "T3",
+          "provider": "openai"
+        }
+      ],
+      "conditions": [
+        {
+          "TaskA_exact_accuracy": 1.0,
+          "TaskA_exact_correct": 24,
+          "TaskA_inclusivity_correct": 24,
+          "TaskA_invalid": 0,
+          "TaskA_lower_correct": 24,
+          "TaskA_malformed": 0,
+          "TaskA_planned_queries": 24,
+          "TaskA_technical_missing": 0,
+          "TaskA_upper_correct": 24,
+          "TaskA_valid_schema_queries": 24,
+          "TaskB_ABSTAIN": 0,
+          "TaskB_OK_order_responses": 48,
+          "TaskB_TIE": 0,
+          "TaskB_correct_order_responses": 48,
+          "TaskB_incorrect_order_responses": 0,
+          "TaskB_malformed": 0,
+          "TaskB_planned_order_responses": 48,
+          "TaskB_primary_query_accuracy": 1.0,
+          "TaskB_query_strict_both_orders_correct": 24,
+          "TaskB_technical_missing": 0,
+          "TaskB_valid_query_pairs": 24,
+          "components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 24}",
+          "condition": "LITERAL",
+          "order_flips": 0,
+          "provider": "openai",
+          "tie_abstain_interactions": 0
+        },
+        {
+          "TaskA_exact_accuracy": 1.0,
+          "TaskA_exact_correct": 24,
+          "TaskA_inclusivity_correct": 24,
+          "TaskA_invalid": 0,
+          "TaskA_lower_correct": 24,
+          "TaskA_malformed": 0,
+          "TaskA_planned_queries": 24,
+          "TaskA_technical_missing": 0,
+          "TaskA_upper_correct": 24,
+          "TaskA_valid_schema_queries": 24,
+          "TaskB_ABSTAIN": 0,
+          "TaskB_OK_order_responses": 48,
+          "TaskB_TIE": 0,
+          "TaskB_correct_order_responses": 48,
+          "TaskB_incorrect_order_responses": 0,
+          "TaskB_malformed": 0,
+          "TaskB_planned_order_responses": 48,
+          "TaskB_primary_query_accuracy": 1.0,
+          "TaskB_query_strict_both_orders_correct": 24,
+          "TaskB_technical_missing": 0,
+          "TaskB_valid_query_pairs": 24,
+          "components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 24}",
+          "condition": "RESOLVED",
+          "order_flips": 0,
+          "provider": "openai",
+          "tie_abstain_interactions": 0
+        }
+      ],
+      "model": "gpt-5.6-sol",
+      "primary_delta_pp": 0.0,
+      "templates": [
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "openai",
+          "template_id": "T0"
+        },
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "openai",
+          "template_id": "T1"
+        },
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "openai",
+          "template_id": "T2"
+        },
+        {
+          "LITERAL_A_exact_correct": 6,
+          "LITERAL_B_strict_correct": 6,
+          "LITERAL_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "LITERAL_order_flips": 0,
+          "RESOLVED_A_exact_correct": 6,
+          "RESOLVED_B_strict_correct": 6,
+          "RESOLVED_components_json": "{\"EXTRACT_CORRECT + RANK_CORRECT\": 6}",
+          "RESOLVED_order_flips": 0,
+          "delta_pp": 0.0,
+          "paired_valid_count": 6,
+          "paired_wordings_planned": 6,
+          "provider": "openai",
+          "template_id": "T3"
+        }
+      ],
+      "transitions": {
+        "RANK_CORRECT -> RANK_CORRECT": 24
+      }
+    }
+  },
+  "research_attempts": 436,
+  "research_finished_utc": "2026-09-30T18:46:18.005306+00:00",
+  "research_logical_requests_observed": 432,
+  "research_start_utc": "2026-09-30T18:28:51.333387+00:00",
+  "statistical_inference": "NONE",
+  "technical_retries": 4,
+  "toy_attempts": 14,
+  "usage_repriced_usd_total": 0.5194355
+}

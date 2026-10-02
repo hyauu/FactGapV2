@@ -1,0 +1,93 @@
+{
+  "status": "LOCKED_BEFORE_ANY_RESEARCH_REQUEST",
+  "created_at_utc": "2026-09-30T18:28:51.188377+00:00",
+  "files": [
+    {
+      "path": "STAGE3A_INPUT_LOCK.json",
+      "sha256": "d0cbd6d5cf2732988c078b4fe6cd20269ffd4618524b710b74dbe6c7db4657b3"
+    },
+    {
+      "path": "inputs/control_eval.jsonl",
+      "sha256": "89d0a955796408a8bc4126d45f7794b2421b5f98bbbbb1433048c8c89a483abe"
+    },
+    {
+      "path": "private/source_eval_blocks.jsonl",
+      "sha256": "00450b6ad098891cf68baeaaf6a939c33b0905f118bdc118d6a45d41f5a12c5d"
+    },
+    {
+      "path": "private/REQUEST_MAP.jsonl",
+      "sha256": "4bd889b325fe99c5fdf4db116e01aede493807a6a5f35060863c0bf1056223a9"
+    },
+    {
+      "path": "TASK_A_PROMPT.txt",
+      "sha256": "1d2f98c4aa369357da335fc2f95a3e92fbea63807b9a637a34bef0dc35999a88"
+    },
+    {
+      "path": "TASK_B_PROMPT.txt",
+      "sha256": "9162fe66058623b6c03104487d3d8023870b71ae0ad73078b07d414ca51ed6ec"
+    },
+    {
+      "path": "preparation/neutral_request_content.jsonl",
+      "sha256": "5866d2c1619322c2eec9f00d8d574e2c56b9c282055658b2f0f4fecf2c4a72da"
+    },
+    {
+      "path": "STAGE3A_MODEL_LOCK.json",
+      "sha256": "220df685dd07653978f0a668a5a38014d77c5c1e8ff761fa64c3cf4cd6a5ccd6"
+    },
+    {
+      "path": "STAGE3A_COST_ESTIMATE.json",
+      "sha256": "dcd69cda60969be97f4a2ca7e4ffa8dfb9906e5a61a9adff35acaf790d2b9a7e"
+    },
+    {
+      "path": "STAGE3A_ANALYSIS_SPEC.json",
+      "sha256": "f2dff2dc7a120d13464aeb7eba0afad8298f2709c090200575490f4eb4cc74ae"
+    },
+    {
+      "path": "TOY_PREFLIGHT.json",
+      "sha256": "f62d30a1dcde5f95e67cdb3b58475581fc047467f28aae82ea306d97b6999660"
+    },
+    {
+      "path": "CONCURRENCY_PREFLIGHT.json",
+      "sha256": "af252340217bb21350925433c1d13b088ea030098793e372915b5d18d116147b"
+    },
+    {
+      "path": "code/provider_pilot.py",
+      "sha256": "360df6b3b25fdcd2cd88216fa66d4a984e87c5dd1a2fa9dbf0a4bef6d55fdc73"
+    },
+    {
+      "path": "requests/openai_task_a.jsonl",
+      "sha256": "e6f66ef54b55994474945094f48e19780d891fe2576343036220d0bb14611dd0",
+      "rows": 48
+    },
+    {
+      "path": "requests/openai_task_b.jsonl",
+      "sha256": "a8baf612d9aadb5f3986ec4a60016e307173c65425b57cd0bcd5d2642c86e10e",
+      "rows": 96
+    },
+    {
+      "path": "requests/anthropic_task_a.jsonl",
+      "sha256": "3b9a685ec9fd5eb78ee7f0bfe0058119d815f784858980e9e248d0d9b3010cec",
+      "rows": 48
+    },
+    {
+      "path": "requests/anthropic_task_b.jsonl",
+      "sha256": "b837242b24f99138c4ffd610c60047a1bf3e54997fdc5b960e1f60f6a4adce2e",
+      "rows": 96
+    },
+    {
+      "path": "requests/google_task_a.jsonl",
+      "sha256": "7409fe1e8007794724701932a7f5e001c9762c6a8e57df85ac523f0802cfd6d6",
+      "rows": 48
+    },
+    {
+      "path": "requests/google_task_b.jsonl",
+      "sha256": "9a1e0875f1a9bc261d248090e77a84e287c84e3c0a0ed08700c3dd228aeed699",
+      "rows": 96
+    }
+  ],
+  "providers_neutral_prompts": true,
+  "no_history_gold_conditions_or_extraction_answers_in_model_inputs": true,
+  "research_request_count": 432,
+  "TaskA_planned": 144,
+  "TaskB_planned": 288
+}

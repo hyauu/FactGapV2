@@ -1,0 +1,13 @@
+provider,omitted_template,kept_templates,delta_pp
+openai,T0,3,0.0
+openai,T1,3,0.0
+openai,T2,3,0.0
+openai,T3,3,0.0
+anthropic,T0,3,0.0
+anthropic,T1,3,0.0
+anthropic,T2,3,0.0
+anthropic,T3,3,0.0
+google,T0,3,0.0
+google,T1,3,0.0
+google,T2,3,0.0
+google,T3,3,0.0

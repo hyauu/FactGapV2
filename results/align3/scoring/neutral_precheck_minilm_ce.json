@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-10-01T02:28:13.996003+00:00",
+  "model_key": "minilm_ce",
+  "identity": {
+    "status": "PASS",
+    "created_at_utc": "2026-10-01T02:28:03.648629+00:00",
+    "selected_identity_checks": [
+      {
+        "path": "<LOCAL_PROJECT>\\tools\\local_score.py",
+        "sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\source_and_model_locks\\model_local_lock.json",
+        "sha256": "3451c18753970ba63cc6be15c020e9002f2aad9eb2cda81cba4ddd3614abb255",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\stage22b\\runs\\stage22b_20260930T083944Z_49e9c6b3\\CONTROL_SCORE_LOCK.json",
+        "sha256": "5848e1ba7792a0ad73f158139f3603f91dfadc313535db9563a486e1b56b1e5c",
+        "matches": true
+      }
+    ],
+    "adapter_preflight_sha256": "5bd0cacb1c07122dfb7b3ad36557ea1f9794f1ae3287ac3fb249fd335975bf53",
+    "baseline_binding_sha256": "d820e69cfa6ccb036e665dd216349fa3c2a7a432fda36e5b2975828c635dfcae",
+    "resource_observer_sha256": "081516db49363bc2adfe7bcc3da55fceacf9aae3f01f60d84ca64667d86426a5",
+    "model_artifacts": [
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\config.json",
+        "bytes": 794,
+        "sha256": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669367946484500
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\model.safetensors",
+        "bytes": 90870598,
+        "sha256": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+        "current_verification": "inherited_weight_SHA_plus_current_path_size_mtime",
+        "mtime_ns": 1790669370580412600
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\special_tokens_map.json",
+        "bytes": 132,
+        "sha256": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669368059030800
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\tokenizer.json",
+        "bytes": 711396,
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669368177890700
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\tokenizer_config.json",
+        "bytes": 1330,
+        "sha256": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669368289441400
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\vocab.txt",
+        "bytes": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669368411680600
+      }
+    ],
+    "model_contract": {
+      "repo_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "",
+      "document_prefix": "",
+      "pooling": "raw one-output logit",
+      "score": "raw logit"
+    },
+    "wrapper_sha256": "19691e5de80d0cd492a17bf026d9f1370cc1db788a0853d2c1c446ec8016a89b"
+  },
+  "environment": {
+    "python": "<LOCAL_HOME>\\Documents\\ChatGPT\\捉摸\\.venv\\Scripts\\python.exe",
+    "python_executable_exists": true,
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "local_only": true,
+    "paid_API_calls": 0,
+    "downloads": 0,
+    "torch": "2.14.0+cu130",
+    "transformers": "5.17.0",
+    "cuda_available": true,
+    "torch_compute_threads": 8,
+    "CUDA": "13.0"
+  },
+  "device": "cuda",
+  "neutral_query": "Find the passage about a silver lantern.",
+  "neutral_candidates": [
+    "A silver lantern is on the table.",
+    "A copper bucket is beside the door."
+  ],
+  "scores_forward_display": [
+    2.6381282806396484,
+    -11.246370315551758
+  ],
+  "scores_reverse_display": [
+    -11.246370315551758,
+    2.6381282806396484
+  ],
+  "scores_fresh_AA_display": [
+    2.6381282806396484,
+    -11.246370315551758
+  ],
+  "singleton_score": 2.6381280422210693,
+  "differences": {
+    "fresh_array_order_max_abs": 0.0,
+    "batch_vs_single_abs": 2.384185791015625e-07,
+    "fresh_AA_max_abs": 0.0
+  },
+  "tolerance_abs": 0.0001,
+  "inherited_neutral_max_abs_difference": 0.0,
+  "token_records": [
+    [
+      "3787e270a094fe991709348a09d6a465bea068889ab94cf4bd8780f6d7d15a7d",
+      19,
+      19
+    ],
+    [
+      "d0079a4fff8e0cad8928ccdd45d0f7f2eea04a8df117b6825c5163eca4300da3",
+      19,
+      19
+    ]
+  ],
+  "logical_neutral_ranking_requests": 4,
+  "neutral_candidate_score_occurrences": 7,
+  "fresh_adapter_calls": 4,
+  "pair_cache_used": false,
+  "research_queries_read": 0,
+  "research_forward_calls": 0,
+  "actual_model_forward_calls": 4,
+  "actual_model_sequence_occurrences": 7,
+  "forward_batches": [
+    {
+      "batch_id": 0,
+      "sequences": 2,
+      "padded_width": 19,
+      "forward_tensors_sha256": "5d79b5719dce99e63880d099ab151be9d71965beb417f3914fb13d8e8e29bc6e"
+    },
+    {
+      "batch_id": 1,
+      "sequences": 2,
+      "padded_width": 19,
+      "forward_tensors_sha256": "380f240998c06a219c8a91da0c953d1f6e707c2a9d8d06672f13ce42aafe549c"
+    },
+    {
+      "batch_id": 2,
+      "sequences": 1,
+      "padded_width": 19,
+      "forward_tensors_sha256": "64dc537d39c43cd2da92142df253e41f5933bb95750c44ef651d441f30ec4b83"
+    },
+    {
+      "batch_id": 3,
+      "sequences": 2,
+      "padded_width": 19,
+      "forward_tensors_sha256": "5d79b5719dce99e63880d099ab151be9d71965beb417f3914fb13d8e8e29bc6e"
+    }
+  ],
+  "resource_receipt": "<LOCAL_PROJECT>\\alignment3\\runs\\20261001T021600Z_8f34c1a2\\scoring\\resources_precheck_minilm_ce.json"
+}

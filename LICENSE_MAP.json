@@ -1,0 +1,2089 @@
+{
+  "scope": "Defaults apply only to rights the authors hold; third-party exceptions take precedence.",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": ".gitignore",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "AI_DISCLOSURE.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "CHANGELOG.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "CITATION.cff",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "GITHUB_UPLOAD.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "LICENSE",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "LICENSES/CC-BY-4.0.txt",
+      "authored_material_default": "LicenseRef-Canonical-License-Text",
+      "exceptions": []
+    },
+    {
+      "file": "LICENSES/CC-BY-SA-4.0.txt",
+      "authored_material_default": "LicenseRef-Canonical-License-Text",
+      "exceptions": []
+    },
+    {
+      "file": "LICENSE_MAP.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "LICENSE_STATUS.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "LICENSING.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "PUBLICATION_CHECKLIST.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "README.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "REPO_PREPARATION_REPORT.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/align3/CONTROL_LOCK.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/boundary_expression/CONTROL_SCORE_LOCK.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/boundary_expression/CONTROL_SPEC_LOCK.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/broader_development/STAGE22_STAGE2_REPAIR_SCORE_LOCK.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/hosted_boundary/STAGE3A_INPUT_LOCK.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/hosted_boundary/STAGE3A_MODEL_LOCK.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/hosted_boundary/STAGE3A_PROMPT_LOCK.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/analysis/two_type_primary_locked.yaml",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/locks/corrected_scoring_view_lock.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/locks/models.lock.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/locks/results_lock_corrected_final.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/locks/results_lock_historical_initial.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/locks/results_lock_historical_superseded.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/locks/score_semantics.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/locks/scoring_lock.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/provenance/pre_analysis_integrity_stop/scoring_protocol_lock.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/provenance/protocol.yaml",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/provenance/scoring_lock_original.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/original_corrected/provenance/scoring_protocol_lock.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/parser_feasibility/INPUT_MODEL_SCORE_LOCK.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/parser_feasibility/LOCK_METADATA_CLARIFICATIONS.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "configs/parser_feasibility/METHOD_AND_SCOPE_LOCK.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/data/dev_queries.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/data/dev_structural_check.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/data/dev_tokenizer_diagnostics.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/data/dev_tokenizer_summary.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/data/eval_queries.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/data/eval_structural_check.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/data/eval_tokenizer_diagnostics.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/data/eval_tokenizer_summary.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/data/illustrative_blocks.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/private/dev_blocks.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/private/dev_draw_ledger.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/private/dev_map.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/private/eval_blocks.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/private/eval_draw_ledger.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/private/eval_map.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/align3/private/request_map.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/DEV/MECHANICAL_QA.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/DEV/blocks.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/DEV/lexical_overlap_descriptors.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/DEV/model_inputs.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/DEV/private_payload_index.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/DEV/score_visible_corpus.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/EVAL/MECHANICAL_QA.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/EVAL/blocks.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/EVAL/lexical_overlap_descriptors.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/EVAL/model_inputs.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/EVAL/private_payload_index.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/boundary_expression/data/EVAL/score_visible_corpus.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/broader_development/data/stage2_eval_repair/v002/REPAIR_MANIFEST.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/broader_development/data/stage2_eval_repair/v002/affected_blocks.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/broader_development/data/stage2_eval_repair/v002/blocks.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/broader_development/data/stage2_eval_repair/v002/model_inputs.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/broader_development/data/stage2_eval_repair/v002/private_payload_index.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/broader_development/data/stage2_eval_repair/v002/score_visible_corpus.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/broader_development/private/POSSIBLE_REPAIR_DEPENDENCY_NOTE.md",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/inputs/control_eval.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/preparation/PROMPT_CANDIDATES.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/private/REQUEST_MAP.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/private/source_eval_blocks.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/requests/anthropic_task_a.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/requests/anthropic_task_b.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/requests/google_task_a.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/requests/google_task_b.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/requests/openai_task_a.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/hosted_boundary/requests/openai_task_b.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/audit_decisions.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/corpora.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/corrected_scoring_view_lock.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/documents.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/families.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/neutralization_audit.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/pairs.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/selection_weights.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/source_freeze_manifest.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/source_freeze_verification.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/corrected_dataset/sources.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/historical_run/original_model_visible_view/audit_decisions.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/historical_run/original_model_visible_view/corpora.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/historical_run/original_model_visible_view/documents.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/historical_run/original_model_visible_view/families.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/historical_run/original_model_visible_view/freeze_manifest.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/historical_run/original_model_visible_view/pairs.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/historical_run/original_model_visible_view/selection_weights.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/historical_run/original_model_visible_view/sources.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/original_corrected/historical_run/original_model_visible_view/verification.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Third-party background/source-derived expression retains original CC-BY-SA-4.0; source-record attribution applies."
+      ]
+    },
+    {
+      "file": "data/parser_feasibility/M1_REWRITE_RECORDS.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/M2_DECISIONS.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/constraint_decisions.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/new_eval.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/private/REVIEW_MAP.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/private/SCORE_MAP.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/private/builder_v1.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/reviews/DESIGN_QA_SEAL.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/reviews/SEMANTIC_QA_SEAL.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/reviews/final_semantic_truths.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "data/parser_feasibility/safety_probes.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "paper/AUTHORS.json",
+      "authored_material_default": "LicenseRef-Paper-Copyright-Retained",
+      "exceptions": []
+    },
+    {
+      "file": "paper/FactGap_CAIT2026_ALIGN3_8page.md",
+      "authored_material_default": "LicenseRef-Paper-Copyright-Retained",
+      "exceptions": []
+    },
+    {
+      "file": "paper/FactGap_CAIT2026_ALIGN3_8page.pdf",
+      "authored_material_default": "LicenseRef-Paper-Copyright-Retained",
+      "exceptions": []
+    },
+    {
+      "file": "paper/NUMERICAL_CHECK.md",
+      "authored_material_default": "LicenseRef-Paper-Copyright-Retained",
+      "exceptions": []
+    },
+    {
+      "file": "paper/README.md",
+      "authored_material_default": "LicenseRef-Paper-Copyright-Retained",
+      "exceptions": []
+    },
+    {
+      "file": "paper/REVISION_NOTES.md",
+      "authored_material_default": "LicenseRef-Paper-Copyright-Retained",
+      "exceptions": []
+    },
+    {
+      "file": "paper/bibliography.tex",
+      "authored_material_default": "LicenseRef-Paper-Copyright-Retained",
+      "exceptions": []
+    },
+    {
+      "file": "paper/build.bat",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "paper/build.sh",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "paper/export_markdown.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "paper/figures/operand_alignment.pdf",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "paper/figures/operand_alignment.png",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "paper/figures/original_temporal_compact.pdf",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "paper/figures/original_temporal_compact.png",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "paper/main.tex",
+      "authored_material_default": "LicenseRef-Paper-Copyright-Retained",
+      "exceptions": []
+    },
+    {
+      "file": "paper/make_temporal_figure.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "paper/references.bib",
+      "authored_material_default": "LicenseRef-Paper-Copyright-Retained",
+      "exceptions": []
+    },
+    {
+      "file": "paper/source_data/boundary_template_gains.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "paper/source_data/original_temporal_compact.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "paper/source_data/table_invariants.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "paper/verify_document.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/AUTOMATED_QA_SCOPE.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/DATA_SELECTION_AND_REPAIRS.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/EXCLUSION_MANIFEST.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/GITHUB_PREPARATION.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/GITHUB_PUBLICATION.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/HISTORICAL_HASH_BRIDGES.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/MANUSCRIPT_ARTIFACT_MAP.csv",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/MANUSCRIPT_VERIFICATION.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/MODEL_INPUT_AND_LABEL_BOUNDARY.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/PACKAGING_CORRECTION.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/PREPARATION_CHECKS.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/SANITIZATION_RULES.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/SOURCE_INTEGRITY.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/SOURCE_TO_RELEASE_MAP.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/STUDY_LINEAGE.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/align3/DESIGN_SPEC.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/align3/audit_summary.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/align3/execution_history.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/align3/repair_history.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/boundary_expression/audit_summary.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/boundary_expression/repair_history.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/C1_ARGUMENT_ALIAS_ROUTING_REPAIR.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/FULL_REPAIR_AUDIT_SEAL.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/PROPERTY_REPAIR_PROPOSAL.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/PROPERTY_REPAIR_REGRESSION.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/PROPERTY_REPAIR_SCOPE_AUTHORIZATION.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/STAGE2_REPAIRED_RESULTS.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/STAGE2_REPAIR_REPLAY_VERIFICATION.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/full_repair_block_design_decisions.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/full_repair_query_audit_decisions.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/raw_stage2_repaired_scores.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/repair_history.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/stage2_repaired_query_metrics.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/tools/analyze_repaired.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/tools/versioned_property_repair.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/broader_development/tools/versioned_temporal_repair.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/forensic_history/audit_and_repair_history.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/forensic_history/comparison_query_audit.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/forensic_history/forensic_audit.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/hosted_boundary/audit_repair_history.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/environment/python_version.txt",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/environment/requirements.txt",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/analysis_amendment_seal.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/analysis_runtime_fix.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/final_offline_validation.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/implementation_corrections.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/pre_analysis_integrity_stop/archive_manifest.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/pre_analysis_integrity_stop/confirmatory_report.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/pre_analysis_integrity_stop/deviation_log.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/pre_analysis_integrity_stop/integrity_blocked_report.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/pre_analysis_integrity_stop/postfreeze_sensitivity.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/pre_analysis_integrity_stop/result_summary.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/score_semantics_correction.json",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/scoring_deviation_log.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/original_corrected/provenance/two_type_analysis_amendment.md",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "provenance/parser_feasibility/repair_history.jsonl",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "requirements-replay.txt",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/FINAL_MANIFEST.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/FINAL_SEAL.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/analysis/ALIGN3_MARGIN.png",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/analysis/ALIGN3_MARGIN.svg",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/analysis/provenance_replay.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/analysis/summary.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/block_results.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/condition_results.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/paired_contrasts.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/query_results.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/raw_scores.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/BM25_INDEX.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/forward_audit_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/forward_audit_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/forward_audit_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/forward_audit_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/manifest_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/manifest_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/manifest_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/manifest_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/neutral_precheck_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/neutral_precheck_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/neutral_precheck_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/neutral_precheck_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/precheck_execution_receipt.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/raw_bge_small.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/raw_bm25.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/raw_e5_small.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/raw_minilm_ce.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/resources_precheck_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/resources_precheck_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/resources_precheck_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/resources_precheck_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/resources_score_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/resources_score_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/resources_score_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/resources_score_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/score_execution_receipt.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/scoring_corpus.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/scoring/scoring_inputs.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/align3/template_results.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/BASELINE_BINDING.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/CONTROL_RESULTS.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/control_block_contrasts.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/control_condition_summary.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/control_dev.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/control_eval.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/control_loto_summary.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/control_paired_contrasts.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/control_query_metrics.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/control_template_contrasts.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/control_template_summary.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/raw_control_scores.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/replay_verification.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/scoring/manifest_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/scoring/manifest_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/scoring/manifest_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/scoring/manifest_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/scoring/raw_bge_small.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/scoring/raw_bm25.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/scoring/raw_e5_small.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/boundary_expression/scoring/raw_minilm_ce.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/C1_ARGUMENT_ALIAS_BRIDGE_REGRESSION.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/adjudication_ledger.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/baseline_lock/data/stage2_eval_exploratory/v1/blocks.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/baseline_lock/data/stage2_eval_exploratory/v1/model_inputs.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/baseline_lock/data/stage2_eval_exploratory/v1/private_payload_index.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/baseline_lock/data/stage2_eval_exploratory/v1/score_visible_corpus.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/baseline_lock/raw_local_scores.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/full_design_C_RESOLUTION.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/full_semantic_C_CURRENT_RESOLUTION.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/full_semantic_C_RESOLUTION.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/broader_development/full_semantic_C_alias_v2_RESOLUTION.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/forensic_history/comparison_forensic_summary.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/hosted_boundary/COMPONENT_DECOMPOSITION.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/CONDITION_SUMMARY.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/LOTO_SUMMARY.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/ORDER_SENSITIVITY.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/OVERALL_METRICS.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/PAIRED_CONTRASTS.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/RESEARCH_EXECUTION_FINISHED.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/TASK_A_PROMPT.txt",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/TASK_A_RESULTS.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/TASK_B_PROMPT.txt",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/TASK_B_RESULTS.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/TEMPLATE_RESULTS.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/budget_ledger.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/raw/anthropic_task_a.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/raw/anthropic_task_b.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/raw/google_task_a.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/raw/google_task_b.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/raw/openai_task_a.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/raw/openai_task_b.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/replay_verification.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/technical_errors.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/toy/raw/anthropic_task_a.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/toy/raw/anthropic_task_b.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/toy/raw/google_task_a.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/toy/raw/google_task_b.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/toy/raw/openai_task_a.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/hosted_boundary/toy/raw/openai_task_b.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": [
+        "Compilation rights only; third-party rights and applicable provider conditions remain unchanged."
+      ]
+    },
+    {
+      "file": "results/original_corrected/README.md",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/analysis/bm25_diagnostics.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/analysis/bootstrap_outputs.npz",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/analysis/family_contributions.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/analysis/leave_one_family_out.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/analysis/pipeline_diagnostics.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/analysis/primary_endpoints.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/analysis/secondary_model_metrics.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/analysis/status_mapping.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/confirmatory_report.md",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/primary_endpoints.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/analysis/reference_outputs/result_summary.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/corrected_raw_scores/bm25_scores.parquet",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/corrected_raw_scores/pipeline_reranking.parquet",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/corrected_raw_scores/reranker_controlled.parquet",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/corrected_raw_scores/retriever_scores.parquet",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/corrected_raw_scores/run_manifest.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/historical_run/original_raw_scores/bm25_scores.parquet",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/historical_run/original_raw_scores/pipeline_reranking.parquet",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/historical_run/original_raw_scores/reranker_controlled.parquet",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/historical_run/original_raw_scores/retriever_scores.parquet",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/historical_run/original_raw_scores/run_manifest.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/postfreeze_sensitivity_source.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/contamination_effect.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/distractor_redundancy_audit.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/family_query_form_accuracy.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/figure_query_forms.pdf",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/figure_query_forms.png",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/postfreeze_sensitivity.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/postfreeze_sensitivity_summary.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/query_form_accuracy.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/qwen_saturation_audit.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/small_cluster_sensitivity.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/table_contamination_effect.tex",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/table_unit_conversion.tex",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/tie_threshold_audit.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/unit_conversion_breakdown.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/original_corrected/sensitivity/reference_outputs/value_and_crossed_cluster_sensitivity.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/OVERALL_METRICS.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/REPLAY_VERIFICATION.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/block_template_transitions.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/condition_summary.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/coverage_harm_and_probe_results.csv",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/development/METHOD_CAMPAIGN_1.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/development/TOY_TEST_RECEIPT.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/raw_scores.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/ANALYZER_CODE_SELFCHECK.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/SCORER_READINESS.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/TARGET_EXECUTION_RECEIPT.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/forward_audit_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/forward_audit_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/forward_audit_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/forward_audit_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/manifest_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/manifest_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/manifest_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/manifest_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/neutral_precheck_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/neutral_precheck_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/neutral_precheck_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/neutral_precheck_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/raw_bge_small.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/raw_bm25.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/raw_e5_small.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/raw_minilm_ce.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/resources_precheck_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/resources_precheck_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/resources_precheck_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/resources_precheck_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/resources_score_bge_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/resources_score_bm25.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/resources_score_e5_small.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/resources_score_minilm_ce.json",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/scoring_corpus.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "results/parser_feasibility/scoring/scoring_inputs.jsonl",
+      "authored_material_default": "CC-BY-4.0",
+      "exceptions": []
+    },
+    {
+      "file": "scripts/check_archival_tests.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "scripts/replay_all.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "scripts/scan_release.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "scripts/verify_manuscript_artifacts.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/align3/code/analyze.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/align3/code/check_provenance.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/align3/code/generate.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/align3/code/plot.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/align3/code/run_local.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/align3/code/score_local.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/align3/code/tokenizer_check.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/boundary_expression/code/analyze_control.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/boundary_expression/code/experiment.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/boundary_expression/code/score_control.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/boundary_expression/code/verify_tokens.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/hosted_boundary/code/analyze_stage3a.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/hosted_boundary/code/provider_offline.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/original_corrected/analysis/__init__.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/original_corrected/analysis/test_two_type_primary_decisions.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/original_corrected/analysis/two_type_primary.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/original_corrected/analysis/validate_replay_portable.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/original_corrected/neutralization/neutralize_model_visible_text.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/original_corrected/neutralization/test_neutralization.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/original_corrected/sensitivity/generate_final_outputs.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/parser_feasibility/code/analyze_new.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/parser_feasibility/code/audit_projection.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/parser_feasibility/code/run_target_scores.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/parser_feasibility/code/score_new.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/parser_feasibility/method/constraint_check.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    },
+    {
+      "file": "src/parser_feasibility/tests/test_method.py",
+      "authored_material_default": "MIT",
+      "exceptions": []
+    }
+  ]
+}

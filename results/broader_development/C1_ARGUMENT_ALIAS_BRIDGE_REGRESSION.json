@@ -1,0 +1,299 @@
+{
+  "created_at_utc": "2026-09-30T05:44:22.040376+00:00",
+  "status": "PASS",
+  "all_16_original_argument_bridges": [
+    {
+      "issue_id": "full-semantic-0007",
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "c31af1b5fde53": "deddc7782cba1",
+            "cd9c57c575d88": "d3d21c50a2a9b"
+          },
+          "query_or_condition_aliases": {
+            "ac9fc385a0bcec05": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "c9557cef4260b": "d3d21c50a2a9b",
+            "ce8172588f080": "deddc7782cba1"
+          },
+          "query_or_condition_aliases": {
+            "b42e3854cd739d6f": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ],
+      "candidate_text_identity": "PASS"
+    },
+    {
+      "issue_id": "full-semantic-0006",
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "cd66ff7011aaf": "dbea80a7137d2",
+            "c23e65cbe1689": "d7c4fa9ca2743"
+          },
+          "query_or_condition_aliases": {
+            "422ca98a0cf9e4d1": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "c0901b674e9fc": "d7c4fa9ca2743",
+            "c3e86592508e6": "dbea80a7137d2"
+          },
+          "query_or_condition_aliases": {
+            "f828c0fef570f395": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ],
+      "candidate_text_identity": "PASS"
+    },
+    {
+      "issue_id": "full-semantic-0003",
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "cdd7ad2d52ec6": "d9b0e032e27a4",
+            "c307f259e145f": "df94b998ddaa0"
+          },
+          "query_or_condition_aliases": {
+            "02d2b03f0c67713a": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "c8c48e882de86": "d9b0e032e27a4",
+            "cfe0f5ab72a16": "df94b998ddaa0"
+          },
+          "query_or_condition_aliases": {
+            "9931e932ecd316fc": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ],
+      "candidate_text_identity": "PASS"
+    },
+    {
+      "issue_id": "full-semantic-0002",
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "c5745e82e6b45": "dd6aa36790845",
+            "c8160bfe871b3": "d06ff23834942"
+          },
+          "query_or_condition_aliases": {
+            "8968221df6017043": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "cafcd26555978": "d06ff23834942",
+            "c82571053e731": "dd6aa36790845"
+          },
+          "query_or_condition_aliases": {
+            "a0efb9f2452eb757": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ],
+      "candidate_text_identity": "PASS"
+    },
+    {
+      "issue_id": "full-semantic-0001",
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "cb9fd8be9d75b": "d3c9bdc324f3c",
+            "ca716a137399d": "daf72306907d2"
+          },
+          "query_or_condition_aliases": {
+            "7557822069dabb63": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "ccf548116b337": "daf72306907d2",
+            "c96e070b8a1e9": "d3c9bdc324f3c"
+          },
+          "query_or_condition_aliases": {
+            "1c1c425f4cd0d275": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ],
+      "candidate_text_identity": "PASS"
+    },
+    {
+      "issue_id": "full-semantic-0005",
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "c33c382b44e23": "d99a8c26179e3",
+            "ccd9f088a4b30": "db9968d0f53ac"
+          },
+          "query_or_condition_aliases": {
+            "e103b22ee67c7bc7": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "c037905d43855": "d99a8c26179e3",
+            "ce43f270dc7d4": "db9968d0f53ac"
+          },
+          "query_or_condition_aliases": {
+            "b9e1c5e5126fae40": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ],
+      "candidate_text_identity": "PASS"
+    },
+    {
+      "issue_id": "full-semantic-0004",
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "cc407b94947bf": "d2cb155b7d799",
+            "c9c27d155257b": "d7e241a548b40"
+          },
+          "query_or_condition_aliases": {
+            "74753b82577b4965": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "cbfbdd62c4518": "d7e241a548b40",
+            "ceb15c28fd1db": "d2cb155b7d799"
+          },
+          "query_or_condition_aliases": {
+            "8b5bf72d2e52ff14": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ],
+      "candidate_text_identity": "PASS"
+    },
+    {
+      "issue_id": "full-semantic-0008",
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "c80da7af43f13": "d69c6064071d7",
+            "c79caba6215b7": "da38fb24aa8ee"
+          },
+          "query_or_condition_aliases": {
+            "e6d77296597c51d0": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "c5d1ccd7393be": "da38fb24aa8ee",
+            "c87799f7af5ac": "d69c6064071d7"
+          },
+          "query_or_condition_aliases": {
+            "fe446d958c442fa1": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ],
+      "candidate_text_identity": "PASS"
+    }
+  ],
+  "reissued_cases": [
+    {
+      "issue_id": "full-semantic-0007",
+      "original_packet_sha256": "46ec8f86540c2d8e2c0def1cfbd8048e85d2913047846686c79732bb64e609ca",
+      "query_candidates_C0_arguments_source_unchanged": true,
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "c31af1b5fde53": "deddc7782cba1",
+            "cd9c57c575d88": "d3d21c50a2a9b"
+          },
+          "query_or_condition_aliases": {
+            "ac9fc385a0bcec05": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "c9557cef4260b": "d3d21c50a2a9b",
+            "ce8172588f080": "deddc7782cba1"
+          },
+          "query_or_condition_aliases": {
+            "b42e3854cd739d6f": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ]
+    },
+    {
+      "issue_id": "full-semantic-0005",
+      "original_packet_sha256": "7987a23506afdf9f1b8a29cf9fa9c8eaec7ab48fac93877bb2635db604764c6f",
+      "query_candidates_C0_arguments_source_unchanged": true,
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "c33c382b44e23": "d99a8c26179e3",
+            "ccd9f088a4b30": "db9968d0f53ac"
+          },
+          "query_or_condition_aliases": {
+            "e103b22ee67c7bc7": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "c037905d43855": "d99a8c26179e3",
+            "ce43f270dc7d4": "db9968d0f53ac"
+          },
+          "query_or_condition_aliases": {
+            "b9e1c5e5126fae40": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ]
+    },
+    {
+      "issue_id": "full-semantic-0004",
+      "original_packet_sha256": "7987a23506afdf9f1b8a29cf9fa9c8eaec7ab48fac93877bb2635db604764c6f",
+      "query_candidates_C0_arguments_source_unchanged": true,
+      "bridges": [
+        {
+          "candidate_aliases": {
+            "cc407b94947bf": "d2cb155b7d799",
+            "c9c27d155257b": "d7e241a548b40"
+          },
+          "query_or_condition_aliases": {
+            "74753b82577b4965": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        },
+        {
+          "candidate_aliases": {
+            "cbfbdd62c4518": "d7e241a548b40",
+            "ceb15c28fd1db": "d2cb155b7d799"
+          },
+          "query_or_condition_aliases": {
+            "8b5bf72d2e52ff14": "this supplied case"
+          },
+          "interpretation": "Original prose keeps its original context-local aliases. These aliases name the same rendered candidates/conditions here; they are not answer labels. Candidate text identity was checked while forming this bridge."
+        }
+      ]
+    }
+  ],
+  "old_raw_receipts_mutated": false,
+  "historical_missing_alias_bridge_confirmed": true
+}

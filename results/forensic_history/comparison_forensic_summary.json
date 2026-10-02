@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-09-29T23:55:22.007320+00:00",
+  "method": "independent text regex and numeric predicate replay; generator metadata non-authoritative",
+  "semantic_review": "A/B separate fresh contexts; tool access could not be technically disabled, so not a protocol seal",
+  "comparison_blocks": 12,
+  "comparison_queries": 48,
+  "reviewer_A_answers": 48,
+  "reviewer_B_answers": 48,
+  "reviewer_disagreements": 0,
+  "c_status": "C_NOT_NEEDED",
+  "all_boundary_lure_pattern": true,
+  "score_stats": {
+    "bm25": {
+      "queries": 48,
+      "score_rows": 192,
+      "success": 0,
+      "tie": 0,
+      "negative": 48
+    },
+    "bge_small": {
+      "queries": 48,
+      "score_rows": 192,
+      "success": 0,
+      "tie": 0,
+      "negative": 48
+    },
+    "e5_small": {
+      "queries": 48,
+      "score_rows": 192,
+      "success": 0,
+      "tie": 0,
+      "negative": 48
+    },
+    "minilm_ce": {
+      "queries": 48,
+      "score_rows": 192,
+      "success": 0,
+      "tie": 0,
+      "negative": 48
+    }
+  },
+  "errors": [],
+  "source_hashes": {
+    "blocks.jsonl": "0db362b45433ea4181093f6359fa5d0165b39855b6f2aa2072707e40d3dd1769",
+    "raw_local_scores.jsonl": "c8e23557d01b0f87aecdd7c156258429ed4e8bcf52b4f369fb5e2cbfa495c942",
+    "query_margins.csv": "6b6b1a2a3ab2ff54ece1c0f91b1d50a435d73384672df9eb1ee7323abade78f8",
+    "score_input_lock.json": "1424930853d727b8c53bad89cfa43b0f43cc8ffeeb60e05e75c44287a869c837"
+  }
+}

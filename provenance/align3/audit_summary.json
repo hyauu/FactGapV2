@@ -1,0 +1,48 @@
+{
+  "status": "PASS_LIMITED",
+  "created_at_utc": "2026-10-01T03:37:56.563805+00:00",
+  "DEV": {
+    "queries": 24,
+    "semantic_reviews": 48,
+    "semantic_review_roles": 2,
+    "blocks": 4,
+    "design_block_reviews": 8,
+    "semantic_status": "PASS",
+    "design_status": "PASS_LIMITED"
+  },
+  "EVAL": {
+    "queries": 72,
+    "semantic_reviews": 144,
+    "semantic_review_roles": 2,
+    "blocks": 12,
+    "design_block_reviews": 24,
+    "semantic_status": "PASS",
+    "design_status": "PASS_LIMITED"
+  },
+  "illustrative_blocks": 2,
+  "illustrative_block_reviews": 4,
+  "successful_scientific_packet_contexts": 46,
+  "missing_output_contexts": 1,
+  "new_contexts_actual": 47,
+  "context_limit": 64,
+  "semantic_issues": 0,
+  "concrete_design_issues": 0,
+  "C_status": "C_NOT_NEEDED",
+  "material_repairs": 0,
+  "technical_resubmissions": 1,
+  "review_mode": "OPERATIONALLY_BLINDED_AUTOMATED_REVIEW",
+  "human_review": false,
+  "native_backend_independence_not_proved": true,
+  "filesystem_isolation_not_proved": true,
+  "initial_semantic_inputs_have_no_gold_condition_siblings_scores": true,
+  "all_initial_split_outputs_saved_before_block_design": true,
+  "generator_check_non_authoritative": true,
+  "format_normalization_receipt": "audit/deterministic_format_normalization.json",
+  "remaining_limitations": [
+    "Complement values change with aligned operand",
+    "Digit/subword and arithmetic carry/borrow patterns change",
+    "Equal character and space-word length does not give equal neural token lengths",
+    "Small synthetic template-shared exploratory sample"
+  ],
+  "roster": "budget_ledger.json"
+}

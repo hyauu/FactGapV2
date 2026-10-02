@@ -1,0 +1,88 @@
+{
+  "status": "COMPLETE",
+  "created_at_utc": "2026-10-01T03:38:08.196066+00:00",
+  "model_key": "bm25",
+  "model_revision": "deterministic_bm25_v1",
+  "identity": {
+    "status": "PASS",
+    "created_at_utc": "2026-10-01T03:38:08.178388+00:00",
+    "selected_identity_checks": [
+      {
+        "path": "<LOCAL_PROJECT>\\tools\\local_score.py",
+        "sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\source_and_model_locks\\model_local_lock.json",
+        "sha256": "3451c18753970ba63cc6be15c020e9002f2aad9eb2cda81cba4ddd3614abb255",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\stage22b\\runs\\stage22b_20260930T083944Z_49e9c6b3\\CONTROL_SCORE_LOCK.json",
+        "sha256": "5848e1ba7792a0ad73f158139f3603f91dfadc313535db9563a486e1b56b1e5c",
+        "matches": true
+      }
+    ],
+    "adapter_preflight_sha256": "5bd0cacb1c07122dfb7b3ad36557ea1f9794f1ae3287ac3fb249fd335975bf53",
+    "baseline_binding_sha256": "d820e69cfa6ccb036e665dd216349fa3c2a7a432fda36e5b2975828c635dfcae",
+    "resource_observer_sha256": "081516db49363bc2adfe7bcc3da55fceacf9aae3f01f60d84ca64667d86426a5",
+    "model_artifacts": [],
+    "model_contract": {
+      "revision": "deterministic_bm25_v1",
+      "query_prefix": "",
+      "document_prefix": "",
+      "k1": 1.2,
+      "b": 0.75,
+      "corpus": "ALIGN3 EVAL unique candidate full texts only, fixed across all three conditions",
+      "score": "BM25float64",
+      "corpus_size_is_inherited": false
+    },
+    "wrapper_sha256": "19691e5de80d0cd492a17bf026d9f1370cc1db788a0853d2c1c446ec8016a89b"
+  },
+  "environment": {
+    "python": "<LOCAL_HOME>\\Documents\\ChatGPT\\捉摸\\.venv\\Scripts\\python.exe",
+    "python_executable_exists": true,
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "local_only": true,
+    "paid_API_calls": 0,
+    "downloads": 0
+  },
+  "device": "cpu",
+  "dtype": "float64",
+  "score_scale": "bm25",
+  "configuration": {
+    "model_key": "bm25",
+    "contract": {
+      "revision": "deterministic_bm25_v1",
+      "query_prefix": "",
+      "document_prefix": "",
+      "k1": 1.2,
+      "b": 0.75,
+      "corpus": "ALIGN3 EVAL unique candidate full texts only, fixed across all three conditions",
+      "score": "BM25float64",
+      "corpus_size_is_inherited": false
+    },
+    "adapter_sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+    "model_artifacts": [],
+    "model_lock_sha256": "3451c18753970ba63cc6be15c020e9002f2aad9eb2cda81cba4ddd3614abb255",
+    "corpus_file_sha256": "b9eb947869b030dac22e8667610c79d4af35b414e5e5e5f8a785143cc25fca81",
+    "wrapper_sha256": "19691e5de80d0cd492a17bf026d9f1370cc1db788a0853d2c1c446ec8016a89b"
+  },
+  "configuration_sha256": "37f8e0e3f69d122db086947b735d98d4420f29c2e2443acab82ab075f759582b",
+  "logical_ranking_requests": 144,
+  "score_rows": 288,
+  "unique_query_document_pairs_scored": 144,
+  "reused_candidate_score_occurrences": 144,
+  "actual_model_forward_calls": 0,
+  "actual_model_sequence_occurrences": 0,
+  "elapsed_ms": 3.4037000000353146,
+  "input_sha256": "8818b1fb55b1b7d5754de0f1f4bedaf5a9cbb6730873169b81af7a01c91382ab",
+  "corpus_sha256": "b9eb947869b030dac22e8667610c79d4af35b414e5e5e5f8a785143cc25fca81",
+  "raw_sha256": "a1ac9f9844f86d77ee59a0439530f7e00adf2590de0a42aeb6c97187a73bfec0",
+  "forward_audit_sha256": "0182d63bcee55b48c53135f1b0f73324dda937d6385f1b51f9f5174d8e64f28e",
+  "neutral_receipt_sha256": "fb389d012732cd7dd7b384c012b2c98e2f7d5c4002ca9c5fb5eedf5a24a5df29",
+  "query_document_pairs_are_not_forward_count": true,
+  "research_metadata_read": false,
+  "old_result_caches_read": false,
+  "resource_receipt": "<LOCAL_PROJECT>\\alignment3\\runs\\20261001T021600Z_8f34c1a2\\scoring\\resources_score_bm25.json"
+}

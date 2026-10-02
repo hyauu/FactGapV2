@@ -1,0 +1,47 @@
+{
+  "schema_version": "factgap.offline_validation.v1",
+  "validated_at": "2026-09-26T23:55:23.154519Z",
+  "status": "PASS",
+  "no_new_model_inference": true,
+  "primary_replay": {
+    "status": "PASS",
+    "global_status": "INCONCLUSIVE",
+    "supported_primary_endpoints": [],
+    "reference_files_compared": 9,
+    "bootstrap_arrays_compared_exactly": 21
+  },
+  "decision_rule_tests": {
+    "status": "PASS",
+    "tests": 7
+  },
+  "neutralization_replay": {
+    "status": "PASS",
+    "integration_tests": 1,
+    "checks": {
+      "queries_unchanged": true,
+      "semantic_values_unchanged": true,
+      "role_type_internal_markers_removed": true,
+      "output_file_hashes_match_lock": true,
+      "action_counts_match_audit": true
+    },
+    "authorized_transform_counts": {
+      "remove_role_bearing_internal_identifier": 1029,
+      "neutralize_role_bearing_entry_label": 735,
+      "remove_unrelated_archive_identifier": 3675
+    }
+  },
+  "sensitivity_replay": {
+    "status": "PASS",
+    "outputs": 15,
+    "byte_exact_outputs": 14,
+    "pdf_byte_difference": "creation metadata only",
+    "pdf_render_sha256_match": true,
+    "reference_render_sha256": "5fef090236c0ce4831fba6b7ee66c198f46207dc3aff1962dfc42733af7d664a",
+    "replay_render_sha256": "5fef090236c0ce4831fba6b7ee66c198f46207dc3aff1962dfc42733af7d664a",
+    "reference_png_byte_exact": true
+  },
+  "privacy_scan": {
+    "status": "PASS",
+    "sensitive_local_or_key_patterns": 0
+  }
+}

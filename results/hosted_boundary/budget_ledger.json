@@ -1,0 +1,9 @@
+{
+  "cap_usd": 5,
+  "settled_conservative_usd": 0.6308034999999993,
+  "usage_repriced_usd": 0.5194354999999992,
+  "unknown_usage_reservations_usd": 0.111368,
+  "reservations": {},
+  "attempts_settled": 450,
+  "updated_at_utc": "2026-09-30T18:46:18.005306+00:00"
+}

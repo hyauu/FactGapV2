@@ -1,0 +1,49 @@
+{
+  "status": "LOCKED_BEFORE_RESEARCH",
+  "created_at_utc": "2026-09-30T18:28:51.188377+00:00",
+  "requested_models": {
+    "openai": "gpt-5.6-sol",
+    "anthropic": "claude-sonnet-5",
+    "google": "gemini-3.8-flash"
+  },
+  "eligible_providers": [
+    "openai",
+    "anthropic",
+    "google"
+  ],
+  "blocked_providers": [],
+  "returned_model_versions_in_preflight": {
+    "openai": "gpt-5.6-sol",
+    "anthropic": "claude-sonnet-5",
+    "google": "gemini-3.8-flash"
+  },
+  "snapshot_revision": "No immutable snapshot beyond returned model fields proven",
+  "reasoning": {
+    "openai": "medium, standard default mode",
+    "anthropic": "adaptive high, default reasoning behavior, thinking display omitted",
+    "google": "medium, includeThoughts false"
+  },
+  "output_caps": {
+    "openai": 640,
+    "anthropic": 640,
+    "google": 512
+  },
+  "reasoning_asymmetry_and_output_caps_are_limitations": true,
+  "tools_enabled": false,
+  "stateless": true,
+  "conversation_memory": false,
+  "max_inflight_per_provider": 2,
+  "max_global_inflight": 6,
+  "pacing_initial_seconds": {
+    "openai": 0.5,
+    "anthropic": 1.5,
+    "google": 2.0
+  },
+  "rate_limit_backoff": "Technical429 doubles provider dispatch spacing to maximum15seconds, one retry per logical request.",
+  "SDK_API_versions": {
+    "SDK": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)] urllib stdlib; no automatic SDK retries",
+    "openai": "v1/responses",
+    "anthropic": "2023-06-01 v1/messages",
+    "google": "v1beta generateContent"
+  }
+}

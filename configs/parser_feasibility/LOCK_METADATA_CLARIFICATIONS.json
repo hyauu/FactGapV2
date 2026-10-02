@@ -1,0 +1,23 @@
+{
+  "status": "DISCLOSED_NONOPERATIVE_METADATA_ERRATA_NO_LOCK_EDIT_OR_RESCORE",
+  "created_at_utc": "2026-09-30T20:48:12.607662+00:00",
+  "score_results_affected": [],
+  "items": [
+    {
+      "file": "METHOD_AND_SCOPE_LOCK.json and inherited models metadata in INPUT_MODEL_SCORE_LOCK.json",
+      "field": "models.bm25.corpus",
+      "original": "All36 unique new EVAL documents,auxiliary included;fixed across conditions",
+      "issue": "Inherited Stage2.2B corpus description retained as model metadata. It is not the Stage4A effective corpus.",
+      "effective_fact": "Prospective INPUT_MODEL_SCORE_LOCK.BM25_corpus_contract plus corpus_sha256 freezes all unique visible44-query candidate texts. Actual count40. The scorer uses that corpus and records its hash in every row.",
+      "score_effect": "None; original scorer math and k1/b unchanged, analyzer deliberately treats corpus hash/explicit new-corpus contract as operative."
+    },
+    {
+      "file": "INPUT_MODEL_SCORE_LOCK.json",
+      "field": "no_model_calls_before_this_lock",
+      "original": true,
+      "issue": "Unqualified wording is incorrect: neutral local precheck forwards did occur before this lock.",
+      "verified_fact": "No research-material target model scoring preceded the lock;16neutral logical requests and their forward receipts occurred earlier. Actual research scoring starts2026-09-30T20:27:43.611956+00:00 after prospective lock.",
+      "score_effect": "None; separate dated neutral and target receipts distinguish these operations."
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+{
+  "run_id": "stage22b_20260930T083944Z_49e9c6b3",
+  "status": "PASS",
+  "verification_scope": "Selected inherited critical files and all18 selected neural model/tokenizer/config files; no full old audit or target forward",
+  "started_at_utc": "2026-09-30T08:57:20.679597+00:00",
+  "finished_at_utc": "2026-09-30T08:57:20.928041+00:00",
+  "read_elapsed_monotonic_seconds": 0.234,
+  "read_elapsed_utc_seconds": 0.248444,
+  "old_final_manifest_sha256": "234ef947ea5ced0059fe8027719ed570c6b50c8258bae30fa0340557dd0a4ef8",
+  "uploaded_report_sha256": "6a6dffc016dcd3afc3cbc9505e01fff4feec1a4223d7be2c4a4b42fe28ec5c7c",
+  "actual_current_report_sha256": "6a6dffc016dcd3afc3cbc9505e01fff4feec1a4223d7be2c4a4b42fe28ec5c7c",
+  "uploaded_report_hash_matches_current": true,
+  "report_lineage_basis": "Current report is bound by immutable old Stage22 final manifest and describes the same336-query repaired version, two property repairs,5376 score rows and control not built",
+  "dataset": {
+    "version": "stage2-eval-v2-stage22-property-clarification",
+    "designation": "post_score_repaired_exploratory",
+    "path": "<LOCAL_PROJECT>\\stage22\\data\\stage2_eval_repair\\v002",
+    "counts": {
+      "blocks.jsonl": 48,
+      "model_inputs.jsonl": 672,
+      "score_visible_corpus.jsonl": 144,
+      "unique_query_texts": 336,
+      "query_occurrences": [
+        2
+      ]
+    },
+    "semantic_status": "PASS",
+    "design_status": "PASS_LIMITED",
+    "affected_repaired_queries": 48,
+    "carry_forward_queries": 288
+  },
+  "raw_scores": {
+    "path": "<LOCAL_PROJECT>\\stage22\\raw_stage2_repaired_scores.jsonl",
+    "rows": 5376
+  },
+  "inherited_replay": {
+    "status": "PASS",
+    "raw_rows": 5376,
+    "query_model_pairs": 1344,
+    "full_queries": 336,
+    "current_matrix_logical_requests": 2688,
+    "new_executed_logical_requests": 960,
+    "new_score_rows": 1920,
+    "inherited_identical_score_rows": 3456,
+    "new_pair_cache_links_verified": 960,
+    "maximum_order_margin_difference": 0.0,
+    "technical_failures": 0,
+    "scope": "All four current models; all336 current queries; both candidate orders. Retokenization separately recorded; inherited identical neural pairs explicitly reused.",
+    "old_raw_sha256": "c8e23557d01b0f87aecdd7c156258429ed4e8bcf52b4f369fb5e2cbfa495c942"
+  },
+  "inherited_token_hash_replay_status": "PASS",
+  "target_models": {
+    "bge_small": {
+      "repo_id": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "selected_file_count": 6
+    },
+    "e5_small": {
+      "repo_id": "intfloat/e5-small-v2",
+      "revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "selected_file_count": 6
+    },
+    "minilm_ce": {
+      "repo_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "selected_file_count": 6
+    },
+    "bm25": {
+      "revision": "deterministic_bm25_v1",
+      "source_sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+      "tokenizer_regex": "\\d+(?:\\.\\d+)?|[A-Za-z]+",
+      "k1": 1.2,
+      "b": 0.75,
+      "unique_query_terms": true
+    }
+  },
+  "adapter_contract": {
+    "bm25": {
+      "revision": "deterministic_bm25_v1",
+      "query_prefix": "",
+      "document_prefix": "",
+      "k1": 1.2,
+      "b": 0.75,
+      "corpus": "All144 unique corrected eval documents, auxiliary included",
+      "score": "BM25float64"
+    },
+    "bge_small": {
+      "repo_id": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "Represent this sentence for searching relevant passages: ",
+      "document_prefix": "",
+      "pooling": "CLS L2-normalized",
+      "score": "unscaled cosine"
+    },
+    "e5_small": {
+      "repo_id": "intfloat/e5-small-v2",
+      "revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "query: ",
+      "document_prefix": "passage: ",
+      "pooling": "masked mean L2-normalized",
+      "score": "unscaled cosine"
+    },
+    "minilm_ce": {
+      "repo_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "",
+      "document_prefix": "",
+      "pooling": "raw one-output logit",
+      "score": "raw logit"
+    }
+  },
+  "checks": [
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\FINAL_MANIFEST.sha256",
+      "scope": "old_final_manifest",
+      "expected_sha256": "234ef947ea5ced0059fe8027719ed570c6b50c8258bae30fa0340557dd0a4ef8",
+      "exists": true,
+      "sha256": "234ef947ea5ced0059fe8027719ed570c6b50c8258bae30fa0340557dd0a4ef8",
+      "bytes": 180521,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\STAGE2_OVERALL_REPORT.md",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "6a6dffc016dcd3afc3cbc9505e01fff4feec1a4223d7be2c4a4b42fe28ec5c7c",
+      "exists": true,
+      "sha256": "6a6dffc016dcd3afc3cbc9505e01fff4feec1a4223d7be2c4a4b42fe28ec5c7c",
+      "bytes": 15716,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\STAGE22_STATUS.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "921274dd64acceb124894b8fe24ab2810346d22987ab702d8cb64a9307ed376b",
+      "exists": true,
+      "sha256": "921274dd64acceb124894b8fe24ab2810346d22987ab702d8cb64a9307ed376b",
+      "bytes": 3958,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\FULL_STAGE2_AUDIT_SEAL.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "4291b712ff171a64118d87df20183ac8e40531c94fec1731254f9f88d1405428",
+      "exists": true,
+      "sha256": "4291b712ff171a64118d87df20183ac8e40531c94fec1731254f9f88d1405428",
+      "bytes": 103667,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\STAGE22_STAGE2_REPAIR_SCORE_LOCK.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "b7f134d1ae4911bb51bac6d1f10a1ecfed1c487182946dd2184109b913cbebb3",
+      "exists": true,
+      "sha256": "b7f134d1ae4911bb51bac6d1f10a1ecfed1c487182946dd2184109b913cbebb3",
+      "bytes": 102532,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\FINAL_MODEL_ARTIFACT_LOCK.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "9c8b754ff4b73cc5591cfc646ed96bb99ccc877bec3893ddd20bd84e18d16309",
+      "exists": true,
+      "sha256": "9c8b754ff4b73cc5591cfc646ed96bb99ccc877bec3893ddd20bd84e18d16309",
+      "bytes": 9275,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\FINAL_DATA_MODEL_STATE.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "ddcecffbdfe45d56faa40a12481a6e71ed283174a81614c29ce60507ce5b0366",
+      "exists": true,
+      "sha256": "ddcecffbdfe45d56faa40a12481a6e71ed283174a81614c29ce60507ce5b0366",
+      "bytes": 258534,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\raw_stage2_repaired_scores.jsonl",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "7c77d033c1e36132c6186f0d2fbc6386d41ff30cc9b64a87cd9e831bed3b8fe5",
+      "exists": true,
+      "sha256": "7c77d033c1e36132c6186f0d2fbc6386d41ff30cc9b64a87cd9e831bed3b8fe5",
+      "bytes": 7429956,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\STAGE2_REPAIR_REPLAY_VERIFICATION.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "242bbd86360aef05ce2cd1ce579cf654e932016698bb47bb899c750b1554b41b",
+      "exists": true,
+      "sha256": "242bbd86360aef05ce2cd1ce579cf654e932016698bb47bb899c750b1554b41b",
+      "bytes": 632,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\STAGE2_REPAIR_TOKEN_HASH_REPLAY.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "6a6e3269b84e50e6feadc7af8385f0ef447a7320876827e158f9e0ea4735fc27",
+      "exists": true,
+      "sha256": "6a6e3269b84e50e6feadc7af8385f0ef447a7320876827e158f9e0ea4735fc27",
+      "bytes": 738,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\STAGE2_REPAIRED_RESULTS.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "ddc0ae8f0b18d61ed5dfeb02dc5d4dcbf6eeca9f93b7f61a7b2050558b84573b",
+      "exists": true,
+      "sha256": "ddc0ae8f0b18d61ed5dfeb02dc5d4dcbf6eeca9f93b7f61a7b2050558b84573b",
+      "bytes": 5531,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\COMPARISON_FORENSIC_MARGIN_REPLAY.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "80119a48fe5290396780066aa071e2053fc1c334827d1dacd6076d372b8fe7e7",
+      "exists": true,
+      "sha256": "80119a48fe5290396780066aa071e2053fc1c334827d1dacd6076d372b8fe7e7",
+      "bytes": 3602,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\repair_history.jsonl",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "ad5546280e6cf8b0b3f284afe78b8252422211b6d0f156145c42b4f44bad86b4",
+      "exists": true,
+      "sha256": "ad5546280e6cf8b0b3f284afe78b8252422211b6d0f156145c42b4f44bad86b4",
+      "bytes": 25215,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\resource_usage.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "7ae1c50465fdafeee05692152794e2a8d4b41c0bdca43b893cbb7a20de8a5fe8",
+      "exists": true,
+      "sha256": "7ae1c50465fdafeee05692152794e2a8d4b41c0bdca43b893cbb7a20de8a5fe8",
+      "bytes": 5880,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\data\\stage2_eval_repair\\v002\\affected_blocks.jsonl",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "88168a96af2333fb4672b3d3ec765253fc5ccbfc828ae4549896b297aa950fb2",
+      "exists": true,
+      "sha256": "88168a96af2333fb4672b3d3ec765253fc5ccbfc828ae4549896b297aa950fb2",
+      "bytes": 33851,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\data\\stage2_eval_repair\\v002\\blocks.jsonl",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "34de29ae6735a88d841e9ebd65465419b2a515077a6854ead9177a92632a772b",
+      "exists": true,
+      "sha256": "34de29ae6735a88d841e9ebd65465419b2a515077a6854ead9177a92632a772b",
+      "bytes": 225818,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\data\\stage2_eval_repair\\v002\\model_inputs.jsonl",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "49b1a97d49b6e35ced47e88140d27251b246a6e46da8071c039b9c314e91dfe7",
+      "exists": true,
+      "sha256": "49b1a97d49b6e35ced47e88140d27251b246a6e46da8071c039b9c314e91dfe7",
+      "bytes": 176292,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\data\\stage2_eval_repair\\v002\\private_payload_index.jsonl",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "0076b1dfb0466fa745b0ba6addba446356a02cf4af0d9fba9d3dc7da5bf13a1e",
+      "exists": true,
+      "sha256": "0076b1dfb0466fa745b0ba6addba446356a02cf4af0d9fba9d3dc7da5bf13a1e",
+      "bytes": 179232,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\data\\stage2_eval_repair\\v002\\REPAIR_MANIFEST.json",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "61ddbc7439603045d7c9ded65541efa9001401eebf61f86fd51a4d20d635d210",
+      "exists": true,
+      "sha256": "61ddbc7439603045d7c9ded65541efa9001401eebf61f86fd51a4d20d635d210",
+      "bytes": 39679,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\data\\stage2_eval_repair\\v002\\score_visible_corpus.jsonl",
+      "scope": "old_frozen_stage22_critical",
+      "expected_sha256": "39fa4cb6854741aeafdd39218decc5f563a8d0e6f68adf11763441263cc235ce",
+      "exists": true,
+      "sha256": "39fa4cb6854741aeafdd39218decc5f563a8d0e6f68adf11763441263cc235ce",
+      "bytes": 9906,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\config.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+      "exists": true,
+      "sha256": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+      "bytes": 743,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\model.safetensors",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "exists": true,
+      "sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "bytes": 133466304,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\special_tokens_map.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "exists": true,
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "bytes": 125,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\tokenizer.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "exists": true,
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "bytes": 711396,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\tokenizer_config.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+      "exists": true,
+      "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+      "bytes": 366,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\vocab.txt",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "exists": true,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52\\config.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "5dfb0363cd0243be179c03bcaafd1542d0fbb95e8cbcf575fff3e229342adc2f",
+      "exists": true,
+      "sha256": "5dfb0363cd0243be179c03bcaafd1542d0fbb95e8cbcf575fff3e229342adc2f",
+      "bytes": 615,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52\\model.safetensors",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "45bfa60070649aae2244fbc9d508537779b93b6f353c17b0f95ceccb1c5116c1",
+      "exists": true,
+      "sha256": "45bfa60070649aae2244fbc9d508537779b93b6f353c17b0f95ceccb1c5116c1",
+      "bytes": 133466304,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52\\special_tokens_map.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "exists": true,
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "bytes": 125,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52\\tokenizer.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "exists": true,
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "bytes": 711396,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52\\tokenizer_config.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "ae83fa6ca0333117ff12606020af925d648667ef70d92ff7f27d781ba0ca4544",
+      "exists": true,
+      "sha256": "ae83fa6ca0333117ff12606020af925d648667ef70d92ff7f27d781ba0ca4544",
+      "bytes": 314,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52\\vocab.txt",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "exists": true,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\config.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc",
+      "exists": true,
+      "sha256": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc",
+      "bytes": 794,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\model.safetensors",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+      "exists": true,
+      "sha256": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+      "bytes": 90870598,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\special_tokens_map.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6",
+      "exists": true,
+      "sha256": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6",
+      "bytes": 132,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\tokenizer.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "exists": true,
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "bytes": 711396,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\tokenizer_config.json",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8",
+      "exists": true,
+      "sha256": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8",
+      "bytes": 1330,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a\\vocab.txt",
+      "scope": "selected_model_tokenizer_config",
+      "expected_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "exists": true,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\tools\\local_score.py",
+      "scope": "inherited_source_and_model_lock",
+      "expected_sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+      "exists": true,
+      "sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+      "bytes": 12604,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\baseline_lock\\tools\\analyze_local_scores.py",
+      "scope": "old_frozen_source_reference",
+      "expected_sha256": "1671f8bbe006b5aede8e835b9ede5729ac8ba90f2421f81515045f698a622da7",
+      "exists": true,
+      "sha256": "1671f8bbe006b5aede8e835b9ede5729ac8ba90f2421f81515045f698a622da7",
+      "bytes": 10121,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\tools\\analyze_local_scores.py",
+      "scope": "inherited_source_and_model_lock",
+      "expected_sha256": "1671f8bbe006b5aede8e835b9ede5729ac8ba90f2421f81515045f698a622da7",
+      "exists": true,
+      "sha256": "1671f8bbe006b5aede8e835b9ede5729ac8ba90f2421f81515045f698a622da7",
+      "bytes": 10121,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\stage22\\baseline_lock\\tools\\verify_stage12.py",
+      "scope": "old_frozen_source_reference",
+      "expected_sha256": "5ad7f90807acf4b47461dd5ca218c945a6f1012f562e99ef59ee90b74f3d5bfb",
+      "exists": true,
+      "sha256": "5ad7f90807acf4b47461dd5ca218c945a6f1012f562e99ef59ee90b74f3d5bfb",
+      "bytes": 5919,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\tools\\verify_stage12.py",
+      "scope": "inherited_source_and_model_lock",
+      "expected_sha256": "5ad7f90807acf4b47461dd5ca218c945a6f1012f562e99ef59ee90b74f3d5bfb",
+      "exists": true,
+      "sha256": "5ad7f90807acf4b47461dd5ca218c945a6f1012f562e99ef59ee90b74f3d5bfb",
+      "bytes": 5919,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\source_and_model_locks\\model_local_lock.json",
+      "scope": "inherited_source_and_model_lock",
+      "expected_sha256": "3451c18753970ba63cc6be15c020e9002f2aad9eb2cda81cba4ddd3614abb255",
+      "exists": true,
+      "sha256": "3451c18753970ba63cc6be15c020e9002f2aad9eb2cda81cba4ddd3614abb255",
+      "bytes": 8102,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\source_and_model_locks\\model_file_hashes.json",
+      "scope": "inherited_source_and_model_lock",
+      "expected_sha256": "98066d70d2a487c3b19e7b971951d8ab2370671ca938063dda17c52de81afb2a",
+      "exists": true,
+      "sha256": "98066d70d2a487c3b19e7b971951d8ab2370671ca938063dda17c52de81afb2a",
+      "bytes": 5628,
+      "matches": true
+    },
+    {
+      "path": "<LOCAL_PROJECT>\\source_and_model_locks\\ADAPTER_PREFLIGHT_LOCK.json",
+      "scope": "inherited_source_and_model_lock",
+      "expected_sha256": "5bd0cacb1c07122dfb7b3ad36557ea1f9794f1ae3287ac3fb249fd335975bf53",
+      "exists": true,
+      "sha256": "5bd0cacb1c07122dfb7b3ad36557ea1f9794f1ae3287ac3fb249fd335975bf53",
+      "bytes": 2479,
+      "matches": true
+    }
+  ],
+  "errors": [],
+  "not_retroactive_history_completion": true,
+  "historical_limitations": [
+    "B_018 original pre-write payload hash UNKNOWN; saved bytes are known",
+    "Native reviewer exact model revision, full tool trace, actual tokens UNKNOWN",
+    "Old termination first observed34.945s late; writer drain occurred later",
+    "Stage0/1 and old breadth DEV historical full audit gaps remain",
+    "Automated review was operationally blinded, not human annotation or enforced filesystem isolation",
+    "Current baseline is post-score repaired exploratory; original v1 and old NO_GO remain"
+  ],
+  "new_target_model_loads": 0,
+  "new_target_forward_calls": 0,
+  "new_download_bytes": 0
+}

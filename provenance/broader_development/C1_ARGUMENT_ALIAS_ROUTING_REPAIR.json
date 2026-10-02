@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-30T05:34:56.228987+00:00",
+  "kind": "C1_ARGUMENT_ALIAS_ROUTING_REPAIR",
+  "root_cause": "Typed candidate fields were rebound to C0 aliases, but prose issues retained original reviewer aliases without a bridge. Three C1 cases consequently reported valid original A/B references as absent.",
+  "affected_issue_ids": [
+    "full-semantic-0004",
+    "full-semantic-0005",
+    "full-semantic-0007"
+  ],
+  "repair_attempt_per_root_cause": 1,
+  "old_A_B_or_C0_or_C1_raw_changed": false,
+  "general_fix": "Provide context-local candidate and query/condition alias bridge, checking rendered candidate text identity; preserve raw prose and source judgments.",
+  "new_material_campaign": false,
+  "new_dataset_version": "NOT_APPLICABLE_ARGUMENT_SERIALIZATION_ONLY",
+  "fresh_C1_version_required": "alias_v2, exactly all3 affected cases after unchanged independent C0 seal; no old C1 verdict provided",
+  "before_sha256": "1f502c8ca78498df9b6bab167a114572a77d35c9f4f5165289e731b144899854",
+  "after_sha256": "321e529e85fc4d22887711d47d30bbfc49f922bb3f6d568779fcab3c5050e5c1"
+}

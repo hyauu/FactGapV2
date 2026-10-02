@@ -1,0 +1,34 @@
+{
+  "status": "PASS_NO_TRUNCATION",
+  "model_weight_loads": 0,
+  "model_forward_calls": 0,
+  "diagnostics": {
+    "bge_small": {
+      "queries": 24,
+      "min_query_tokens": 37,
+      "max_query_tokens": 41,
+      "block_wording_groups_with_condition_length_difference": 2,
+      "largest_condition_token_length_range": 1,
+      "max_candidate_or_pair_tokens": 13,
+      "numeric_subword_overlaps_retained": true
+    },
+    "e5_small": {
+      "queries": 24,
+      "min_query_tokens": 31,
+      "max_query_tokens": 35,
+      "block_wording_groups_with_condition_length_difference": 2,
+      "largest_condition_token_length_range": 1,
+      "max_candidate_or_pair_tokens": 15,
+      "numeric_subword_overlaps_retained": true
+    },
+    "minilm_ce": {
+      "queries": 24,
+      "min_query_tokens": 29,
+      "max_query_tokens": 33,
+      "block_wording_groups_with_condition_length_difference": 2,
+      "largest_condition_token_length_range": 1,
+      "max_candidate_or_pair_tokens": 45,
+      "numeric_subword_overlaps_retained": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "raw_rows": 5376,
+  "query_model_pairs": 1344,
+  "full_queries": 336,
+  "current_matrix_logical_requests": 2688,
+  "new_executed_logical_requests": 960,
+  "new_score_rows": 1920,
+  "inherited_identical_score_rows": 3456,
+  "new_pair_cache_links_verified": 960,
+  "maximum_order_margin_difference": 0.0,
+  "technical_failures": 0,
+  "scope": "All four current models; all336 current queries; both candidate orders. Retokenization separately recorded; inherited identical neural pairs explicitly reused.",
+  "old_raw_sha256": "c8e23557d01b0f87aecdd7c156258429ed4e8bcf52b4f369fb5e2cbfa495c942"
+}

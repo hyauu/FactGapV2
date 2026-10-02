@@ -1,0 +1,36 @@
+{
+  "schema_version": "phase1_scoring.pre_amendment_archive.v1",
+  "archived_at": "2026-09-26T02:21:41.527702+00:00",
+  "files": [
+    {
+      "path": "confirmatory_report.md",
+      "bytes": 1916,
+      "sha256": "17a835977107d32978ef9e0c39d3c95dcaea2ad5f200d430335be7c2daac12eb"
+    },
+    {
+      "path": "integrity_blocked_report.md",
+      "bytes": 444,
+      "sha256": "12a2a2d718ab5875a8456ad032b7f47fcaedc8ab9b1e1aeb0357924f32efd8ff"
+    },
+    {
+      "path": "result_summary.json",
+      "bytes": 915,
+      "sha256": "ae91e0455ae6f22dd205fb54a882a8feb7f4bcd754806a791112abc36a545943"
+    },
+    {
+      "path": "scoring_protocol_lock.md",
+      "bytes": 1106,
+      "sha256": "c94e3e879e8e492d0c130982de3a396d400846100439177e0453a5f091726321"
+    },
+    {
+      "path": "postfreeze_sensitivity.md",
+      "bytes": 637,
+      "sha256": "c350cc43acdecc14654e0681b39c151f0317605b27aa8429d3447d8dd248df1b"
+    },
+    {
+      "path": "deviation_log.md",
+      "bytes": 554,
+      "sha256": "9f3d6b4e9e44d5f4638eb5d2ffd707824adb76ba26c2b69222b85b5d7b8b8ca6"
+    }
+  ]
+}

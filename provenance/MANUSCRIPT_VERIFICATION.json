@@ -1,0 +1,565 @@
+{
+  "status": "PASS",
+  "manuscript_PDF_SHA256": "7ca65620883182f5b05cd25916fe010c94c8551a40d40064461c2a3043848fa8",
+  "manuscript_pages": 8,
+  "main_tex_SHA256": "d20762a118386bffdb43aa53ae369afe3c41fa776644eed7d6637e8cd810b354",
+  "labels_checked": 12,
+  "checks": {
+    "tab:alignment": {
+      "status": "PASS",
+      "rows": [
+        [
+          "BM25",
+          "0/24/0",
+          "0/0/24",
+          "24/0/0",
+          "12/12"
+        ],
+        [
+          "BGE-small",
+          "1/23/0",
+          "15/9/0",
+          "24/0/0",
+          "12/12"
+        ],
+        [
+          "E5-small",
+          "0/24/0",
+          "14/10/0",
+          "24/0/0",
+          "11/12"
+        ],
+        [
+          "MiniLM CE",
+          "3/21/0",
+          "13/11/0",
+          "24/0/0",
+          "12/12"
+        ]
+      ]
+    },
+    "tab:margins": {
+      "status": "PASS",
+      "full_precision_source_used": true,
+      "rows": [
+        [
+          "BM25",
+          "-2.813411",
+          "0.000000",
+          "+2.813411",
+          "+5.626821",
+          "+2.813411",
+          "+2.813411"
+        ],
+        [
+          "BGE-small",
+          "-0.038369",
+          "+0.008481",
+          "+0.050743",
+          "+0.089112",
+          "+0.046850",
+          "+0.042262"
+        ],
+        [
+          "E5-small",
+          "-0.030518",
+          "+0.005302",
+          "+0.036033",
+          "+0.066552",
+          "+0.035820",
+          "+0.030731"
+        ],
+        [
+          "MiniLM CE",
+          "-1.179130",
+          "+0.081763",
+          "+1.513949",
+          "+2.693078",
+          "+1.260892",
+          "+1.432186"
+        ]
+      ]
+    },
+    "fig:alignment": {
+      "status": "PASS",
+      "block_curves_verified": 48,
+      "aggregate_curves_verified": 4,
+      "SVG_to_PDF_max_coordinate_difference": 4.999999998744897e-05,
+      "raw_margin_affine_plot_max_residual": 1.1226746607917448e-06,
+      "E5_exception_retained": true
+    },
+    "tab:boundary": {
+      "status": "PASS",
+      "rows": [
+        [
+          "BM25",
+          "0/24/0",
+          "0/0/24",
+          "0.0"
+        ],
+        [
+          "BGE-small",
+          "6/18/0",
+          "13/11/0",
+          "29.2"
+        ],
+        [
+          "E5-small",
+          "0/24/0",
+          "21/3/0",
+          "87.5"
+        ],
+        [
+          "MiniLM CE",
+          "3/21/0",
+          "20/4/0",
+          "70.8"
+        ]
+      ]
+    },
+    "tab:hosted": {
+      "status": "PASS",
+      "queries": 48,
+      "shared_boundary_inputs_byte_exact": true,
+      "logical_requests": 432,
+      "archived_attempts": 436,
+      "rows": [
+        [
+          "OpenAI archived config.",
+          "24/24",
+          "24/24",
+          "24/24",
+          "24/24"
+        ],
+        [
+          "Anthropic archived config.",
+          "24/24",
+          "24/24",
+          "24/24",
+          "24/24"
+        ],
+        [
+          "Google archived config.",
+          "24/24",
+          "24/24",
+          "24/24",
+          "24/24"
+        ]
+      ]
+    },
+    "tab:original": {
+      "status": "PASS",
+      "rows": [
+        [
+          "BGE-base",
+          "100.0",
+          "100.0",
+          "0.0",
+          "5.2",
+          "100.0",
+          "100.0",
+          "86.4",
+          "89.3"
+        ],
+        [
+          "E5-base",
+          "94.0",
+          "98.8",
+          "4.8",
+          "7.3",
+          "100.0",
+          "100.0",
+          "95.2",
+          "95.2"
+        ],
+        [
+          "Qwen3 embedding",
+          "96.2",
+          "98.6",
+          "2.6",
+          "3.8",
+          "100.0",
+          "100.0",
+          "92.4",
+          "90.7"
+        ],
+        [
+          "BGE reranker",
+          "100.0",
+          "100.0",
+          "1.2",
+          "3.6",
+          "100.0",
+          "100.0",
+          "75.7",
+          "69.8"
+        ],
+        [
+          "MiniLM cross-encoder",
+          "63.7",
+          "70.6",
+          "26.4",
+          "8.9",
+          "100.0",
+          "100.0",
+          "61.4",
+          "53.6"
+        ]
+      ]
+    },
+    "fig:temporal": {
+      "status": "PASS",
+      "series": 5,
+      "points": 20,
+      "source_rounding_decimals": 1,
+      "PDF_raw_value_affine_max_residual": 9.299999845779894e-07
+    },
+    "tab:endpoints": {
+      "status": "PASS",
+      "overall": "INCONCLUSIVE",
+      "supported": 0,
+      "endpoints": 7,
+      "rows": [
+        [
+          "R1: BGE-base",
+          "1.000",
+          "0.136",
+          "0.086",
+          "[-0.036,0.250]",
+          "Boundary degenerate"
+        ],
+        [
+          "R1: E5-base",
+          "0.893",
+          "0.048",
+          "-0.002",
+          "[-0.050,0.098]",
+          "Insufficient breadth"
+        ],
+        [
+          "R2: BGE reranker",
+          "0.988",
+          "0.243",
+          "0.143",
+          "[-0.026,0.333]",
+          "Inconclusive"
+        ],
+        [
+          "R2: MiniLM CE",
+          "0.736",
+          "0.386",
+          "0.286",
+          "[0.188,0.376]",
+          "Validity fail"
+        ],
+        [
+          "R3: BGE → BGE reranker",
+          "NA",
+          "0.235",
+          "NA",
+          "NA",
+          "Insufficient eligibility"
+        ],
+        [
+          "R3: BGE → MiniLM CE",
+          "NA",
+          "0.473",
+          "NA",
+          "NA",
+          "Insufficient eligibility"
+        ],
+        [
+          "R3: E5 → BGE reranker",
+          "1.000",
+          "0.258",
+          "0.208",
+          "[0.026,0.423]",
+          "Insufficient eligibility"
+        ]
+      ]
+    },
+    "tab:templates": {
+      "status": "PASS",
+      "rows": [
+        [
+          "T0",
+          "+66.7",
+          "+83.3",
+          "+83.3"
+        ],
+        [
+          "T1",
+          "+33.3",
+          "+83.3",
+          "+50.0"
+        ],
+        [
+          "T2",
+          "0.0",
+          "+83.3",
+          "+100.0"
+        ],
+        [
+          "T3",
+          "+16.7",
+          "+100.0",
+          "+50.0"
+        ]
+      ]
+    },
+    "tab:parser": {
+      "status": "PASS",
+      "rows": [
+        [
+          "BM25",
+          "0/16",
+          "0/16",
+          "0/32"
+        ],
+        [
+          "BGE-small",
+          "0/16",
+          "10/16",
+          "10/32"
+        ],
+        [
+          "E5-small",
+          "0/16",
+          "9/16",
+          "9/32"
+        ],
+        [
+          "MiniLM CE",
+          "0/16",
+          "6/16",
+          "6/32"
+        ]
+      ],
+      "query_coverage": "0/32",
+      "probes": 12,
+      "active_safety": "UNMEASURED"
+    },
+    "tab:examples": {
+      "status": "PASS",
+      "temporal_pair_id": "ttc-r1-relative_temporal-00-p0",
+      "temporal": "abridged actual corrected text",
+      "unit_and_boundary": "manuscript explanatory schematics; not verbatim scored data"
+    },
+    "tab:cohorts": {
+      "status": "PASS",
+      "cohorts": {
+        "ALIGN3": {
+          "queries": 72,
+          "blocks": 12,
+          "templates": 4
+        },
+        "original": {
+          "items": 147,
+          "families": 22,
+          "temporal": 80,
+          "unit": 67
+        },
+        "boundary": {
+          "queries": 48,
+          "blocks": 12,
+          "templates": 4
+        },
+        "hosted": {
+          "same_queries": 48,
+          "independent_new_dataset": false
+        },
+        "parser": {
+          "main": 32,
+          "blocks": 8,
+          "templates": 4,
+          "probes_separate": 12
+        }
+      }
+    }
+  },
+  "evidence": {
+    "tab:alignment": [
+      {
+        "release_path": "results/align3/condition_results.csv",
+        "sha256": "7409bce6e1137ed9fc19620e6ab174b8b197e48a1478563b91c17e62cbfc3149"
+      },
+      {
+        "release_path": "results/align3/block_results.csv",
+        "sha256": "fa1a140500a137abcaa12ca65656b9f7435b9a9beddec7581c6e2455a08a4d46"
+      },
+      {
+        "release_path": "results/align3/analysis/summary.json",
+        "sha256": "d4efb9b2513e214895df1e3e06e5032548cc9f7b85d635a80199968ede8b0220"
+      }
+    ],
+    "tab:margins": [
+      {
+        "release_path": "results/align3/condition_results.csv",
+        "sha256": "7409bce6e1137ed9fc19620e6ab174b8b197e48a1478563b91c17e62cbfc3149"
+      },
+      {
+        "release_path": "results/align3/paired_contrasts.csv",
+        "sha256": "aa802831689a2d776fe0c2f9c1a63f5fdb29fe42e5b400185aaa3bf4bd4b0218"
+      }
+    ],
+    "fig:alignment": [
+      {
+        "release_path": "paper/figures/operand_alignment.pdf",
+        "sha256": "231ad2be341ec1e49248027c6e30187eba4908dbc1f512414ff9b2d60429e009"
+      },
+      {
+        "release_path": "results/align3/analysis/ALIGN3_MARGIN.svg",
+        "sha256": "b5054441027d5ab73ae168098de2fe796ae9f1c8cd18e83fe790276e6d6aad6b"
+      },
+      {
+        "release_path": "results/align3/block_results.csv",
+        "sha256": "fa1a140500a137abcaa12ca65656b9f7435b9a9beddec7581c6e2455a08a4d46"
+      }
+    ],
+    "tab:boundary": [
+      {
+        "release_path": "results/boundary_expression/raw_control_scores.jsonl",
+        "sha256": "de036fd3f25287821e979f119b18efd1cfeaa64243ae7ce7e9acf5f68f93431d"
+      },
+      {
+        "release_path": "results/boundary_expression/control_condition_summary.csv",
+        "sha256": "3d8f576ebf40a600cd4630ae6d875592be1e704ff1dc6c3ed6bf3cfc5d3061d0"
+      },
+      {
+        "release_path": "configs/boundary_expression/CONTROL_SCORE_LOCK.json",
+        "sha256": "b673cea3392eb5779b2d6a6dcb189a50dc085c055167243b06bbef935482fc2f"
+      }
+    ],
+    "tab:hosted": [
+      {
+        "release_path": "results/hosted_boundary/CONDITION_SUMMARY.csv",
+        "sha256": "4283cc7cf7e85bb6a5c9b85b51230f23486972117af824fd0efc8bfde7d35871"
+      },
+      {
+        "release_path": "results/hosted_boundary/TASK_A_RESULTS.csv",
+        "sha256": "2969279891329de03075b33f4828e35ddeb311147b4d4f42ea6ef6834389b930"
+      },
+      {
+        "release_path": "results/hosted_boundary/TASK_B_RESULTS.csv",
+        "sha256": "24100ba82550e4770cbc278fdc986d674bcb69d266ee2aea471a70f309463199"
+      },
+      {
+        "release_path": "data/hosted_boundary/inputs/control_eval.jsonl",
+        "sha256": "89d0a955796408a8bc4126d45f7794b2421b5f98bbbbb1433048c8c89a483abe"
+      },
+      {
+        "release_path": "configs/hosted_boundary/STAGE3A_PROMPT_LOCK.json",
+        "sha256": "99f0acae88a0323488085291f1d537751924a9443ea2a09d3e52e2f38f7af8a9"
+      }
+    ],
+    "tab:original": [
+      {
+        "release_path": "results/original_corrected/sensitivity/reference_outputs/query_form_accuracy.csv",
+        "sha256": "be8ff574c54a70b3e19c40a586f52accc1d52b1647c763e9ec4e05eebbda287f"
+      },
+      {
+        "release_path": "results/original_corrected/corrected_raw_scores/retriever_scores.parquet",
+        "sha256": "4bd68f850946ba3d8ed890cab1a568f206ad0a8880208198cb22672b5e967cde"
+      },
+      {
+        "release_path": "results/original_corrected/corrected_raw_scores/reranker_controlled.parquet",
+        "sha256": "eba03382a0b2f0d2d6e12bb5a475ec534e6741b0096a2e70cc096d86c5c91dfd"
+      }
+    ],
+    "fig:temporal": [
+      {
+        "release_path": "paper/figures/original_temporal_compact.pdf",
+        "sha256": "f91a64acef5422f8fbaf124bbea4379d0a7cf423f43cbe72ac1534f29d05cddb"
+      },
+      {
+        "release_path": "paper/source_data/original_temporal_compact.csv",
+        "sha256": "93cc885ef920b76593eb7341bc0ed0b5ce3ed9363ce79710d8977a3d8b334723"
+      },
+      {
+        "release_path": "results/original_corrected/sensitivity/reference_outputs/query_form_accuracy.csv",
+        "sha256": "be8ff574c54a70b3e19c40a586f52accc1d52b1647c763e9ec4e05eebbda287f"
+      }
+    ],
+    "tab:endpoints": [
+      {
+        "release_path": "results/original_corrected/analysis/reference_outputs/primary_endpoints.csv",
+        "sha256": "60fcbefe59184d440fd57a212f750896021c5ea8430df2d520ba0607e65eea40"
+      },
+      {
+        "release_path": "results/original_corrected/analysis/reference_outputs/result_summary.json",
+        "sha256": "df14fd6e6899d2ee65a71dfeb9c8542889068239b2f431e47ec98590a673b101"
+      },
+      {
+        "release_path": "configs/original_corrected/analysis/two_type_primary_locked.yaml",
+        "sha256": "b5587b862b6750c978525f2dba952be1a804b319b553e15fe47917b9ec3a628e"
+      }
+    ],
+    "tab:templates": [
+      {
+        "release_path": "paper/source_data/boundary_template_gains.csv",
+        "sha256": "7a5c0d55f9e8cda8ce3f33d1eda12e08b9338d2f3c5a1d9507c8d8d133e13fff"
+      },
+      {
+        "release_path": "results/boundary_expression/control_template_contrasts.csv",
+        "sha256": "4302b973abb84321f8db44f614738b925928fb1672f860ff2987bd5503c6d53f"
+      }
+    ],
+    "tab:parser": [
+      {
+        "release_path": "results/parser_feasibility/raw_scores.jsonl",
+        "sha256": "56d584a7ce4f16647e3d9fd6d66dddd453d114f08fb3d4ecf78d4896569f7025"
+      },
+      {
+        "release_path": "data/parser_feasibility/constraint_decisions.jsonl",
+        "sha256": "052393b47ea5b8eff5a3e4b2b5c57342897588b8f2277967611427f2f4f1785c"
+      },
+      {
+        "release_path": "results/parser_feasibility/OVERALL_METRICS.json",
+        "sha256": "2c6e8aa2c8ccc81719dc0bfcf47fe4cef7b813435528e61243e541a835369047"
+      },
+      {
+        "release_path": "results/parser_feasibility/condition_summary.csv",
+        "sha256": "a3d1dcec4c05c06310f93019db70b592985f21a1eda6c77b262639bdcfe48c6d"
+      },
+      {
+        "release_path": "configs/parser_feasibility/LOCK_METADATA_CLARIFICATIONS.json",
+        "sha256": "d7a7c2ffb33cbab9cace0d379f8ef4702ccf0442a348e3f299da749407616092"
+      }
+    ],
+    "tab:examples": [
+      {
+        "release_path": "data/original_corrected/corrected_dataset/pairs.jsonl",
+        "sha256": "9fb9d1587a8d6283ca9780ab4bd3bebfcdea18703bd8407f8eb693ff83914d0c"
+      },
+      {
+        "release_path": "paper/main.tex",
+        "sha256": "d20762a118386bffdb43aa53ae369afe3c41fa776644eed7d6637e8cd810b354"
+      }
+    ],
+    "tab:cohorts": [
+      {
+        "release_path": "configs/align3/CONTROL_LOCK.json",
+        "sha256": "671532dc61e24568051610296ad232d4eaf1e9018ee87bb0b5a1a384d797becb"
+      },
+      {
+        "release_path": "configs/boundary_expression/CONTROL_SCORE_LOCK.json",
+        "sha256": "b673cea3392eb5779b2d6a6dcb189a50dc085c055167243b06bbef935482fc2f"
+      },
+      {
+        "release_path": "configs/hosted_boundary/STAGE3A_INPUT_LOCK.json",
+        "sha256": "c8a877627c32fa3c628f67177ab7c9a8d379b5b50c7b48ffc57152db8015ab36"
+      },
+      {
+        "release_path": "configs/parser_feasibility/INPUT_MODEL_SCORE_LOCK.json",
+        "sha256": "fd15ec9c87665f28b81b4ffc1de28294a726706d4d6292cb1b8ff2bb492b4654"
+      },
+      {
+        "release_path": "data/original_corrected/corrected_dataset/families.jsonl",
+        "sha256": "85a34f3cc45c382ec843cbb61daa382b9d19992e3001db97b3f7920752664414"
+      }
+    ]
+  },
+  "model_calls": 0,
+  "API_calls": 0,
+  "manuscript_modified": false
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "factgap.round4.score_semantics_correction.v1",
+  "status": "ACTIVE_METADATA_CORRECTION",
+  "source_manifest": "corrected_scores/raw/run_manifest.json",
+  "source_manifest_sha256": "f80c04200ba03eef01a0c21fa63f2687397e9c15a3f8bdd327cbc948e828df52",
+  "affected_json_pointer": "/models/bge-reranker/inference/score",
+  "historical_label": "raw_logit",
+  "corrected_label": "sigmoid_probability",
+  "raw_model_output": "one_logit_cross_encoder_output",
+  "postprocessing": "SentenceTransformers checkpoint sigmoid activation for a one-label model",
+  "stored_dtype": "float32",
+  "authoritative_human_readable_record": "locks/score_semantics.md",
+  "authoritative_record_sha256": "8b8d5aacd1fccb752a15e68235128317fc06e8be8ac0813fdb65287092692eff",
+  "effects": {
+    "stored_values_changed": false,
+    "rankings_changed": false,
+    "tie_decisions_changed": false,
+    "primary_decisions_changed": false,
+    "new_model_inference": false
+  },
+  "note": "The frozen run manifest is preserved byte-for-byte as provenance. This companion record supersedes only its BGE score label."
+}

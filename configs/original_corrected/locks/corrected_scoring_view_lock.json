@@ -1,0 +1,31 @@
+{
+  "schema_version": "factgap.corrective.scoring_view_lock.v1",
+  "sealed_at": "2026-09-26T17:37:14.236852+00:00",
+  "status": "SEALED_PRE_INFERENCE",
+  "source_frozen_dataset": "data/phase1/frozen/TWO_TYPE_CONFIRMATORY_R1",
+  "corrected_scoring_view": "data/phase1/corrective_role_neutral/TWO_TYPE_CONFIRMATORY_R1",
+  "source_freeze_manifest_sha256": "8ab3a04bd99a27cf1f95634fa68f129035dc9021b81e64ed58108e29085756ac",
+  "accepted_item_count": 147,
+  "accepted_ids_sha256": "24ce31a749a54e17a5814c58b3f1c82823f4f931cfa89ef1b7d9af83b610b2f9",
+  "family_count": 22,
+  "transformation_counts": {
+    "relative_temporal": 80,
+    "unit_normalization_clean": 67
+  },
+  "queries_unchanged": true,
+  "semantic_facts_unchanged": true,
+  "corpora_membership_and_order_unchanged": true,
+  "authorized_change": "deterministic removal/neutralization of model-visible internal role/type identifiers only",
+  "scoring_lock_sha256": "e2d5baccb4286564f091473eb6aecde0aa1b468ae52bfe45d81db1fd1abe34d3",
+  "model_lock_sha256": "426cb676b0e6f8078f370405717911927659fb1b1840c0694d54cfcacc9f2d8b",
+  "analysis_amendment_sha256": "f2175f79247548eb51e1c00a9355b5e92c8aaf853a0b238ad0bcf65733a3f985",
+  "hashes": {
+    "queries_sha256": "163a1d4f12a2f02e24f770dc2c2a7045172f25c74ba71acbae504216e61bfd70",
+    "passages_sha256": "03ccaacbce90cb7d8ebd291a39c263a62eba7e578e079e0533d11feff217f2ec",
+    "distractors_sha256": "3e69eac8ce42bf6f1bb8f5fae56f6db954e9987d9482d30d6e90f2202b3b2276",
+    "pairs_jsonl_sha256": "9fb9d1587a8d6283ca9780ab4bd3bebfcdea18703bd8407f8eb693ff83914d0c",
+    "documents_jsonl_sha256": "52de8b5371a8c05eb66cf5a68b614c57ad1270c8d8386137c3509a9a7be231e4",
+    "corpora_jsonl_sha256": "304df1dbb9c44b739e4b6f60b1304db0b7d67e5395fcf696e2903820016857db"
+  },
+  "model_inference_started": false
+}

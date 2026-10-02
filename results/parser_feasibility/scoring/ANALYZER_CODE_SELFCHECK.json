@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic transport/aggregation fixture; all scores, semantic labels and method decisions are explicit test stubs, not research evidence",
+  "research_files_read": 0,
+  "real_method_calls": 0,
+  "model_calls": 0,
+  "API_calls": 0,
+  "synthetic_stub_rerank_computations": 704,
+  "synthetic_decision_rows": 352,
+  "synthetic_condition_rows": 24,
+  "synthetic_main_coverage_rows": 128,
+  "synthetic_probe_rows": 144,
+  "byte_identical_replay": true,
+  "analyzer_sha256": "48a8da5cf4ae2a4fe12f74b050c3701160eb0ca7924fbd848f711bee7c9ccdd2",
+  "fixture_code_sha256": "ad724290b6ddac337860b3f7516493b89a02bbc3153e4d8b7ce60c472bd38f61",
+  "derived_synthetic_hashes": {
+    "condition_summary.csv": "09ed14aed31450492645bd2df5e88f18bda4a892472980e5d76997e476249414",
+    "coverage_harm_and_probe_results.csv": "c039123cd0028d4cb991a17f395efb5afd4ecd59098d05511156c044acd9a63e",
+    "block_template_transitions.csv": "7a0d0bb68ffb1a0c3d6c3f492f459936c9fe38b0ddd50d2d6e6d9baf12453567",
+    "OVERALL_METRICS.json": "4f1235530e6db2c4b12c9900286a45fecb306acef5e63b537a6dd58060581474",
+    "M2_DECISIONS.jsonl": "0b8cfd423a0904180c76f8ce2a40ff64b26791e50c358ae11d7bc10d5eb0c1cd"
+  }
+}

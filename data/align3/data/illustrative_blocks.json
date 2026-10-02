@@ -1,0 +1,62 @@
+[
+  {
+    "block_id": "example_one",
+    "candidates": [
+      "The cedar batch has an item count of 214.",
+      "The cedar batch has an item count of 231."
+    ],
+    "views": [
+      {
+        "view_id": "view_1",
+        "queries": [
+          "Find the record for the cedar batch whose item count is at least the result of 231 minus 34 and below the result of 216 plus 15.",
+          "Which record describes the cedar batch with an item count below the result of 216 plus 15 and at least the result of 231 minus 34?"
+        ]
+      },
+      {
+        "view_id": "view_2",
+        "queries": [
+          "Find the record for the cedar batch whose item count is at least the result of 222 minus 25 and below the result of 216 plus 15.",
+          "Which record describes the cedar batch with an item count below the result of 216 plus 15 and at least the result of 222 minus 25?"
+        ]
+      },
+      {
+        "view_id": "view_3",
+        "queries": [
+          "Find the record for the cedar batch whose item count is at least the result of 214 minus 17 and below the result of 216 plus 15.",
+          "Which record describes the cedar batch with an item count below the result of 216 plus 15 and at least the result of 214 minus 17?"
+        ]
+      }
+    ]
+  },
+  {
+    "block_id": "example_two",
+    "candidates": [
+      "The rowan batch has an item count of 198.",
+      "The rowan batch has an item count of 181."
+    ],
+    "views": [
+      {
+        "view_id": "view_1",
+        "queries": [
+          "Find the record for the rowan batch whose item count is greater than the result of 206 minus 25 and at most the result of 181 plus 35.",
+          "Which record describes the rowan batch with an item count at most the result of 181 plus 35 and greater than the result of 206 minus 25?"
+        ]
+      },
+      {
+        "view_id": "view_2",
+        "queries": [
+          "Find the record for the rowan batch whose item count is greater than the result of 206 minus 25 and at most the result of 190 plus 26.",
+          "Which record describes the rowan batch with an item count at most the result of 190 plus 26 and greater than the result of 206 minus 25?"
+        ]
+      },
+      {
+        "view_id": "view_3",
+        "queries": [
+          "Find the record for the rowan batch whose item count is greater than the result of 206 minus 25 and at most the result of 198 plus 18.",
+          "Which record describes the rowan batch with an item count at most the result of 198 plus 18 and greater than the result of 206 minus 25?"
+        ]
+      }
+    ]
+  }
+]

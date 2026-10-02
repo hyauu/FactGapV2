@@ -1,0 +1,144 @@
+{
+  "status": "READY_FOR_PROSPECTIVELY_LOCKED_INPUTS",
+  "created_at_utc": "2026-09-30T19:46:58.4940903Z",
+  "code_sha256": "5b4359995994aed50740235af4a9a1f4fc39bc9da49a13aa00489ecd5f14fd21",
+  "planned_models": 4,
+  "planned_logical_ranking_requests": 704,
+  "planned_candidate_score_rows": 1408,
+  "neutral_logical_ranking_requests": 16,
+  "research_queries_read": 0,
+  "research_scores_executed": 0,
+  "paid_API_calls": 0,
+  "downloads": 0,
+  "technical_scoring_retries": 0,
+  "models": [
+    {
+      "model": "bm25",
+      "status": "PASS",
+      "receipt_sha256": "747f4946b9373f5de580bebf447b129446eb325e8d7b186dfb01d24ab96922c6",
+      "resources_sha256": "91205e1ab56756397c62604fe9fd6102c5097d5325285341561d8ecace365610",
+      "device": "cpu",
+      "differences": {
+        "fresh_array_order_max_abs": 0.0,
+        "batch_vs_single_abs": 0.0,
+        "fresh_AA_max_abs": 0.0
+      },
+      "model_contract": {
+        "revision": "deterministic_bm25_v1",
+        "query_prefix": "",
+        "document_prefix": "",
+        "k1": 1.2,
+        "b": 0.75,
+        "corpus": "This Stage4A invocation locked visible corpus only; fixed across M0/M1",
+        "score": "BM25float64"
+      },
+      "python": "<LOCAL_HOME>\\Documents\\ChatGPT\\捉摸\\.venv\\Scripts\\python.exe",
+      "torch": null,
+      "transformers": null,
+      "RAM_fraction": 0.0007290603581173862,
+      "CUDA_peak_allocated_bytes": 0,
+      "CUDA_total_bytes": null,
+      "actual_model_forward_calls": 0,
+      "actual_model_sequence_occurrences": 0
+    },
+    {
+      "model": "bge_small",
+      "status": "PASS",
+      "receipt_sha256": "d430464541c3ad683198913dbd0a8accf04e165f1a5ec9e0d0cc4cfeee769e5c",
+      "resources_sha256": "460aacc2bb23bd5b848f65518b378fdea01ee286fa741c5076d1802a3a38b4fa",
+      "device": "cuda",
+      "differences": {
+        "fresh_array_order_max_abs": 0.0,
+        "batch_vs_single_abs": 5.960464477539063e-08,
+        "fresh_AA_max_abs": 0.0
+      },
+      "model_contract": {
+        "repo_id": "BAAI/bge-small-en-v1.5",
+        "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+        "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+        "dtype": "float32",
+        "max_tokens": 512,
+        "truncation": false,
+        "local_files_only": true,
+        "query_prefix": "Represent this sentence for searching relevant passages: ",
+        "document_prefix": "",
+        "pooling": "CLS L2-normalized",
+        "score": "unscaled cosine"
+      },
+      "python": "<LOCAL_HOME>\\Documents\\ChatGPT\\捉摸\\.venv\\Scripts\\python.exe",
+      "torch": "2.14.0+cu130",
+      "transformers": "5.17.0",
+      "RAM_fraction": 0.04383176984268457,
+      "CUDA_peak_allocated_bytes": 167342080,
+      "CUDA_total_bytes": 17066033152,
+      "actual_model_forward_calls": 8,
+      "actual_model_sequence_occurrences": 11
+    },
+    {
+      "model": "e5_small",
+      "status": "PASS",
+      "receipt_sha256": "f5bd2c39ab71d95296700f0939e15f86b2c2b4192839f15d1cc23931f326c084",
+      "resources_sha256": "2034f272cdc35553eac2c0c1c379105f57edd87cd5422b73be294c21c1ca2575",
+      "device": "cuda",
+      "differences": {
+        "fresh_array_order_max_abs": 0.0,
+        "batch_vs_single_abs": 1.1920928955078125e-07,
+        "fresh_AA_max_abs": 0.0
+      },
+      "model_contract": {
+        "repo_id": "intfloat/e5-small-v2",
+        "revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+        "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52",
+        "dtype": "float32",
+        "max_tokens": 512,
+        "truncation": false,
+        "local_files_only": true,
+        "query_prefix": "query: ",
+        "document_prefix": "passage: ",
+        "pooling": "masked mean L2-normalized",
+        "score": "unscaled cosine"
+      },
+      "python": "<LOCAL_HOME>\\Documents\\ChatGPT\\捉摸\\.venv\\Scripts\\python.exe",
+      "torch": "2.14.0+cu130",
+      "transformers": "5.17.0",
+      "RAM_fraction": 0.045428846647326264,
+      "CUDA_peak_allocated_bytes": 167409664,
+      "CUDA_total_bytes": 17066033152,
+      "actual_model_forward_calls": 8,
+      "actual_model_sequence_occurrences": 11
+    },
+    {
+      "model": "minilm_ce",
+      "status": "PASS",
+      "receipt_sha256": "05396c93b91e2c8e851d99d379b2d5cada5e742a998660f75ed4e5cfd37f518b",
+      "resources_sha256": "d30f41dd058638e906e2ee822a3ba17a60a29bb3c8a73c4261b100c4f5379d4b",
+      "device": "cuda",
+      "differences": {
+        "fresh_array_order_max_abs": 0.0,
+        "batch_vs_single_abs": 2.384185791015625e-07,
+        "fresh_AA_max_abs": 0.0
+      },
+      "model_contract": {
+        "repo_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+        "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+        "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a",
+        "dtype": "float32",
+        "max_tokens": 512,
+        "truncation": false,
+        "local_files_only": true,
+        "query_prefix": "",
+        "document_prefix": "",
+        "pooling": "raw one-output logit",
+        "score": "raw logit"
+      },
+      "python": "<LOCAL_HOME>\\Documents\\ChatGPT\\捉摸\\.venv\\Scripts\\python.exe",
+      "torch": "2.14.0+cu130",
+      "transformers": "5.17.0",
+      "RAM_fraction": 0.03699072287528183,
+      "CUDA_peak_allocated_bytes": 125061120,
+      "CUDA_total_bytes": 17066033152,
+      "actual_model_forward_calls": 4,
+      "actual_model_sequence_occurrences": 7
+    }
+  ]
+}

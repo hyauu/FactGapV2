@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"PASS\", \"query_toy_fixtures\": 8, \"metadata_independence\": true, \"candidate_order_mapping\": true, \"irrelevant_numbers_not_count_values\": true, \"subject_property_unit_negation_fallback\": true, \"boundary_and_exact_arithmetic\": true, \"both_or_neither_satisfying_preserves_base_and_tie\": true, \"M1_preserves_full_query_outside_arithmetic_spans\": true}\n",
+  "stderr": "",
+  "material_campaign": 1,
+  "reason": "Before method lock: query count is at least uses bare copula; optional-copula regex wiring corrected. No new eval exists, no result tuning."
+}

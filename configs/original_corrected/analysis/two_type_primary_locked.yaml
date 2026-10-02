@@ -1,0 +1,29 @@
+schema_version: factgap.two_type_primary_locked.v1
+sealed_amendment_sha256: f2175f79247548eb51e1c00a9355b5e92c8aaf853a0b238ad0bcf65733a3f985
+tie_epsilon: 1.0e-8
+bootstrap:
+  method: transformation-stratified family-cluster percentile bootstrap
+  seed: 1729
+  replicates: 50000
+  ordinary_quantiles: [0.025, 0.975]
+  simultaneous_quantiles: [0.0035714285714285718, 0.9964285714285714]
+endpoints:
+  - {endpoint: R1-BGE, claim: R1, model_or_pipeline: bge-base, tau: 0.05}
+  - {endpoint: R1-E5, claim: R1, model_or_pipeline: e5-base, tau: 0.05}
+  - {endpoint: R2-BGE-reranker, claim: R2, model_or_pipeline: bge-reranker, tau: 0.10}
+  - {endpoint: R2-legacy-cross-encoder, claim: R2, model_or_pipeline: legacy-cross-encoder, tau: 0.10}
+  - {endpoint: R3-BGE_to_BGE-reranker, claim: R3, model_or_pipeline: bge-base->bge-reranker, tau: 0.05}
+  - {endpoint: R3-BGE_to_legacy-cross-encoder, claim: R3, model_or_pipeline: bge-base->legacy-cross-encoder, tau: 0.05}
+  - {endpoint: R3-E5_to_BGE-reranker, claim: R3, model_or_pipeline: e5-base->bge-reranker, tau: 0.05}
+gates:
+  validity_min_d0_accuracy_each_type: 0.90
+  breadth_min_affected_families_each_type: 3
+  breadth_min_affected_families_total: 6
+  r3_min_initially_correct: 50
+  r3_min_eligible_families_total: 20
+  r3_max_undefined_bootstrap_fraction: 0.01
+global_decision_mapping: >-
+  SUPPORTED iff both R1 endpoints pass and either both R2 endpoints or all three R3 endpoints pass;
+  NOT_SUPPORTED iff every type-specific simultaneous upper bound for all seven endpoints is at or below
+  its locked threshold and no endpoint is boundary-degenerate, insufficient-eligibility, incomplete, or
+  integrity-blocked; otherwise INCONCLUSIVE.

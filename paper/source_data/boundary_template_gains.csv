@@ -1,0 +1,5 @@
+template,BGE_small_success_gain,E5_small_success_gain,MiniLM_success_gain,queries_per_condition
+T0,4,5,5,6
+T1,2,5,3,6
+T2,0,5,6,6
+T3,1,6,3,6

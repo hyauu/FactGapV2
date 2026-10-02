@@ -1,0 +1,82 @@
+[
+  {
+    "cohort": "align3",
+    "manifest": "FINAL_MANIFEST.json",
+    "sha256": "004ad4aaf4751cd502be5f70d1dcf6b48e066ed6deec39c6ba6c031f87280440",
+    "files_checked": 223,
+    "status": "PASS",
+    "failures": []
+  },
+  {
+    "cohort": "align3",
+    "manifest": "CONTROL_LOCK.json",
+    "sha256": "c3a1bc960c8a0ee37834ccdfc612b0df4a94fe2b7ef23d50f1e50738359cea99",
+    "files_checked": 164,
+    "status": "PASS",
+    "failures": []
+  },
+  {
+    "cohort": "boundary_expression",
+    "manifest": "FINAL_MANIFEST.sha256",
+    "sha256": "cd7dd28914bd434a157dae92707b93d803b584ccd73b427c4e45b6578d7f1db1",
+    "files_checked": 231,
+    "status": "PASS",
+    "failures": []
+  },
+  {
+    "cohort": "boundary_expression",
+    "manifest": "CONTROL_SCORE_LOCK.json",
+    "sha256": "5848e1ba7792a0ad73f158139f3603f91dfadc313535db9563a486e1b56b1e5c",
+    "files_checked": 120,
+    "status": "PASS",
+    "failures": []
+  },
+  {
+    "cohort": "hosted_boundary",
+    "manifest": "FINAL_MANIFEST.sha256",
+    "sha256": "0884eb12ad177d0775b52a08168859abb9194feffc5e9cf69b40d5ea4c320a7d",
+    "files_checked": 83,
+    "status": "PASS",
+    "failures": []
+  },
+  {
+    "cohort": "hosted_boundary",
+    "manifest": "STAGE3A_PROMPT_LOCK.json",
+    "sha256": "99f0acae88a0323488085291f1d537751924a9443ea2a09d3e52e2f38f7af8a9",
+    "files_checked": 19,
+    "status": "PASS",
+    "failures": []
+  },
+  {
+    "cohort": "parser_feasibility",
+    "manifest": "FINAL_MANIFEST.sha256",
+    "sha256": "35029e32109a72d2532bdcce84617ed9cd22532dc361fdd92bee252deb5248da",
+    "files_checked": 134,
+    "status": "PASS",
+    "failures": []
+  },
+  {
+    "cohort": "parser_feasibility",
+    "manifest": "INPUT_MODEL_SCORE_LOCK.json",
+    "sha256": "bccdcc29354667b33da8210123a191c7c6a7a0d4c41a1d9d5d88daaf26868f43",
+    "files_checked": 22,
+    "status": "PASS",
+    "failures": []
+  },
+  {
+    "cohort": "parser_feasibility",
+    "manifest": "METHOD_AND_SCOPE_LOCK.json",
+    "sha256": "baac3fed7c6b8ca28bab6427cd16e0ab782e338910a99040406124573a0cadb2",
+    "files_checked": 2,
+    "status": "PASS",
+    "failures": []
+  },
+  {
+    "cohort": "original_corrected",
+    "manifest": "legacy_zip_MANIFEST.sha256",
+    "sha256": "178fc7596a1eec5f5684956e0cfca493960289d9552492cec5d56583b7c26269",
+    "files_checked": 92,
+    "status": "PASS",
+    "failures": []
+  }
+]

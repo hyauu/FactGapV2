@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "queries": 48,
+  "model_query_results": 192,
+  "logical_requests": 384,
+  "raw_score_rows": 768,
+  "cached_rows_independently_joined": 384,
+  "all_payload_text_revision_and_cache_hashes_verified": true,
+  "maximum_order_margin_difference": 0,
+  "token_trace_lengths_and_hash_format_verified": true,
+  "technical_failures": 0,
+  "created_at_utc": "2026-09-30T10:12:40.588092+00:00",
+  "raw_combined_sha256": "de036fd3f25287821e979f119b18efd1cfeaa64243ae7ce7e9acf5f68f93431d",
+  "output_hashes": {
+    "control_query_metrics.jsonl": "f026ebf673d11a28860e0812af8332ea37e365006c92711eec43ba91c03382df",
+    "control_condition_summary.csv": "3d8f576ebf40a600cd4630ae6d875592be1e704ff1dc6c3ed6bf3cfc5d3061d0",
+    "control_template_summary.csv": "2fb13810b35df3a15a94cd114916bc6d6b4ea99dc20350a855b4ddbebd2f1c99",
+    "control_paired_contrasts.csv": "791fe86678c155c22652cacec98917f1b481ccd9f2df52ea076bd229d032f198",
+    "control_block_contrasts.csv": "cc41cee406a994a8cbe0b0d43dcb7d4cfc8478b2f1dc1939f0185338ee5e56c2",
+    "control_template_contrasts.csv": "4302b973abb84321f8db44f614738b925928fb1672f860ff2987bd5503c6d53f",
+    "control_loto_summary.csv": "f162d256a9d2649f2ed900d018b6892f3ded65699e46a067823d4ee94d1c2b6a"
+  }
+}

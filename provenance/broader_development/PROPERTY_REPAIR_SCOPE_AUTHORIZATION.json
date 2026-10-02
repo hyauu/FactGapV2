@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-09-30T06:48:30.163393+00:00",
+  "accepted_by": "root",
+  "root_causes": [
+    "temporal_stamp_date_property_ambiguity",
+    "arithmetic_filed_amount_item_count_ambiguity"
+  ],
+  "C_issue_ids": [
+    "full-semantic-0007",
+    "full-semantic-0006",
+    "full-semantic-0003",
+    "full-semantic-0005",
+    "full-semantic-0004",
+    "full-semantic-0008",
+    "full-design-0006",
+    "full-design-0002",
+    "full-design-0001"
+  ],
+  "affected_blocks": [
+    "EVAL-ARITHMETIC-2-0",
+    "EVAL-ARITHMETIC-2-1",
+    "EVAL-ARITHMETIC-2-2",
+    "EVAL-TEMPORAL-2-0",
+    "EVAL-TEMPORAL-2-1",
+    "EVAL-TEMPORAL-2-2"
+  ],
+  "explicit_ambiguity_evidenced": true,
+  "whole_template_scope_not_selected_by_model_results": true,
+  "material_campaign_stage22": 4,
+  "repair_attempt_per_root_cause": 1,
+  "post_score_correction_campaign": 1,
+  "new_generated_blocks_reserved": 6,
+  "new_logical_ranking_requests_reserved": 960,
+  "proposed_correction": "Make temporal query and candidate property explicitly recorded calendar year; make every arithmetic style2 candidate explicitly filed item count/items. Preserve integers, expressions, labels, IDs, factor allocation and all unaffected blocks.",
+  "C_evidence_hashes": {
+    "full_semantic_C_CURRENT_RESOLUTION.json": "b8d999eedf251ef6d25bf59c5428318a11981d6583e9d1c486acc1121b3d2d6c",
+    "full_design_C_RESOLUTION.json": "9ca1a348fe89a9e731bd3827c2621ff845c4b867045adf1743a7b9e03bf7adbf",
+    "FULL_DESIGN_C1_OUTPUTS_SEALED.json": "db675100b725cae812ef894229e3a3d5dd9948a18c0cad0bab343393396ff5cb"
+  }
+}

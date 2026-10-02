@@ -1,0 +1,440 @@
+{
+  "schema_version": "phase1_scoring.corrective_result_summary.v1",
+  "created_at": "2026-09-26T18:28:47.935160+00:00",
+  "status": "INCONCLUSIVE",
+  "bootstrap": {
+    "method": "family-clustered within retained transformation type",
+    "replicates": 50000,
+    "seed": 1729,
+    "primary_quantiles": [
+      0.0035714285714285718,
+      0.9964285714285714
+    ]
+  },
+  "accepted_item_count": 147,
+  "family_count": 22,
+  "c0_equals_d0": true,
+  "c0_score_source": "D0",
+  "endpoints": [
+    {
+      "endpoint": "R1-BGE",
+      "claim": "R1",
+      "model_or_pipeline": "bge-base",
+      "tau": 0.05,
+      "status": "BOUNDARY_DEGENERATE",
+      "gates": {
+        "validity": true,
+        "breadth": true
+      },
+      "counts": {
+        "d0_accuracy": {
+          "relative_temporal": 1.0,
+          "unit_normalization_clean": 1.0
+        },
+        "affected_families": {
+          "relative_temporal": 12,
+          "unit_normalization_clean": 5
+        },
+        "affected_families_total": 17,
+        "n": 147
+      },
+      "type_estimates": {
+        "relative_temporal": 1.0,
+        "unit_normalization_clean": 0.13571428571428573
+      },
+      "type_ci95": {
+        "relative_temporal": [
+          1.0,
+          1.0
+        ],
+        "unit_normalization_clean": [
+          0.04285714285714286,
+          0.2571428571428571
+        ]
+      },
+      "type_simultaneous": {
+        "relative_temporal": [
+          1.0,
+          1.0
+        ],
+        "unit_normalization_clean": [
+          0.014285714285714285,
+          0.3
+        ]
+      },
+      "joint_estimate": 0.08571428571428573,
+      "joint_ci95": [
+        -0.007142857142857145,
+        0.20714285714285713
+      ],
+      "joint_simultaneous": [
+        -0.03571428571428572,
+        0.25
+      ],
+      "invalid_bootstrap_fraction": 0.0,
+      "boundary_degenerate": true,
+      "boundary_degenerate_types": [
+        "relative_temporal"
+      ]
+    },
+    {
+      "endpoint": "R1-E5",
+      "claim": "R1",
+      "model_or_pipeline": "e5-base",
+      "tau": 0.05,
+      "status": "INSUFFICIENT_BREADTH",
+      "gates": {
+        "validity": true,
+        "breadth": false
+      },
+      "counts": {
+        "d0_accuracy": {
+          "relative_temporal": 0.9404761904761904,
+          "unit_normalization_clean": 1.0
+        },
+        "affected_families": {
+          "relative_temporal": 12,
+          "unit_normalization_clean": 2
+        },
+        "affected_families_total": 14,
+        "n": 147
+      },
+      "type_estimates": {
+        "relative_temporal": 0.8928571428571428,
+        "unit_normalization_clean": 0.047619047619047616
+      },
+      "type_ci95": {
+        "relative_temporal": [
+          0.8095238095238094,
+          0.9642857142857144
+        ],
+        "unit_normalization_clean": [
+          0.0,
+          0.12380952380952379
+        ]
+      },
+      "type_simultaneous": {
+        "relative_temporal": [
+          0.7738095238095237,
+          0.9880952380952381
+        ],
+        "unit_normalization_clean": [
+          0.0,
+          0.14761904761904762
+        ]
+      },
+      "joint_estimate": -0.0023809523809523864,
+      "joint_ci95": [
+        -0.05,
+        0.07380952380952378
+      ],
+      "joint_simultaneous": [
+        -0.05,
+        0.09761904761904762
+      ],
+      "invalid_bootstrap_fraction": 0.0,
+      "boundary_degenerate": false,
+      "boundary_degenerate_types": []
+    },
+    {
+      "endpoint": "R2-BGE-reranker",
+      "claim": "R2",
+      "model_or_pipeline": "bge-reranker",
+      "tau": 0.1,
+      "status": "INCONCLUSIVE",
+      "gates": {
+        "validity": true,
+        "breadth": true
+      },
+      "counts": {
+        "d0_accuracy": {
+          "relative_temporal": 1.0,
+          "unit_normalization_clean": 1.0
+        },
+        "failure_families": {
+          "relative_temporal": 12,
+          "unit_normalization_clean": 7
+        },
+        "failure_families_total": 19,
+        "n": 147
+      },
+      "type_estimates": {
+        "relative_temporal": 0.9880952380952381,
+        "unit_normalization_clean": 0.24285714285714283
+      },
+      "type_ci95": {
+        "relative_temporal": [
+          0.9642857142857143,
+          1.0
+        ],
+        "unit_normalization_clean": [
+          0.11428571428571428,
+          0.3809523809523809
+        ]
+      },
+      "type_simultaneous": {
+        "relative_temporal": [
+          0.9523809523809524,
+          1.0
+        ],
+        "unit_normalization_clean": [
+          0.07413265306122452,
+          0.4333333333333333
+        ]
+      },
+      "joint_estimate": 0.14285714285714282,
+      "joint_ci95": [
+        0.014285714285714277,
+        0.28095238095238084
+      ],
+      "joint_simultaneous": [
+        -0.025867346938775487,
+        0.33333333333333326
+      ],
+      "invalid_bootstrap_fraction": 0.0,
+      "boundary_degenerate": false,
+      "boundary_degenerate_types": []
+    },
+    {
+      "endpoint": "R2-legacy-cross-encoder",
+      "claim": "R2",
+      "model_or_pipeline": "legacy-cross-encoder",
+      "tau": 0.1,
+      "status": "VALIDITY_FAIL",
+      "gates": {
+        "validity": false,
+        "breadth": true
+      },
+      "counts": {
+        "d0_accuracy": {
+          "relative_temporal": 0.6369047619047619,
+          "unit_normalization_clean": 1.0
+        },
+        "failure_families": {
+          "relative_temporal": 12,
+          "unit_normalization_clean": 10
+        },
+        "failure_families_total": 22,
+        "n": 147
+      },
+      "type_estimates": {
+        "relative_temporal": 0.7361111111111112,
+        "unit_normalization_clean": 0.3857142857142857
+      },
+      "type_ci95": {
+        "relative_temporal": [
+          0.6507936507936508,
+          0.8174603174603176
+        ],
+        "unit_normalization_clean": [
+          0.3142857142857142,
+          0.4523809523809524
+        ]
+      },
+      "type_simultaneous": {
+        "relative_temporal": [
+          0.6190476190476191,
+          0.8492063492063492
+        ],
+        "unit_normalization_clean": [
+          0.28809523809523807,
+          0.47619047619047616
+        ]
+      },
+      "joint_estimate": 0.2857142857142857,
+      "joint_ci95": [
+        0.21428571428571422,
+        0.35238095238095235
+      ],
+      "joint_simultaneous": [
+        0.18809523809523807,
+        0.3761904761904762
+      ],
+      "invalid_bootstrap_fraction": 0.0,
+      "boundary_degenerate": false,
+      "boundary_degenerate_types": []
+    },
+    {
+      "endpoint": "R3-BGE_to_BGE-reranker",
+      "claim": "R3",
+      "model_or_pipeline": "bge-base->bge-reranker",
+      "tau": 0.05,
+      "status": "INSUFFICIENT_ELIGIBILITY",
+      "gates": {
+        "eligibility": false,
+        "breadth": false,
+        "bootstrap_defined": false
+      },
+      "counts": {
+        "eligible_denominator": 58,
+        "eligible_families": 10,
+        "corruptions": 12,
+        "corruption_families": {
+          "relative_temporal": 0,
+          "unit_normalization_clean": 7
+        },
+        "corruption_families_total": 7,
+        "undefined_bootstrap_fraction": 1.0
+      },
+      "type_estimates": {
+        "relative_temporal": null,
+        "unit_normalization_clean": 0.2345238095238095
+      },
+      "type_ci95": {
+        "relative_temporal": [
+          null,
+          null
+        ],
+        "unit_normalization_clean": [
+          0.10952380952380954,
+          0.37261904761904757
+        ]
+      },
+      "type_simultaneous": {
+        "relative_temporal": [
+          null,
+          null
+        ],
+        "unit_normalization_clean": [
+          0.07261904761904761,
+          0.4243239795918357
+        ]
+      },
+      "joint_estimate": null,
+      "joint_ci95": [
+        null,
+        null
+      ],
+      "joint_simultaneous": [
+        null,
+        null
+      ],
+      "invalid_bootstrap_fraction": 1.0,
+      "boundary_degenerate": false,
+      "boundary_degenerate_types": []
+    },
+    {
+      "endpoint": "R3-BGE_to_legacy-cross-encoder",
+      "claim": "R3",
+      "model_or_pipeline": "bge-base->legacy-cross-encoder",
+      "tau": 0.05,
+      "status": "INSUFFICIENT_ELIGIBILITY",
+      "gates": {
+        "eligibility": false,
+        "breadth": false,
+        "bootstrap_defined": false
+      },
+      "counts": {
+        "eligible_denominator": 58,
+        "eligible_families": 10,
+        "corruptions": 26,
+        "corruption_families": {
+          "relative_temporal": 0,
+          "unit_normalization_clean": 10
+        },
+        "corruption_families_total": 10,
+        "undefined_bootstrap_fraction": 1.0
+      },
+      "type_estimates": {
+        "relative_temporal": null,
+        "unit_normalization_clean": 0.4726190476190476
+      },
+      "type_ci95": {
+        "relative_temporal": [
+          null,
+          null
+        ],
+        "unit_normalization_clean": [
+          0.3642857142857142,
+          0.5797619047619047
+        ]
+      },
+      "type_simultaneous": {
+        "relative_temporal": [
+          null,
+          null
+        ],
+        "unit_normalization_clean": [
+          0.32380952380952377,
+          0.6178571428571429
+        ]
+      },
+      "joint_estimate": null,
+      "joint_ci95": [
+        null,
+        null
+      ],
+      "joint_simultaneous": [
+        null,
+        null
+      ],
+      "invalid_bootstrap_fraction": 1.0,
+      "boundary_degenerate": false,
+      "boundary_degenerate_types": []
+    },
+    {
+      "endpoint": "R3-E5_to_BGE-reranker",
+      "claim": "R3",
+      "model_or_pipeline": "e5-base->bge-reranker",
+      "tau": 0.05,
+      "status": "INSUFFICIENT_ELIGIBILITY",
+      "gates": {
+        "eligibility": false,
+        "breadth": true,
+        "bootstrap_defined": false
+      },
+      "counts": {
+        "eligible_denominator": 68,
+        "eligible_families": 13,
+        "corruptions": 19,
+        "corruption_families": {
+          "relative_temporal": 3,
+          "unit_normalization_clean": 7
+        },
+        "corruption_families_total": 10,
+        "undefined_bootstrap_fraction": 0.03208
+      },
+      "type_estimates": {
+        "relative_temporal": 1.0,
+        "unit_normalization_clean": 0.2583333333333333
+      },
+      "type_ci95": {
+        "relative_temporal": [
+          1.0,
+          1.0
+        ],
+        "unit_normalization_clean": [
+          0.11904761904761903,
+          0.4119047619047619
+        ]
+      },
+      "type_simultaneous": {
+        "relative_temporal": [
+          1.0,
+          1.0
+        ],
+        "unit_normalization_clean": [
+          0.07619047619047618,
+          0.4726190476190476
+        ]
+      },
+      "joint_estimate": 0.20833333333333331,
+      "joint_ci95": [
+        0.06904761904761902,
+        0.3619047619047619
+      ],
+      "joint_simultaneous": [
+        0.02619047619047618,
+        0.4226190476190476
+      ],
+      "invalid_bootstrap_fraction": 0.03208,
+      "boundary_degenerate": true,
+      "boundary_degenerate_types": [
+        "relative_temporal"
+      ]
+    }
+  ],
+  "supported_endpoints": [],
+  "generator_run": false,
+  "answer_generator_run": false
+}

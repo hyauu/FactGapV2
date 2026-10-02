@@ -1,0 +1,72 @@
+{
+  "status": "VERIFIED_READY_FOR_GITHUB_UPLOAD",
+  "prepared_utc": "2026-10-02T07:55:48.316305+00:00",
+  "visibility_requested": "public",
+  "version": "0.1.0",
+  "scientific_sources_unchanged": 362,
+  "exact_manuscript_sha256": "7ca65620883182f5b05cd25916fe010c94c8551a40d40064461c2a3043848fa8",
+  "new_model_calls": 0,
+  "new_API_calls": 0,
+  "new_reviews": 0,
+  "license_downloads": [
+    {
+      "file": "LICENSES/CC-BY-4.0.txt",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "file": "LICENSES/CC-BY-SA-4.0.txt",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    }
+  ],
+  "git_metadata_excluded_from_payload": true,
+  "checks": {
+    "offline_replay": {
+      "status": "PASS",
+      "cohorts": {
+        "align3": {
+          "status": "PASS"
+        },
+        "boundary_expression": {
+          "status": "PASS"
+        },
+        "hosted_boundary": {
+          "status": "PASS"
+        },
+        "parser_feasibility": {
+          "status": "PASS"
+        },
+        "original_corrected": {
+          "status": "PASS"
+        }
+      },
+      "model_calls": 0,
+      "API_calls": 0,
+      "network_attempts": []
+    },
+    "manuscript": {
+      "status": "PASS",
+      "display_labels": 12,
+      "pages": 8,
+      "Figure_1_block_curves": 48,
+      "Figure_2_points": 20
+    },
+    "archival_tests": {
+      "status": "PASS",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    "privacy_scan": {
+      "status": "PASS",
+      "files_checked": 398,
+      "findings": 0,
+      "scope": "repository_payload_excluding_git_metadata"
+    }
+  },
+  "completed_utc": "2026-10-02T08:00:49.340788+00:00",
+  "repository_url": "https://github.com/hyauu/FactGapV2",
+  "visibility_verified_at_creation": "public",
+  "source_candidate_unchanged": true
+}

@@ -1,0 +1,9 @@
+transformation_type,query_form,strict_accuracy,mean_margin,n
+relative_temporal,D0,1.0,2.1899009803417,80
+relative_temporal,D1,1.0,2.1899009803417,80
+relative_temporal,P0,0.0,-2.54424654190979,80
+relative_temporal,P1,0.0,-2.5442465419097906,80
+unit_normalization_clean,D0,1.0,1.5227410825769152,67
+unit_normalization_clean,D1,1.0,1.5227410825769152,67
+unit_normalization_clean,P0,0.0,0.0,67
+unit_normalization_clean,P1,0.0,0.0,67

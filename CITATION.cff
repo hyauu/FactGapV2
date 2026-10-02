@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these research artifacts, cite the accompanying manuscript. This edition is initially distributed through a private repository."
+title: "FactGap: A Controlled Paired-Ranking Diagnostic for Equivalent Query Reformulations"
+version: "0.1.0"
+authors:
+  - family-names: Qiu
+    given-names: Haoting
+    affiliation: "Independent Researcher, United States"
+  - family-names: Chen
+    given-names: Qibai
+    affiliation: "Independent Researcher, United States"
+repository-code: "https://github.com/hyauu/FactGapV2"
+url: "https://github.com/hyauu/FactGapV2"

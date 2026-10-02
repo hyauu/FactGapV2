@@ -1,0 +1,230 @@
+{
+  "schema_version": "phase1_scoring.scoring_lock.v2",
+  "created_at": "2026-09-26T02:21:41.538200+00:00",
+  "status": "SEALED_PRE_INFERENCE",
+  "frozen_dataset": "data/phase1/frozen/TWO_TYPE_CONFIRMATORY_R1",
+  "frozen_manifest_sha256": "8ab3a04bd99a27cf1f95634fa68f129035dc9021b81e64ed58108e29085756ac",
+  "accepted_item_count": 147,
+  "accepted_ids_sha256": "24ce31a749a54e17a5814c58b3f1c82823f4f931cfa89ef1b7d9af83b610b2f9",
+  "family_count": 22,
+  "transformation_counts": {
+    "relative_temporal": 80,
+    "unit_normalization_clean": 67
+  },
+  "confirmatory_types": [
+    "relative_temporal",
+    "unit_normalization_clean"
+  ],
+  "query_forms_inferred": [
+    "D0",
+    "D1",
+    "P0",
+    "P1"
+  ],
+  "c0_disposition": "alias_to_D0_no_independent_inference",
+  "c0_score_source": "D0",
+  "model_lock_sha256": "426cb676b0e6f8078f370405717911927659fb1b1840c0694d54cfcacc9f2d8b",
+  "models": {
+    "bge-base": {
+      "artifact_bytes": 438996469,
+      "artifact_file_count": 12,
+      "artifact_manifest_sha256": "33657de480e1a3ca9adca0889ddd8736ed5911ddf85f72f0970c848c00c81a58",
+      "inference": {
+        "adapter": "legacy_sentence_transformer",
+        "device": "cpu",
+        "document_prefix": "",
+        "dtype": "float32",
+        "max_length": 512,
+        "normalization": "l2",
+        "pooling": "checkpoint_sentence_transformer",
+        "query_prefix": "Represent this sentence for searching relevant passages: ",
+        "score": "cosine_dot_product"
+      },
+      "kind": "retriever",
+      "license": "MIT",
+      "license_url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+      "repository": "BAAI/bge-base-en-v1.5",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "snapshot_path": ".cache/huggingface/hub/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a"
+    },
+    "bge-reranker": {
+      "artifact_bytes": 1134410492,
+      "artifact_file_count": 8,
+      "artifact_manifest_sha256": "2982200db5831eaf983a109ea27a465a572d701ef0b5d0080e19b898320e39a9",
+      "inference": {
+        "adapter": "legacy_sentence_transformer_cross_encoder",
+        "device": "cpu",
+        "dtype": "float32",
+        "max_length": 512,
+        "score": "raw_logit",
+        "score_direction": "higher_is_better"
+      },
+      "kind": "reranker",
+      "license": "MIT",
+      "license_url": "https://huggingface.co/BAAI/bge-reranker-base",
+      "repository": "BAAI/bge-reranker-base",
+      "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+      "snapshot_path": ".cache/huggingface/hub/models--BAAI--bge-reranker-base/snapshots/2cfc18c9415c912f9d8155881c133215df768a70"
+    },
+    "e5-base": {
+      "artifact_bytes": 438969187,
+      "artifact_file_count": 11,
+      "artifact_manifest_sha256": "e6c22aa9bcb2260f50dfebc7c1ad31f4fe139920c98a15782c09bd659ad292a2",
+      "inference": {
+        "adapter": "legacy_sentence_transformer",
+        "device": "cpu",
+        "document_prefix": "passage: ",
+        "dtype": "float32",
+        "max_length": 512,
+        "normalization": "l2",
+        "pooling": "checkpoint_sentence_transformer",
+        "query_prefix": "query: ",
+        "score": "cosine_dot_product"
+      },
+      "kind": "retriever",
+      "license": "MIT",
+      "license_url": "https://huggingface.co/intfloat/e5-base-v2",
+      "repository": "intfloat/e5-base-v2",
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+      "snapshot_path": ".cache/huggingface/hub/models--intfloat--e5-base-v2/snapshots/f52bf8ec8c7124536f0efb74aca902b2995e5bcd"
+    },
+    "legacy-cross-encoder": {
+      "artifact_bytes": 91820221,
+      "artifact_file_count": 8,
+      "artifact_manifest_sha256": "f3cd2384462c021f3ae234e45ff64c212e7af49bf9dd31287ccaaf85fa01658c",
+      "inference": {
+        "adapter": "legacy_sentence_transformer_cross_encoder",
+        "device": "cpu",
+        "dtype": "float32",
+        "max_length": 512,
+        "score": "raw_logit",
+        "score_direction": "higher_is_better"
+      },
+      "kind": "reranker",
+      "license": "Apache-2.0",
+      "license_url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "repository": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "snapshot_path": ".cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a"
+    },
+    "qwen3-embedding": {
+      "artifact_bytes": 1207489041,
+      "artifact_file_count": 12,
+      "artifact_manifest_sha256": "e03d87c7671dc54caa7bf56dce98ce66ac6bd1be09d9ce1c9c310a463fa7b69e",
+      "inference": {
+        "adapter": "qwen3_embedding_official_transformers",
+        "device": "cuda",
+        "document_prefix": "",
+        "dtype": "float16",
+        "max_length": 512,
+        "normalization": "l2",
+        "pooling": "last_non_padding_token",
+        "query_format": "Instruct: {instruction}\n Query:{query}",
+        "query_instruction": "Given a web search query, retrieve relevant passages that answer the query",
+        "score": "cosine_dot_product"
+      },
+      "kind": "retriever",
+      "license": "Apache-2.0",
+      "license_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+      "repository": "Qwen/Qwen3-Embedding-0.6B",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "snapshot_path": ".cache/huggingface/hub/models--Qwen--Qwen3-Embedding-0.6B/snapshots/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+    },
+    "qwen3-reranker": {
+      "artifact_bytes": 1207485708,
+      "artifact_file_count": 11,
+      "artifact_manifest_sha256": "9e2405e027e7cc67536f6ff38d1cc6e59775ca63b715eeebf8473f389c0de43e",
+      "inference": {
+        "adapter": "qwen3_reranker_yes_no_forward_logits",
+        "device": "cuda",
+        "dtype": "float16",
+        "instruction": "Given a web search query, retrieve relevant passages that answer the query",
+        "max_length": 512,
+        "score": "softmax_yes_over_no_yes",
+        "score_direction": "higher_is_better",
+        "uses_generate": false
+      },
+      "kind": "reranker",
+      "license": "Apache-2.0",
+      "license_url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B",
+      "repository": "Qwen/Qwen3-Reranker-0.6B",
+      "revision": "fd9fb1d26c07223ced488065909faf522e29cc7d",
+      "snapshot_path": ".cache/huggingface/hub/models--Qwen--Qwen3-Reranker-0.6B/snapshots/fd9fb1d26c07223ced488065909faf522e29cc7d"
+    }
+  },
+  "retrievers": [
+    "bge-base",
+    "e5-base",
+    "qwen3-embedding"
+  ],
+  "rerankers": [
+    "bge-reranker",
+    "legacy-cross-encoder",
+    "qwen3-reranker"
+  ],
+  "primary_pipelines": [
+    "bge-base->bge-reranker",
+    "bge-base->legacy-cross-encoder",
+    "e5-base->bge-reranker"
+  ],
+  "retriever_top_k": 10,
+  "reranker_top_k": 10,
+  "tie_epsilon": 1e-08,
+  "bootstrap": {
+    "method": "transformation-stratified family-cluster percentile bootstrap",
+    "replicates": 50000,
+    "seed": 1729,
+    "ordinary_quantiles": [
+      0.025,
+      0.975
+    ],
+    "primary_quantiles": [
+      0.0035714285714285718,
+      0.9964285714285714
+    ]
+  },
+  "primary_endpoints": [
+    "R1-BGE",
+    "R1-E5",
+    "R2-BGE-reranker",
+    "R2-legacy-cross-encoder",
+    "R3-BGE_to_BGE-reranker",
+    "R3-BGE_to_legacy-cross-encoder",
+    "R3-E5_to_BGE-reranker"
+  ],
+  "thresholds": {
+    "R1": 0.05,
+    "R2": 0.1,
+    "R3": 0.05
+  },
+  "analysis_amendment_sha256": "f2175f79247548eb51e1c00a9355b5e92c8aaf853a0b238ad0bcf65733a3f985",
+  "analysis_config_sha256": "2c26e3ecd1784f58ba5f308391dfcb432da57d5d23d8ecb026c0709aeb2c64b2",
+  "protocol_sha256": "944d310ee458b8b5ef5c9087a92428b3c8a0897467521d50107e39f5cd98a234",
+  "execution_script_sha256": "fad76e75994fc6fbcc17b97779acf5cd181184d4968e8612294831fc3cedf731",
+  "seeds": {
+    "bootstrap": 1729,
+    "sensitivity": 57721
+  },
+  "device_policy": {
+    "bge-base": "cpu",
+    "bge-reranker": "cpu",
+    "e5-base": "cpu",
+    "legacy-cross-encoder": "cpu",
+    "qwen3-embedding": "cuda",
+    "qwen3-reranker": "cuda"
+  },
+  "dtype": {
+    "bge-base": "float32",
+    "bge-reranker": "float32",
+    "e5-base": "float32",
+    "legacy-cross-encoder": "float32",
+    "qwen3-embedding": "float16",
+    "qwen3-reranker": "float16"
+  },
+  "batch_sizes": {
+    "legacy": 32,
+    "qwen3_embedding": 16,
+    "qwen3_reranker": 8
+  },
+  "generator_enabled": false
+}

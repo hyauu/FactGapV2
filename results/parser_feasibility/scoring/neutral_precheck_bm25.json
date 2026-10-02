@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-09-30T19:42:59.062741+00:00",
+  "model_key": "bm25",
+  "identity": {
+    "status": "PASS",
+    "created_at_utc": "2026-09-30T19:42:59.060742+00:00",
+    "selected_identity_checks": [
+      {
+        "path": "<LOCAL_PROJECT>\\tools\\local_score.py",
+        "sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\source_and_model_locks\\model_local_lock.json",
+        "sha256": "3451c18753970ba63cc6be15c020e9002f2aad9eb2cda81cba4ddd3614abb255",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\stage22b\\runs\\stage22b_20260930T083944Z_49e9c6b3\\CONTROL_SCORE_LOCK.json",
+        "sha256": "5848e1ba7792a0ad73f158139f3603f91dfadc313535db9563a486e1b56b1e5c",
+        "matches": true
+      }
+    ],
+    "adapter_preflight_sha256": "5bd0cacb1c07122dfb7b3ad36557ea1f9794f1ae3287ac3fb249fd335975bf53",
+    "baseline_binding_sha256": "d820e69cfa6ccb036e665dd216349fa3c2a7a432fda36e5b2975828c635dfcae",
+    "resource_observer_sha256": "081516db49363bc2adfe7bcc3da55fceacf9aae3f01f60d84ca64667d86426a5",
+    "model_artifacts": [],
+    "model_contract": {
+      "revision": "deterministic_bm25_v1",
+      "query_prefix": "",
+      "document_prefix": "",
+      "k1": 1.2,
+      "b": 0.75,
+      "corpus": "This Stage4A invocation locked visible corpus only; fixed across M0/M1",
+      "score": "BM25float64"
+    },
+    "wrapper_sha256": "5b4359995994aed50740235af4a9a1f4fc39bc9da49a13aa00489ecd5f14fd21"
+  },
+  "environment": {
+    "python": "<LOCAL_HOME>\\Documents\\ChatGPT\\捉摸\\.venv\\Scripts\\python.exe",
+    "python_executable_exists": true,
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "local_only": true,
+    "paid_API_calls": 0,
+    "downloads": 0
+  },
+  "device": "cpu",
+  "neutral_query": "Find the passage about a silver lantern.",
+  "neutral_candidates": [
+    "A silver lantern is on the table.",
+    "A copper bucket is beside the door."
+  ],
+  "scores_forward_display": [
+    1.7509374747077997,
+    0.3646431135879092
+  ],
+  "scores_reverse_display": [
+    0.3646431135879092,
+    1.7509374747077997
+  ],
+  "scores_fresh_AA_display": [
+    1.7509374747077997,
+    0.3646431135879092
+  ],
+  "singleton_score": 1.7509374747077997,
+  "differences": {
+    "fresh_array_order_max_abs": 0.0,
+    "batch_vs_single_abs": 0.0,
+    "fresh_AA_max_abs": 0.0
+  },
+  "tolerance_abs": 0.0001,
+  "inherited_neutral_max_abs_difference": 0.0,
+  "token_records": [
+    [
+      "8cd4f6bc3433ae82fe749e7a033b6313d2c509b703cb812c7772eb2acf1bdf15",
+      7,
+      7
+    ],
+    [
+      "83c70c31d0f82fd5242bc9602735b74fd1eb2bb54183ab31147ceee22b12bebd",
+      7,
+      7
+    ]
+  ],
+  "logical_neutral_ranking_requests": 4,
+  "neutral_candidate_score_occurrences": 7,
+  "fresh_adapter_calls": 4,
+  "pair_cache_used": false,
+  "research_queries_read": 0,
+  "research_forward_calls": 0,
+  "actual_model_forward_calls": 0,
+  "actual_model_sequence_occurrences": 0,
+  "forward_batches": [],
+  "resource_receipt": "<LOCAL_PROJECT>\\stage4a\\runs\\20260930T192807Z_a697a439\\scoring\\resources_precheck_bm25.json"
+}

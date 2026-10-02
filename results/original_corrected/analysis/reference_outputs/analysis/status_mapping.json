@@ -1,0 +1,5 @@
+{
+  "global_status": "INCONCLUSIVE",
+  "supported_endpoints": [],
+  "rule": "SUPPORTED iff both R1 endpoints pass and either both R2 endpoints or all three R3 endpoints pass; NOT_SUPPORTED iff every type-specific simultaneous upper bound for all seven endpoints is at or below its locked threshold and no endpoint is boundary-degenerate, insufficient-eligibility, incomplete, or integrity-blocked; otherwise INCONCLUSIVE."
+}

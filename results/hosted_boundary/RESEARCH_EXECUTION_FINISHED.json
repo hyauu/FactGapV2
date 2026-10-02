@@ -1,0 +1,67 @@
+{
+  "started_at_utc": "2026-09-30T18:28:51.333387+00:00",
+  "finished_at_utc": "2026-09-30T18:46:18.005306+00:00",
+  "provider_roster_frozen": [
+    "openai",
+    "anthropic",
+    "google"
+  ],
+  "blocked_providers": [],
+  "TaskA_health": [
+    {
+      "provider": "openai",
+      "logical_requests": 48,
+      "operational_OK": 48,
+      "status_counts": {
+        "OK": 48
+      }
+    },
+    {
+      "provider": "anthropic",
+      "logical_requests": 48,
+      "operational_OK": 48,
+      "status_counts": {
+        "OK": 48
+      }
+    },
+    {
+      "provider": "google",
+      "logical_requests": 48,
+      "operational_OK": 48,
+      "status_counts": {
+        "OK": 48
+      }
+    }
+  ],
+  "TaskB_health": [
+    {
+      "provider": "openai",
+      "logical_requests": 96,
+      "operational_OK": 96,
+      "status_counts": {
+        "OK": 96
+      }
+    },
+    {
+      "provider": "anthropic",
+      "logical_requests": 96,
+      "operational_OK": 96,
+      "status_counts": {
+        "OK": 96
+      }
+    },
+    {
+      "provider": "google",
+      "logical_requests": 96,
+      "operational_OK": 96,
+      "status_counts": {
+        "OK": 96
+      }
+    }
+  ],
+  "all_active_requests_drained": true,
+  "truth_join_now_allowed": true,
+  "order_responses_are_fresh_inferences": true,
+  "no_cached_ranking_responses": true,
+  "phase_barrier_satisfied": true
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": "phase1_scoring.corrective_role_neutral.v1",
+  "run_id": "phase1-corrective-role-neutral-r1",
+  "status": "COMPLETE",
+  "started_at": "2026-09-26T17:40:49.632499+00:00",
+  "ended_at": "2026-09-26T17:59:59.101365+00:00",
+  "elapsed_seconds": 1149.4541211128235,
+  "corrected_scoring_view_lock_sha256": "81d7868c0299d527702c30cf169bff772935ed2213310d5c52253c11b698047c",
+  "source_frozen_manifest_sha256": "8ab3a04bd99a27cf1f95634fa68f129035dc9021b81e64ed58108e29085756ac",
+  "scoring_lock_sha256": "e2d5baccb4286564f091473eb6aecde0aa1b468ae52bfe45d81db1fd1abe34d3",
+  "model_lock_sha256": "426cb676b0e6f8078f370405717911927659fb1b1840c0694d54cfcacc9f2d8b",
+  "counts": {
+    "retriever_rows": 95256,
+    "controlled_rows": 1764,
+    "pipeline_rows": 105840,
+    "bm25_rows": 31752
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.14.0+cu130",
+    "cuda": true,
+    "gpu": "NVIDIA GeForce RTX 5080"
+  },
+  "models": {
+    "bge-base": {
+      "repository": "BAAI/bge-base-en-v1.5",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "inference": {
+        "adapter": "legacy_sentence_transformer",
+        "device": "cpu",
+        "document_prefix": "",
+        "dtype": "float32",
+        "max_length": 512,
+        "normalization": "l2",
+        "pooling": "checkpoint_sentence_transformer",
+        "query_prefix": "Represent this sentence for searching relevant passages: ",
+        "score": "cosine_dot_product"
+      }
+    },
+    "bge-reranker": {
+      "repository": "BAAI/bge-reranker-base",
+      "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+      "inference": {
+        "adapter": "legacy_sentence_transformer_cross_encoder",
+        "device": "cpu",
+        "dtype": "float32",
+        "max_length": 512,
+        "score": "raw_logit",
+        "score_direction": "higher_is_better"
+      }
+    },
+    "e5-base": {
+      "repository": "intfloat/e5-base-v2",
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+      "inference": {
+        "adapter": "legacy_sentence_transformer",
+        "device": "cpu",
+        "document_prefix": "passage: ",
+        "dtype": "float32",
+        "max_length": 512,
+        "normalization": "l2",
+        "pooling": "checkpoint_sentence_transformer",
+        "query_prefix": "query: ",
+        "score": "cosine_dot_product"
+      }
+    },
+    "legacy-cross-encoder": {
+      "repository": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "inference": {
+        "adapter": "legacy_sentence_transformer_cross_encoder",
+        "device": "cpu",
+        "dtype": "float32",
+        "max_length": 512,
+        "score": "raw_logit",
+        "score_direction": "higher_is_better"
+      }
+    },
+    "qwen3-embedding": {
+      "repository": "Qwen/Qwen3-Embedding-0.6B",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "inference": {
+        "adapter": "qwen3_embedding_official_transformers",
+        "device": "cuda",
+        "document_prefix": "",
+        "dtype": "float16",
+        "max_length": 512,
+        "normalization": "l2",
+        "pooling": "last_non_padding_token",
+        "query_format": "Instruct: {instruction}\n Query:{query}",
+        "query_instruction": "Given a web search query, retrieve relevant passages that answer the query",
+        "score": "cosine_dot_product"
+      }
+    },
+    "qwen3-reranker": {
+      "repository": "Qwen/Qwen3-Reranker-0.6B",
+      "revision": "fd9fb1d26c07223ced488065909faf522e29cc7d",
+      "inference": {
+        "adapter": "qwen3_reranker_yes_no_forward_logits",
+        "device": "cuda",
+        "dtype": "float16",
+        "instruction": "Given a web search query, retrieve relevant passages that answer the query",
+        "max_length": 512,
+        "score": "softmax_yes_over_no_yes",
+        "score_direction": "higher_is_better",
+        "uses_generate": false
+      }
+    }
+  },
+  "query_forms": [
+    "D0",
+    "D1",
+    "P0",
+    "P1"
+  ],
+  "c0_score_source": "D0",
+  "tie_epsilon": 1e-08,
+  "generator_run": false,
+  "answer_generator_run": false,
+  "files": [
+    {
+      "path": "results/corrective_role_neutral_run/raw/bm25_scores.parquet",
+      "bytes": 181177,
+      "sha256": "a56a64178eab279f36318bdd8f4df913406cbe973d7d23a3e98137abed1d3dd7"
+    },
+    {
+      "path": "results/corrective_role_neutral_run/raw/pipeline_reranking.parquet",
+      "bytes": 530255,
+      "sha256": "352610737018c2cdea6b8e885a9b611fa52f6bca1cde4cc20bab75d44c93cc9f"
+    },
+    {
+      "path": "results/corrective_role_neutral_run/raw/reranker_controlled.parquet",
+      "bytes": 42003,
+      "sha256": "eba03382a0b2f0d2d6e12bb5a475ec534e6741b0096a2e70cc096d86c5c91dfd"
+    },
+    {
+      "path": "results/corrective_role_neutral_run/raw/retriever_scores.parquet",
+      "bytes": 673909,
+      "sha256": "4bd68f850946ba3d8ed890cab1a568f206ad0a8880208198cb22672b5e967cde"
+    }
+  ]
+}

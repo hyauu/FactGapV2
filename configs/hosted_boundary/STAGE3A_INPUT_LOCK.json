@@ -1,0 +1,645 @@
+{
+  "status": "LOCKED_INPUT_ONLY",
+  "locked_at_utc": "2026-09-30T17:40:58.595477+00:00",
+  "dataset_source": "<LOCAL_PROJECT>\\stage22b\\runs\\stage22b_20260930T083944Z_49e9c6b3",
+  "query_count": 48,
+  "block_count": 12,
+  "condition_counts": {
+    "LITERAL": 24,
+    "RESOLVED": 24
+  },
+  "source_final_manifest_sha256": "cd7dd28914bd434a157dae92707b93d803b584ccd73b427c4e45b6578d7f1db1",
+  "source_score_lock_sha256": "5848e1ba7792a0ad73f158139f3603f91dfadc313535db9563a486e1b56b1e5c",
+  "local_control_eval_sha256": "89d0a955796408a8bc4126d45f7794b2421b5f98bbbbb1433048c8c89a483abe",
+  "local_private_blocks_sha256": "00450b6ad098891cf68baeaaf6a939c33b0905f118bdc118d6a45d41f5a12c5d",
+  "inputs": [
+    {
+      "query_id_private": "EVAL-T0-I0-LITERAL-W0",
+      "block_id_private": "EVAL-T0-I0",
+      "template_id_private": "T0",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "08cbf87bfd0cc2e1a6c7c45d15c033571d8f44182017729e68e62eeddd827f21",
+      "candidate_sha256": [
+        "de3247a9f99c148174b6b439ae49c3ad00e5f986d6066d56425241f63463bab3",
+        "afb15eb8bbeab74787562b87b223d9770f326e24671867d34c4ba4416dfe7bf1"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I0-LITERAL-W1",
+      "block_id_private": "EVAL-T0-I0",
+      "template_id_private": "T0",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "66fbb3898c214f84f7aa5c1e29fea4ca345617553ed26fe312ff6f8eb8b40d3d",
+      "candidate_sha256": [
+        "de3247a9f99c148174b6b439ae49c3ad00e5f986d6066d56425241f63463bab3",
+        "afb15eb8bbeab74787562b87b223d9770f326e24671867d34c4ba4416dfe7bf1"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I0-RESOLVED-W0",
+      "block_id_private": "EVAL-T0-I0",
+      "template_id_private": "T0",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "18a3116d43e774053ceeb1fb19d1a8d3d85e1104e71899fbb104e42ec632b9bd",
+      "candidate_sha256": [
+        "de3247a9f99c148174b6b439ae49c3ad00e5f986d6066d56425241f63463bab3",
+        "afb15eb8bbeab74787562b87b223d9770f326e24671867d34c4ba4416dfe7bf1"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I0-RESOLVED-W1",
+      "block_id_private": "EVAL-T0-I0",
+      "template_id_private": "T0",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "f8771e391f2a70956e41e6b6a0fa9b55eeb535aaf2c3a818afd93bd278fcdee1",
+      "candidate_sha256": [
+        "de3247a9f99c148174b6b439ae49c3ad00e5f986d6066d56425241f63463bab3",
+        "afb15eb8bbeab74787562b87b223d9770f326e24671867d34c4ba4416dfe7bf1"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I1-LITERAL-W0",
+      "block_id_private": "EVAL-T0-I1",
+      "template_id_private": "T0",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "cfb913e40e4c7bf471ce530b10dac801b60d134cc219886042f853a0707cebb1",
+      "candidate_sha256": [
+        "7f84ca09e0bcfee14a4c7f90f510aff4bc35b71bc095ccabaee7152ea53b4d5d",
+        "0d7a90500e6eb45c87da5eec4471c7320c5871be29df78751ae1e2dec502df52"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I1-LITERAL-W1",
+      "block_id_private": "EVAL-T0-I1",
+      "template_id_private": "T0",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "f37d21e1bf066e0e3e7d36926e4500e00bd7f0f37274bd9e8c2adeeea03135e4",
+      "candidate_sha256": [
+        "7f84ca09e0bcfee14a4c7f90f510aff4bc35b71bc095ccabaee7152ea53b4d5d",
+        "0d7a90500e6eb45c87da5eec4471c7320c5871be29df78751ae1e2dec502df52"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I1-RESOLVED-W0",
+      "block_id_private": "EVAL-T0-I1",
+      "template_id_private": "T0",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "aa983ff7b0ad20a3c11b9b62aae8657d90e91e788d58f5144186d0a05470e3f7",
+      "candidate_sha256": [
+        "7f84ca09e0bcfee14a4c7f90f510aff4bc35b71bc095ccabaee7152ea53b4d5d",
+        "0d7a90500e6eb45c87da5eec4471c7320c5871be29df78751ae1e2dec502df52"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I1-RESOLVED-W1",
+      "block_id_private": "EVAL-T0-I1",
+      "template_id_private": "T0",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "d368c289d6167bb9a3fdf681ed23fb4df5e0ab5d891d92ad67eb2c3bf6612856",
+      "candidate_sha256": [
+        "7f84ca09e0bcfee14a4c7f90f510aff4bc35b71bc095ccabaee7152ea53b4d5d",
+        "0d7a90500e6eb45c87da5eec4471c7320c5871be29df78751ae1e2dec502df52"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I2-LITERAL-W0",
+      "block_id_private": "EVAL-T0-I2",
+      "template_id_private": "T0",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "5d6e424f3cdc4b9f77f46b1763835925b211a78db5803ac437536da0a76b69f7",
+      "candidate_sha256": [
+        "a438208aa8b24f1425461e4e84b3d1e1e3e4ef73cf10a7331ec098ab19d2712e",
+        "1f532bbc63ede2a8e3ed4ffd9958102ee7af321a8b4d6a7458b657e89085813b"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I2-LITERAL-W1",
+      "block_id_private": "EVAL-T0-I2",
+      "template_id_private": "T0",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "2616edd4069afc4d0d5ab95ebf258c171cc5edb2b7e12587c285c38bbaa0ce79",
+      "candidate_sha256": [
+        "a438208aa8b24f1425461e4e84b3d1e1e3e4ef73cf10a7331ec098ab19d2712e",
+        "1f532bbc63ede2a8e3ed4ffd9958102ee7af321a8b4d6a7458b657e89085813b"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I2-RESOLVED-W0",
+      "block_id_private": "EVAL-T0-I2",
+      "template_id_private": "T0",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "6b5f5e474fa5cbdc1fec0d9619524bf86bde221656603158b5ad064d72ac1542",
+      "candidate_sha256": [
+        "a438208aa8b24f1425461e4e84b3d1e1e3e4ef73cf10a7331ec098ab19d2712e",
+        "1f532bbc63ede2a8e3ed4ffd9958102ee7af321a8b4d6a7458b657e89085813b"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T0-I2-RESOLVED-W1",
+      "block_id_private": "EVAL-T0-I2",
+      "template_id_private": "T0",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "10e5a51b2bbe23051f8810ec70d9c225136faaef6ea1298ace3e14b4fa8815b5",
+      "candidate_sha256": [
+        "a438208aa8b24f1425461e4e84b3d1e1e3e4ef73cf10a7331ec098ab19d2712e",
+        "1f532bbc63ede2a8e3ed4ffd9958102ee7af321a8b4d6a7458b657e89085813b"
+      ],
+      "gold_candidate_id_private": "EVAL-T0-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I0-LITERAL-W0",
+      "block_id_private": "EVAL-T1-I0",
+      "template_id_private": "T1",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "c1f444bdf685aadcdaca612f1fd2e85f7c4c56fc8a2b0de9a1b61a4f5c3c5654",
+      "candidate_sha256": [
+        "5de01880956b9e50ea3eaf7ac67718db88c349ac8d568577036f4268eac16add",
+        "50fba441c04a32e851357fb5a25d38100bdc9f77995367ced1ae48e9159b0415"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I0-LITERAL-W1",
+      "block_id_private": "EVAL-T1-I0",
+      "template_id_private": "T1",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "af90984a81ebde87dd4088f29c217c3ccbdb54a21e77f5b11a98f7c601dda009",
+      "candidate_sha256": [
+        "5de01880956b9e50ea3eaf7ac67718db88c349ac8d568577036f4268eac16add",
+        "50fba441c04a32e851357fb5a25d38100bdc9f77995367ced1ae48e9159b0415"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I0-RESOLVED-W0",
+      "block_id_private": "EVAL-T1-I0",
+      "template_id_private": "T1",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "375225b7b80fbe50b8f2f555c94f64eae98ade40934fad89a87aa947bf2e6725",
+      "candidate_sha256": [
+        "5de01880956b9e50ea3eaf7ac67718db88c349ac8d568577036f4268eac16add",
+        "50fba441c04a32e851357fb5a25d38100bdc9f77995367ced1ae48e9159b0415"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I0-RESOLVED-W1",
+      "block_id_private": "EVAL-T1-I0",
+      "template_id_private": "T1",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "961b452e689e1ac2dfc96cb08967ec6550cad32ee537a081cad1ab239506f0f6",
+      "candidate_sha256": [
+        "5de01880956b9e50ea3eaf7ac67718db88c349ac8d568577036f4268eac16add",
+        "50fba441c04a32e851357fb5a25d38100bdc9f77995367ced1ae48e9159b0415"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I1-LITERAL-W0",
+      "block_id_private": "EVAL-T1-I1",
+      "template_id_private": "T1",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "4944a878d45396e3a9b37c933ab4cded09aa212a318a9c17ce26c30551815a67",
+      "candidate_sha256": [
+        "c4e1d6506ce97dec17c7d37fad6f35e42f1d1a63495a69c533c7d9f543a3427a",
+        "db2fd5610e96c82f1d69137beebef4f4fecc3bfc49fbf4f115c358e6ec03fa28"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I1-LITERAL-W1",
+      "block_id_private": "EVAL-T1-I1",
+      "template_id_private": "T1",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "d2201a45e2ae9f388b232e4550b4ce567530a609c5ebf3847fc4d79a883ecc01",
+      "candidate_sha256": [
+        "c4e1d6506ce97dec17c7d37fad6f35e42f1d1a63495a69c533c7d9f543a3427a",
+        "db2fd5610e96c82f1d69137beebef4f4fecc3bfc49fbf4f115c358e6ec03fa28"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I1-RESOLVED-W0",
+      "block_id_private": "EVAL-T1-I1",
+      "template_id_private": "T1",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "124771f951318a53be45bf8bba4d463f7f43e17057182ca449f5ff9f5b42fd62",
+      "candidate_sha256": [
+        "c4e1d6506ce97dec17c7d37fad6f35e42f1d1a63495a69c533c7d9f543a3427a",
+        "db2fd5610e96c82f1d69137beebef4f4fecc3bfc49fbf4f115c358e6ec03fa28"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I1-RESOLVED-W1",
+      "block_id_private": "EVAL-T1-I1",
+      "template_id_private": "T1",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "258bedef9511cad8859a250da06833211bdce1b14b6c1b559503254e3b95967e",
+      "candidate_sha256": [
+        "c4e1d6506ce97dec17c7d37fad6f35e42f1d1a63495a69c533c7d9f543a3427a",
+        "db2fd5610e96c82f1d69137beebef4f4fecc3bfc49fbf4f115c358e6ec03fa28"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I2-LITERAL-W0",
+      "block_id_private": "EVAL-T1-I2",
+      "template_id_private": "T1",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "49f5090e117d38d202b85c94f15c4d19ecd821be3cde142767a95822d35fc240",
+      "candidate_sha256": [
+        "ede344614410c13ce14665cd8f2e9a61a61a73b07cc845e34b177cffeef2dfac",
+        "e47e19b46f8567dc06042b0808ae5de54091d960ea887c4bf735a1f1d3d441d5"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I2-LITERAL-W1",
+      "block_id_private": "EVAL-T1-I2",
+      "template_id_private": "T1",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "5005f069a376aca80db8707e496b0e565a3df5038d646d6d43f5d84d5fccd885",
+      "candidate_sha256": [
+        "ede344614410c13ce14665cd8f2e9a61a61a73b07cc845e34b177cffeef2dfac",
+        "e47e19b46f8567dc06042b0808ae5de54091d960ea887c4bf735a1f1d3d441d5"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I2-RESOLVED-W0",
+      "block_id_private": "EVAL-T1-I2",
+      "template_id_private": "T1",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "0458121990d34cab1afad6ef41d92d520a5e0a22ccdab1c14c5bd9963662d82f",
+      "candidate_sha256": [
+        "ede344614410c13ce14665cd8f2e9a61a61a73b07cc845e34b177cffeef2dfac",
+        "e47e19b46f8567dc06042b0808ae5de54091d960ea887c4bf735a1f1d3d441d5"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T1-I2-RESOLVED-W1",
+      "block_id_private": "EVAL-T1-I2",
+      "template_id_private": "T1",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "9843f2bbbb82de2146c0122db9ae921b028dd548b352c603c2bfe36ed6cfe3ee",
+      "candidate_sha256": [
+        "ede344614410c13ce14665cd8f2e9a61a61a73b07cc845e34b177cffeef2dfac",
+        "e47e19b46f8567dc06042b0808ae5de54091d960ea887c4bf735a1f1d3d441d5"
+      ],
+      "gold_candidate_id_private": "EVAL-T1-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I0-LITERAL-W0",
+      "block_id_private": "EVAL-T2-I0",
+      "template_id_private": "T2",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "9e942371c367f860f580b4f01f59c5dba1780225d98028edee3a424dcbe729dd",
+      "candidate_sha256": [
+        "da51689331f2b2819018f2cc478fa4ba11db73450d7a47cf283864478f57b00a",
+        "83b3f1a9cefa8dcedcb9a02bce8c18b8bae1a400a9621a82d3700290e9ee1a6b"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I0-LITERAL-W1",
+      "block_id_private": "EVAL-T2-I0",
+      "template_id_private": "T2",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "1939a894c076ecdf822599d24eda65a619301b831a88dfca45115f5b7ced0841",
+      "candidate_sha256": [
+        "da51689331f2b2819018f2cc478fa4ba11db73450d7a47cf283864478f57b00a",
+        "83b3f1a9cefa8dcedcb9a02bce8c18b8bae1a400a9621a82d3700290e9ee1a6b"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I0-RESOLVED-W0",
+      "block_id_private": "EVAL-T2-I0",
+      "template_id_private": "T2",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "e8426d0a3f1e84f4e13e6cf76c67ff07ee33f1299fcfaf6993eee758d8c35990",
+      "candidate_sha256": [
+        "da51689331f2b2819018f2cc478fa4ba11db73450d7a47cf283864478f57b00a",
+        "83b3f1a9cefa8dcedcb9a02bce8c18b8bae1a400a9621a82d3700290e9ee1a6b"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I0-RESOLVED-W1",
+      "block_id_private": "EVAL-T2-I0",
+      "template_id_private": "T2",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "98172cb45fdfe4cf619207e506c8a31e3a1ae90c5c82f53a20012dc81d5af88d",
+      "candidate_sha256": [
+        "da51689331f2b2819018f2cc478fa4ba11db73450d7a47cf283864478f57b00a",
+        "83b3f1a9cefa8dcedcb9a02bce8c18b8bae1a400a9621a82d3700290e9ee1a6b"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I1-LITERAL-W0",
+      "block_id_private": "EVAL-T2-I1",
+      "template_id_private": "T2",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "6b8a4188bcad9b1eec1cbd03511bfb0fb115c8add6e3a7dd4896828e6ff4a497",
+      "candidate_sha256": [
+        "d0ec041b9c00ef741c32d92b485b7444b39b7297aaa2c56e89851e18f1d313a9",
+        "a493629e2d17de1fa9f9513af25a0aab8cac516b56f44430c239ac19fcf2ad6e"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I1-LITERAL-W1",
+      "block_id_private": "EVAL-T2-I1",
+      "template_id_private": "T2",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "73d2c083f962aa226dda8237fb58de7f6d20849a54e6475ea86b434d87d372b0",
+      "candidate_sha256": [
+        "d0ec041b9c00ef741c32d92b485b7444b39b7297aaa2c56e89851e18f1d313a9",
+        "a493629e2d17de1fa9f9513af25a0aab8cac516b56f44430c239ac19fcf2ad6e"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I1-RESOLVED-W0",
+      "block_id_private": "EVAL-T2-I1",
+      "template_id_private": "T2",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "9f9ed42eb7b6147ae2115fec9137621a0ae760cf0e61fe51c928bbda4b142058",
+      "candidate_sha256": [
+        "d0ec041b9c00ef741c32d92b485b7444b39b7297aaa2c56e89851e18f1d313a9",
+        "a493629e2d17de1fa9f9513af25a0aab8cac516b56f44430c239ac19fcf2ad6e"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I1-RESOLVED-W1",
+      "block_id_private": "EVAL-T2-I1",
+      "template_id_private": "T2",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "f5699cb44af90221c3298f05b8ea4cdaa87f9996d2c570f45391207c361ea389",
+      "candidate_sha256": [
+        "d0ec041b9c00ef741c32d92b485b7444b39b7297aaa2c56e89851e18f1d313a9",
+        "a493629e2d17de1fa9f9513af25a0aab8cac516b56f44430c239ac19fcf2ad6e"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I2-LITERAL-W0",
+      "block_id_private": "EVAL-T2-I2",
+      "template_id_private": "T2",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "278d48c54cd56fddeb87cd657252c252091e47aba20308ac957cb667a10dcd47",
+      "candidate_sha256": [
+        "25b1784cc443ecaeb0e17f0fa3bea55bdd125399a80bae4e6885a5fe1f3b8b5c",
+        "b19b37d9ee52a7720ca0740ca05bd3c526eddcc4c6b7ed3be0d9ebe5c364095b"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I2-LITERAL-W1",
+      "block_id_private": "EVAL-T2-I2",
+      "template_id_private": "T2",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "ca8c8a9fb2a1ade5590a51e9dc32900d1553dd271a06b3d99567a55ad9d14355",
+      "candidate_sha256": [
+        "25b1784cc443ecaeb0e17f0fa3bea55bdd125399a80bae4e6885a5fe1f3b8b5c",
+        "b19b37d9ee52a7720ca0740ca05bd3c526eddcc4c6b7ed3be0d9ebe5c364095b"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I2-RESOLVED-W0",
+      "block_id_private": "EVAL-T2-I2",
+      "template_id_private": "T2",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "f3ef03b9feb09c49ee3591b03ed82a08d80f8a32e5b0f9f918d2495e920866d4",
+      "candidate_sha256": [
+        "25b1784cc443ecaeb0e17f0fa3bea55bdd125399a80bae4e6885a5fe1f3b8b5c",
+        "b19b37d9ee52a7720ca0740ca05bd3c526eddcc4c6b7ed3be0d9ebe5c364095b"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T2-I2-RESOLVED-W1",
+      "block_id_private": "EVAL-T2-I2",
+      "template_id_private": "T2",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "4349c94a054c3d042c1936bc2178b4baef15f73547c205a7a35344d86d84f892",
+      "candidate_sha256": [
+        "25b1784cc443ecaeb0e17f0fa3bea55bdd125399a80bae4e6885a5fe1f3b8b5c",
+        "b19b37d9ee52a7720ca0740ca05bd3c526eddcc4c6b7ed3be0d9ebe5c364095b"
+      ],
+      "gold_candidate_id_private": "EVAL-T2-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I0-LITERAL-W0",
+      "block_id_private": "EVAL-T3-I0",
+      "template_id_private": "T3",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "70ae286181fa68dd8c008dcda1cb4c2f8676bc1bd303375fb6b464a5d1674364",
+      "candidate_sha256": [
+        "7d147293bf027490ef0aca956838778a44b1b678eecdec4b102a1f5b7723443d",
+        "9efc6d32ff7b60339e609028f2ce0fb44a340d658bdec8e1f8d9141cfc778b55"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I0-LITERAL-W1",
+      "block_id_private": "EVAL-T3-I0",
+      "template_id_private": "T3",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "f73c3acf8b9a55f6c57c122979fc8d0084f980d9a141227fb221c134611bec32",
+      "candidate_sha256": [
+        "7d147293bf027490ef0aca956838778a44b1b678eecdec4b102a1f5b7723443d",
+        "9efc6d32ff7b60339e609028f2ce0fb44a340d658bdec8e1f8d9141cfc778b55"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I0-RESOLVED-W0",
+      "block_id_private": "EVAL-T3-I0",
+      "template_id_private": "T3",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "591b396186488150f5cf905fb8e1af858f33db4805573b2fa7c429295d0120dd",
+      "candidate_sha256": [
+        "7d147293bf027490ef0aca956838778a44b1b678eecdec4b102a1f5b7723443d",
+        "9efc6d32ff7b60339e609028f2ce0fb44a340d658bdec8e1f8d9141cfc778b55"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I0-RESOLVED-W1",
+      "block_id_private": "EVAL-T3-I0",
+      "template_id_private": "T3",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "67ee2492cfcc1d82d9d09fbc768a72f6232dac28c3852259d9fc5553d572e0fc",
+      "candidate_sha256": [
+        "7d147293bf027490ef0aca956838778a44b1b678eecdec4b102a1f5b7723443d",
+        "9efc6d32ff7b60339e609028f2ce0fb44a340d658bdec8e1f8d9141cfc778b55"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I0-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I1-LITERAL-W0",
+      "block_id_private": "EVAL-T3-I1",
+      "template_id_private": "T3",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "9a17cbe1d4b34f5ce8f3adda6367033a2270fdf7fc951616e7507a4a83f78ece",
+      "candidate_sha256": [
+        "882aa21e0d54baea43bf1fc16d2be48b1b4676bc419baec56a91c6ddf745d329",
+        "efc87f067ae798749a9e6299cb47de226f90c8a8b153c5f6044fbc775cfc61c1"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I1-LITERAL-W1",
+      "block_id_private": "EVAL-T3-I1",
+      "template_id_private": "T3",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "f52d057cca849ee498cd89c527a6c95b3e70d07b527033e0cff82af75c422d61",
+      "candidate_sha256": [
+        "882aa21e0d54baea43bf1fc16d2be48b1b4676bc419baec56a91c6ddf745d329",
+        "efc87f067ae798749a9e6299cb47de226f90c8a8b153c5f6044fbc775cfc61c1"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I1-RESOLVED-W0",
+      "block_id_private": "EVAL-T3-I1",
+      "template_id_private": "T3",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "380a5d21572acd2693ebc492bccf24bc8bedd772342f926da97c9f465b4f8ac0",
+      "candidate_sha256": [
+        "882aa21e0d54baea43bf1fc16d2be48b1b4676bc419baec56a91c6ddf745d329",
+        "efc87f067ae798749a9e6299cb47de226f90c8a8b153c5f6044fbc775cfc61c1"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I1-RESOLVED-W1",
+      "block_id_private": "EVAL-T3-I1",
+      "template_id_private": "T3",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "7fca9b8063abc15ab349a7ff38a0cfdbd0f74dabf814de9ea380da2e56e9359c",
+      "candidate_sha256": [
+        "882aa21e0d54baea43bf1fc16d2be48b1b4676bc419baec56a91c6ddf745d329",
+        "efc87f067ae798749a9e6299cb47de226f90c8a8b153c5f6044fbc775cfc61c1"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I1-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I2-LITERAL-W0",
+      "block_id_private": "EVAL-T3-I2",
+      "template_id_private": "T3",
+      "condition_private": "LITERAL",
+      "wording_private": 0,
+      "query_sha256": "6549eb962a1df7afc5abcc70d66ff585ff33f9b8c4ceafa4863324ce38b96b9b",
+      "candidate_sha256": [
+        "a9cc288aa1b4038dabc9715771da01a4037fac6f8fcf866f5d15c7d08a5a918e",
+        "157eddc6e67a4ff17c0c7ad6f7f7d7d75848e300d3df8843b81130832263f595"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I2-LITERAL-W1",
+      "block_id_private": "EVAL-T3-I2",
+      "template_id_private": "T3",
+      "condition_private": "LITERAL",
+      "wording_private": 1,
+      "query_sha256": "a13bcfda03d780a0aa74d300d8c5395a3e6b8fb1d46ec6143d3900a472f28ffb",
+      "candidate_sha256": [
+        "a9cc288aa1b4038dabc9715771da01a4037fac6f8fcf866f5d15c7d08a5a918e",
+        "157eddc6e67a4ff17c0c7ad6f7f7d7d75848e300d3df8843b81130832263f595"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I2-RESOLVED-W0",
+      "block_id_private": "EVAL-T3-I2",
+      "template_id_private": "T3",
+      "condition_private": "RESOLVED",
+      "wording_private": 0,
+      "query_sha256": "3078797088f216ec46076e23814e0b8b7b7a7b285ccf99fbb97ac29e1b473107",
+      "candidate_sha256": [
+        "a9cc288aa1b4038dabc9715771da01a4037fac6f8fcf866f5d15c7d08a5a918e",
+        "157eddc6e67a4ff17c0c7ad6f7f7d7d75848e300d3df8843b81130832263f595"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I2-d0"
+    },
+    {
+      "query_id_private": "EVAL-T3-I2-RESOLVED-W1",
+      "block_id_private": "EVAL-T3-I2",
+      "template_id_private": "T3",
+      "condition_private": "RESOLVED",
+      "wording_private": 1,
+      "query_sha256": "592d353573c01c3259671b47b0919e46b96cf62e62226a7d00bbe1d82700be6e",
+      "candidate_sha256": [
+        "a9cc288aa1b4038dabc9715771da01a4037fac6f8fcf866f5d15c7d08a5a918e",
+        "157eddc6e67a4ff17c0c7ad6f7f7d7d75848e300d3df8843b81130832263f595"
+      ],
+      "gold_candidate_id_private": "EVAL-T3-I2-d0"
+    }
+  ],
+  "regeneration": false,
+  "wording_changes": false,
+  "performance_selection": false,
+  "not_an_API_execution_authorization_gate_pass": true
+}

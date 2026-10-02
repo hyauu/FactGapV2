@@ -1,0 +1,2970 @@
+{
+  "policy": "explicit_file_allowlist; no whole-project zip",
+  "excluded_file_inventory": [
+    {
+      "source_cohort": "align3",
+      "relative_path": "ALIGN3_OVERALL_REPORT.md",
+      "bytes": 19211,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "budget_ledger.json",
+      "bytes": 43890,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "EXECUTION_PLAN.md",
+      "bytes": 18018,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "PAPER_PATCH.md",
+      "bytes": 5586,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "README.md",
+      "bytes": 3978,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "replay_check.json",
+      "bytes": 373,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "STATUS.json",
+      "bytes": 1698,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/deterministic_format_normalization.json",
+      "bytes": 657,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/dev_final_seal.json",
+      "bytes": 760,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/dev_semantic_seal.json",
+      "bytes": 2251,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/eval_final_seal.json",
+      "bytes": 1428,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/eval_semantic_seal.json",
+      "bytes": 4184,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/initial_design_seal.json",
+      "bytes": 686,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "code/audit_reduce.py",
+      "bytes": 4776,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "code/compact_design.py",
+      "bytes": 1155,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "code/control_lock.py",
+      "bytes": 5658,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "code/finalize.py",
+      "bytes": 31248,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "logs/plot_attempt0.stderr.txt",
+      "bytes": 235,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/precheck_bge_small.stderr.txt",
+      "bytes": 148,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/precheck_bge_small.stdout.txt",
+      "bytes": 317,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/precheck_bm25.stderr.txt",
+      "bytes": 0,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/precheck_bm25.stdout.txt",
+      "bytes": 289,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/precheck_e5_small.stderr.txt",
+      "bytes": 148,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/precheck_e5_small.stdout.txt",
+      "bytes": 316,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/precheck_minilm_ce.stderr.txt",
+      "bytes": 148,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/precheck_minilm_ce.stdout.txt",
+      "bytes": 317,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/score_bge_small.stderr.txt",
+      "bytes": 148,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/score_bge_small.stdout.txt",
+      "bytes": 159,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/score_bm25.stderr.txt",
+      "bytes": 0,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/score_bm25.stdout.txt",
+      "bytes": 150,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/score_e5_small.stderr.txt",
+      "bytes": 148,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/score_e5_small.stdout.txt",
+      "bytes": 157,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/score_minilm_ce.stderr.txt",
+      "bytes": 148,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "scoring/score_minilm_ce.stdout.txt",
+      "bytes": 158,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/design_initial_a.txt",
+      "bytes": 3532,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/design_initial_b.txt",
+      "bytes": 3532,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_a00_dispatched.txt",
+      "bytes": 1626,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_a01_dispatched.txt",
+      "bytes": 1467,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_a02_dispatched.txt",
+      "bytes": 1469,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_a03_dispatched.txt",
+      "bytes": 1369,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_a04_dispatched.txt",
+      "bytes": 1435,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_a05_dispatched.txt",
+      "bytes": 1426,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_b00_dispatched.txt",
+      "bytes": 1551,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_b01_dispatched.txt",
+      "bytes": 1472,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_b02_dispatched.txt",
+      "bytes": 1509,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_b03_dispatched.txt",
+      "bytes": 1434,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_b04_dispatched.txt",
+      "bytes": 1469,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_b05_dispatched.txt",
+      "bytes": 1443,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_design0.json",
+      "bytes": 8778,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_designa0_dispatched.txt",
+      "bytes": 3155,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_designb0_dispatched.txt",
+      "bytes": 3054,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_design_compact0.json",
+      "bytes": 3577,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_p00.json",
+      "bytes": 1304,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_p01.json",
+      "bytes": 1286,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_p02.json",
+      "bytes": 1296,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_p03.json",
+      "bytes": 1294,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_p04.json",
+      "bytes": 1298,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/dev_p05.json",
+      "bytes": 1298,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a00_dispatched.txt",
+      "bytes": 1948,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a01_dispatched.txt",
+      "bytes": 1934,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a02_dispatched.txt",
+      "bytes": 1956,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a03_dispatched.txt",
+      "bytes": 1939,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a04_dispatched.txt",
+      "bytes": 1937,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a05_dispatched.txt",
+      "bytes": 1938,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a06_dispatched.txt",
+      "bytes": 1947,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a07_dispatched.txt",
+      "bytes": 1957,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a08_dispatched.txt",
+      "bytes": 1926,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a09_dispatched.txt",
+      "bytes": 1916,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a10_dispatched.txt",
+      "bytes": 1936,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_a11_dispatched.txt",
+      "bytes": 1936,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b00_dispatched.txt",
+      "bytes": 1991,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b01_dispatched.txt",
+      "bytes": 1989,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b02_dispatched.txt",
+      "bytes": 1985,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b03_dispatched.txt",
+      "bytes": 1968,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b04_dispatched.txt",
+      "bytes": 1989,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b05_dispatched.txt",
+      "bytes": 1976,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b06_dispatched.txt",
+      "bytes": 2000,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b07_dispatched.txt",
+      "bytes": 1998,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b08_dispatched.txt",
+      "bytes": 1965,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b09_dispatched.txt",
+      "bytes": 1971,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b10_dispatched.txt",
+      "bytes": 1997,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_b11_dispatched.txt",
+      "bytes": 1984,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_design0.json",
+      "bytes": 8740,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_design1.json",
+      "bytes": 8776,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_design2.json",
+      "bytes": 8848,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_designa0_dispatched.txt",
+      "bytes": 3023,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_designa1_dispatched.txt",
+      "bytes": 2949,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_designa2_dispatched.txt",
+      "bytes": 3010,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_designb0_dispatched.txt",
+      "bytes": 2975,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_designb1_retry_dispatched.txt",
+      "bytes": 2983,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_designb2_dispatched.txt",
+      "bytes": 3010,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_design_compact0.json",
+      "bytes": 3567,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_design_compact1.json",
+      "bytes": 3581,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_design_compact2.json",
+      "bytes": 3599,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p00.json",
+      "bytes": 1941,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p01.json",
+      "bytes": 1939,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p02.json",
+      "bytes": 1941,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p03.json",
+      "bytes": 1939,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p04.json",
+      "bytes": 1941,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p05.json",
+      "bytes": 1939,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p06.json",
+      "bytes": 1958,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p07.json",
+      "bytes": 1966,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p08.json",
+      "bytes": 1940,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p09.json",
+      "bytes": 1930,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p10.json",
+      "bytes": 1950,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/eval_p11.json",
+      "bytes": 1950,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/initial_a_dispatched.txt",
+      "bytes": 1879,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/prompts/initial_b_dispatched.txt",
+      "bytes": 1731,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_a00.json",
+      "bytes": 1147,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_a01.json",
+      "bytes": 1223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_a02.json",
+      "bytes": 1195,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_a03.json",
+      "bytes": 1235,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_a04.json",
+      "bytes": 1195,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_a05.json",
+      "bytes": 1223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_b00.json",
+      "bytes": 1235,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_b01.json",
+      "bytes": 1235,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_b02.json",
+      "bytes": 1231,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_b03.json",
+      "bytes": 1235,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_b04.json",
+      "bytes": 1236,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_b05.json",
+      "bytes": 1199,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_designa0.json",
+      "bytes": 4401,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/dev_designb0.json",
+      "bytes": 4484,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a00.json",
+      "bytes": 1816,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a01.json",
+      "bytes": 1834,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a02.json",
+      "bytes": 1834,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a03.json",
+      "bytes": 1792,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a04.json",
+      "bytes": 1840,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a05.json",
+      "bytes": 1888,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a06.json",
+      "bytes": 1835,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a07.json",
+      "bytes": 1811,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a08.json",
+      "bytes": 1853,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a09.json",
+      "bytes": 1926,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a10.json",
+      "bytes": 1829,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_a11.json",
+      "bytes": 1811,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b00.json",
+      "bytes": 1930,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b01.json",
+      "bytes": 1816,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b02.json",
+      "bytes": 1828,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b03.json",
+      "bytes": 1906,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b04.json",
+      "bytes": 1840,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b05.json",
+      "bytes": 1834,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b06.json",
+      "bytes": 1835,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b07.json",
+      "bytes": 1937,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b08.json",
+      "bytes": 1919,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b09.json",
+      "bytes": 1823,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b10.json",
+      "bytes": 1853,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_b11.json",
+      "bytes": 1799,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_designa0.json",
+      "bytes": 4331,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_designa1.json",
+      "bytes": 4054,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_designa2.json",
+      "bytes": 4170,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_designb0.json",
+      "bytes": 4088,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_designb1.json",
+      "bytes": 2989,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_designb1_attempt0_failure.txt",
+      "bytes": 111,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/eval_designb2.json",
+      "bytes": 3111,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/initial_a.json",
+      "bytes": 7936,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "audit/raw/initial_b.json",
+      "bytes": 4689,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "align3",
+      "relative_path": "cache/matplotlib/fontlist-v3.11.0.json",
+      "bytes": 183823,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "ACTIVE_TIME_LEDGER.json",
+      "bytes": 1202,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "adjudication_ledger.jsonl",
+      "bytes": 396,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "ANALYSIS_REPLAY_CHECK.json",
+      "bytes": 303,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "CONTROL_DESIGN_DECISION.md",
+      "bytes": 893,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "EXECUTION_AMENDMENT.md",
+      "bytes": 903,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "EXECUTION_AMENDMENT_v002.md",
+      "bytes": 742,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "FINAL_DATA_MODEL_STATE.json",
+      "bytes": 7430,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "FINAL_MANIFEST.sha256",
+      "bytes": 23883,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "FORMAT_COMPATIBILITY_RECORD.json",
+      "bytes": 1084,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "PLAN_SOURCE.md",
+      "bytes": 22704,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "PRE_SCORE_BUDGET.json",
+      "bytes": 691,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "PROGRESS.md",
+      "bytes": 2064,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "QA_DEV.json",
+      "bytes": 1167,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "QA_EVAL.json",
+      "bytes": 2380,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "README_REPRODUCE.md",
+      "bytes": 2664,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "RESOURCE_ENFORCEMENT_SPEC.json",
+      "bytes": 240,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "resource_usage.json",
+      "bytes": 2890,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "review_tasks.json",
+      "bytes": 10491,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "REVIEW_TRANSPORT_v002.json",
+      "bytes": 890,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "RUNTIME_IMPORT_PREFLIGHT.json",
+      "bytes": 541,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "RUN_LOCK.json",
+      "bytes": 1612,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "SEMANTIC_DEV.json",
+      "bytes": 3837,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "SEMANTIC_EVAL.json",
+      "bytes": 8285,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "STAGE22B_OVERALL_REPORT.md",
+      "bytes": 9945,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "STAGE22B_STATUS.json",
+      "bytes": 4155,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "STATE.json",
+      "bytes": 4155,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "TOKENIZER_PREFLIGHT.json",
+      "bytes": 1061,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "TOKEN_HASH_REPLAY.json",
+      "bytes": 1193,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "WORK_BUDGET_AMENDMENT_SOURCE.md",
+      "bytes": 11201,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "code/run_bounded_local.py",
+      "bytes": 6065,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "code/verify_baseline_binding.py",
+      "bytes": 8834,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "code/verify_baseline_binding_v001.py",
+      "bytes": 8067,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "code/verify_run_manifest.py",
+      "bytes": 830,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/experiment_before_format_compat_v001.py",
+      "bytes": 23160,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/design_selection_A.json",
+      "bytes": 3260,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/design_selection_B.json",
+      "bytes": 3260,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_design_A_01.json",
+      "bytes": 6783,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_design_B_01.json",
+      "bytes": 6783,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_semantic_A_01.json",
+      "bytes": 3076,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_semantic_A_02.json",
+      "bytes": 3158,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_semantic_A_03.json",
+      "bytes": 3087,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_semantic_A_04.json",
+      "bytes": 3087,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_semantic_B_01.json",
+      "bytes": 3186,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_semantic_B_02.json",
+      "bytes": 3158,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_semantic_B_03.json",
+      "bytes": 3177,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/DEV_semantic_B_04.json",
+      "bytes": 3119,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_design_A_01.json",
+      "bytes": 6582,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_design_A_02.json",
+      "bytes": 6743,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_design_A_03.json",
+      "bytes": 7016,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_design_B_01.json",
+      "bytes": 6847,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_design_B_02.json",
+      "bytes": 6874,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_design_B_03.json",
+      "bytes": 6620,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_A_01.json",
+      "bytes": 4159,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_A_02.json",
+      "bytes": 4093,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_A_03.json",
+      "bytes": 4106,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_A_04.json",
+      "bytes": 4013,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_A_05.json",
+      "bytes": 4111,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_A_06.json",
+      "bytes": 4083,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_A_07.json",
+      "bytes": 4188,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_A_08.json",
+      "bytes": 4095,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_B_01.json",
+      "bytes": 4151,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_B_02.json",
+      "bytes": 4116,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_B_03.json",
+      "bytes": 4134,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_B_04.json",
+      "bytes": 4191,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_B_05.json",
+      "bytes": 4163,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_B_06.json",
+      "bytes": 4194,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_B_07.json",
+      "bytes": 4162,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "packets/EVAL_semantic_B_08.json",
+      "bytes": 4201,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "precheck/baseline_binding_v001.json",
+      "bytes": 27035,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "precheck/ENVIRONMENT_PRECHECK.json",
+      "bytes": 2032,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "precheck/FEE_BOUNDARY.json",
+      "bytes": 923,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "precheck/native_cancel_smoke.json",
+      "bytes": 1617,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "private/DEV_design_A_map.json",
+      "bytes": 233,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "private/DEV_design_B_map.json",
+      "bytes": 233,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "private/DEV_semantic_A_map.json",
+      "bytes": 3213,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "private/DEV_semantic_B_map.json",
+      "bytes": 3213,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "private/EVAL_design_A_map.json",
+      "bytes": 701,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "private/EVAL_design_B_map.json",
+      "bytes": 701,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "private/EVAL_semantic_A_map.json",
+      "bytes": 9725,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "private/EVAL_semantic_B_map.json",
+      "bytes": 9725,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "runtime_resources/control_bge_small.json",
+      "bytes": 1045,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "runtime_resources/control_bm25.json",
+      "bytes": 1036,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "runtime_resources/control_e5_small.json",
+      "bytes": 1044,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "runtime_resources/control_minilm_ce.json",
+      "bytes": 1046,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/BASELINE_BINDING.json",
+      "bytes": 27539,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/CONTROL_DESIGN_DECISION.md",
+      "bytes": 725,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/EXECUTION_AMENDMENT.md",
+      "bytes": 903,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/FINAL_MANIFEST.sha256",
+      "bytes": 1735,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/PLAN_SOURCE.md",
+      "bytes": 22704,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/PROGRESS.md",
+      "bytes": 768,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/README_REPRODUCE.md",
+      "bytes": 1708,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/repair_history.jsonl",
+      "bytes": 826,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/resource_usage.json",
+      "bytes": 1692,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/RUN_LOCK.json",
+      "bytes": 1612,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/STAGE22B_OVERALL_REPORT.md",
+      "bytes": 7579,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/STAGE22B_STATUS.json",
+      "bytes": 3040,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/STATE.json",
+      "bytes": 3265,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/code/verify_baseline_binding.py",
+      "bytes": 8834,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/code/verify_baseline_binding_v001.py",
+      "bytes": 8067,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/code/verify_run_manifest.py",
+      "bytes": 830,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/precheck/baseline_binding_v001.json",
+      "bytes": 27035,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/precheck/ENVIRONMENT_PRECHECK.json",
+      "bytes": 2032,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/precheck/FEE_BOUNDARY.json",
+      "bytes": 923,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "history/pre_workbudget_amendment_v001/precheck/native_cancel_smoke.json",
+      "bytes": 1617,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/design_selection/parsed_A.json",
+      "bytes": 1030,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/design_selection/parsed_B.json",
+      "bytes": 958,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/design_selection/raw_A.txt",
+      "bytes": 837,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/design_selection/raw_B.txt",
+      "bytes": 771,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_design_A_01.json",
+      "bytes": 230,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_design_A_02.json",
+      "bytes": 230,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_design_A_03.json",
+      "bytes": 230,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_design_B_01.json",
+      "bytes": 230,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_design_B_02.json",
+      "bytes": 230,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_design_B_03.json",
+      "bytes": 230,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_A_01.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_A_02.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_A_03.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_A_04.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_A_05.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_A_06.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_A_07.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_A_08.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_B_01.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_B_02.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_B_03.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_B_04.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_B_05.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_B_06.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_B_07.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/native_final_receipts/EVAL_semantic_B_08.json",
+      "bytes": 223,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/DEV_semantic_A_01.jsonl",
+      "bytes": 2544,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/DEV_semantic_A_02.jsonl",
+      "bytes": 2568,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/DEV_semantic_A_03.jsonl",
+      "bytes": 2643,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/DEV_semantic_A_04.jsonl",
+      "bytes": 2715,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/DEV_semantic_B_01.jsonl",
+      "bytes": 2601,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/DEV_semantic_B_02.jsonl",
+      "bytes": 2725,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/DEV_semantic_B_03.jsonl",
+      "bytes": 2650,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/DEV_semantic_B_04.jsonl",
+      "bytes": 2589,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_A_01.jsonl",
+      "bytes": 3776,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_A_02.jsonl",
+      "bytes": 3918,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_A_03.jsonl",
+      "bytes": 3966,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_A_04.jsonl",
+      "bytes": 3925,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_A_05.jsonl",
+      "bytes": 4139,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_A_06.jsonl",
+      "bytes": 4005,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_A_07.jsonl",
+      "bytes": 4007,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_A_08.jsonl",
+      "bytes": 4052,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_B_01.jsonl",
+      "bytes": 3986,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_B_02.jsonl",
+      "bytes": 3952,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_B_03.jsonl",
+      "bytes": 4201,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_B_04.jsonl",
+      "bytes": 4166,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_B_05.jsonl",
+      "bytes": 3957,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_B_06.jsonl",
+      "bytes": 4036,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_B_07.jsonl",
+      "bytes": 4021,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/parsed/EVAL_semantic_B_08.jsonl",
+      "bytes": 3893,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_design_A_01.txt",
+      "bytes": 1564,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_design_B_01.txt",
+      "bytes": 1693,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_semantic_A_01.txt",
+      "bytes": 1655,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_semantic_A_02.txt",
+      "bytes": 1675,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_semantic_A_03.txt",
+      "bytes": 1752,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_semantic_A_04.txt",
+      "bytes": 1824,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_semantic_B_01.txt",
+      "bytes": 1708,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_semantic_B_02.txt",
+      "bytes": 1835,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_semantic_B_03.txt",
+      "bytes": 1759,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/DEV_semantic_B_04.txt",
+      "bytes": 1699,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_design_A_01.txt",
+      "bytes": 2069,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_design_A_02.txt",
+      "bytes": 1566,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_design_A_03.txt",
+      "bytes": 1569,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_design_B_01.txt",
+      "bytes": 2030,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_design_B_02.txt",
+      "bytes": 1701,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_design_B_03.txt",
+      "bytes": 1766,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_A_01.txt",
+      "bytes": 2422,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_A_02.txt",
+      "bytes": 2563,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_A_03.txt",
+      "bytes": 2613,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_A_04.txt",
+      "bytes": 2573,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_A_05.txt",
+      "bytes": 2786,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_A_06.txt",
+      "bytes": 2650,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_A_07.txt",
+      "bytes": 2651,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_A_08.txt",
+      "bytes": 2698,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_B_01.txt",
+      "bytes": 2632,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_B_02.txt",
+      "bytes": 2599,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_B_03.txt",
+      "bytes": 2847,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_B_04.txt",
+      "bytes": 2811,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_B_05.txt",
+      "bytes": 2602,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_B_06.txt",
+      "bytes": 2683,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_B_07.txt",
+      "bytes": 2668,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/raw/EVAL_semantic_B_08.txt",
+      "bytes": 2538,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/transport_failure_v001/DEV_semantic_A_01.txt",
+      "bytes": 1655,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/transport_failure_v001/DEV_semantic_A_02.txt",
+      "bytes": 1699,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/transport_failure_v001/DEV_semantic_A_03.txt",
+      "bytes": 1752,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/transport_failure_v001/DEV_semantic_B_01.txt",
+      "bytes": 1740,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "boundary_expression",
+      "relative_path": "reviews/transport_failure_v001/DEV_semantic_B_02.txt",
+      "bytes": 0,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "AUDIT_REPAIR_HISTORY.jsonl",
+      "bytes": 5595,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "BASELINE_VERIFICATION.json",
+      "bytes": 35988,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "CONCURRENCY_PREFLIGHT.json",
+      "bytes": 423,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "CREDENTIAL_PREFLIGHT.json",
+      "bytes": 401,
+      "reason": "credential/setup/account metadata excluded"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "execution_events.jsonl",
+      "bytes": 1355,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "FINAL_DATA_MODEL_STATE.json",
+      "bytes": 1227,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "FINAL_MANIFEST.sha256",
+      "bytes": 8089,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "LOCAL_REPLAY_RUN_RECEIPT.json",
+      "bytes": 1367,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "MODEL_DOCUMENTATION_VERIFICATION.json",
+      "bytes": 2090,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "PLAN_SOURCE.md",
+      "bytes": 16346,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "REPLAY_VERIFICATION.json",
+      "bytes": 1492,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "REPRODUCE_README.md",
+      "bytes": 1464,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "resource_and_cost_usage.json",
+      "bytes": 3936,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "RUNTIME_METADATA_SUMMARY.json",
+      "bytes": 2543,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "STAGE3A_ANALYSIS_SPEC.json",
+      "bytes": 1485,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "STAGE3A_COST_ESTIMATE.json",
+      "bytes": 4474,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "STAGE3A_OVERALL_REPORT.md",
+      "bytes": 14455,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "STAGE3A_STATUS.json",
+      "bytes": 2296,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "TASK_A_EXECUTION_FINISHED.json",
+      "bytes": 660,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "TASK_B_EXECUTION_FINISHED.json",
+      "bytes": 660,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "TOY_PREFLIGHT.json",
+      "bytes": 4097,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "code/finalize_stage3a.py",
+      "bytes": 33286,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "code/provider_pilot.py",
+      "bytes": 28611,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "code/verify_manifest.py",
+      "bytes": 936,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "preparation/budget_guard_test.json",
+      "bytes": 244,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "preparation/Configure_API_Keys.cmd",
+      "bytes": 144,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "preparation/configure_credentials.ps1",
+      "bytes": 4180,
+      "reason": "credential/setup/account metadata excluded"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "preparation/CREDENTIAL_SETUP_RECEIPT.json",
+      "bytes": 545,
+      "reason": "credential/setup/account metadata excluded"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "preparation/neutral_request_content.jsonl",
+      "bytes": 146616,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "preparation/PRE_TOY_COST_ESTIMATE.json",
+      "bytes": 1190,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "toy/anthropic_preflight.json",
+      "bytes": 1129,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "toy/google_preflight.json",
+      "bytes": 1115,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "toy/openai_preflight.json",
+      "bytes": 1199,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/final_wording_v001/FINAL_MANIFEST.sha256",
+      "bytes": 7853,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/final_wording_v001/STAGE3A_OVERALL_REPORT.md",
+      "bytes": 14443,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/pre_api_v001/CREDENTIAL_PREFLIGHT.json",
+      "bytes": 592,
+      "reason": "credential/setup/account metadata excluded"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/pre_api_v001/openai_preflight_before_owner_balance_recheck.json",
+      "bytes": 447,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/pre_api_v001/provider_pilot_before_freeze_import_fix.py",
+      "bytes": 28603,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/pre_api_v001/provider_pilot_initial_forecast.py",
+      "bytes": 17688,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/pre_api_v001/resource_and_cost_usage.json",
+      "bytes": 406,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/pre_api_v001/STAGE3A_COST_ESTIMATE.json",
+      "bytes": 2347,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/pre_api_v001/STAGE3A_OVERALL_REPORT.md",
+      "bytes": 2187,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/pre_api_v001/STAGE3A_STATUS.json",
+      "bytes": 1067,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "hosted_boundary",
+      "relative_path": "history/pre_api_v001/TOY_PREFLIGHT_before_owner_balance_recheck.json",
+      "bytes": 3253,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "audit_history.jsonl",
+      "bytes": 1158,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "CONSTRUCTION_PROJECTION_RECEIPT.json",
+      "bytes": 438,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "FINAL_MANIFEST.sha256",
+      "bytes": 13037,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "FINAL_PACKAGE_PREFLIGHT.json",
+      "bytes": 1425,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "MODEL_CONFIGURATION_RECEIPT.json",
+      "bytes": 12206,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "PLAN_SOURCE.md",
+      "bytes": 20894,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "PRIMARY_REFERENCES.json",
+      "bytes": 949,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "README_RUN.md",
+      "bytes": 3642,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "resource_usage.json",
+      "bytes": 17795,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "SELECTED_INHERITANCE_VERIFICATION.json",
+      "bytes": 2448,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "SELECTED_SOURCE_FINAL_READONLY_CHECK.json",
+      "bytes": 2585,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "STAGE4A_OVERALL_REPORT.md",
+      "bytes": 21749,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "STAGE4A_STATUS.json",
+      "bytes": 2253,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "code/ANALYSIS_INTERFACE.md",
+      "bytes": 5363,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "code/check_analyzer_fixture.py",
+      "bytes": 6146,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "code/finish_delivery.py",
+      "bytes": 38880,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "code/SCORING_INTERFACE.md",
+      "bytes": 3837,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "code/seal_delivery.py",
+      "bytes": 3812,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "code/seal_qa.py",
+      "bytes": 2858,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "development/control_dev.jsonl",
+      "bytes": 12008,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "development/control_eval.jsonl",
+      "bytes": 35986,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "history/constraint_check_before_bare_is_fix.py",
+      "bytes": 9840,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "history/constraint_check_before_whose_spacing_fix.py",
+      "bytes": 9686,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "private/builder_note.md",
+      "bytes": 2719,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/DESIGN_FLAG_CHECK_RECEIPT.json",
+      "bytes": 516,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/design_normalized.jsonl",
+      "bytes": 24111,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/DESIGN_OUTPUTS_SEALED.json",
+      "bytes": 438,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/INITIAL_SEMANTIC_OUTPUTS_SEALED.json",
+      "bytes": 2642,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/NATIVE_CONTEXT_REGISTRY.json",
+      "bytes": 8443,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/REVIEWER_CONTRACT.txt",
+      "bytes": 1928,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_issues.json",
+      "bytes": 91,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_normalized.jsonl",
+      "bytes": 68539,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/SEMANTIC_PACKET_LOCK.json",
+      "bytes": 6193,
+      "reason": "operational transport/reviewer context or planning trace excluded; scope limitations retained"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "scoring/process_bge_small_attempt0.stderr.txt",
+      "bytes": 148,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "scoring/process_bge_small_attempt0.stdout.txt",
+      "bytes": 158,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "scoring/process_bm25_attempt0.stderr.txt",
+      "bytes": 0,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "scoring/process_bm25_attempt0.stdout.txt",
+      "bytes": 149,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "scoring/process_e5_small_attempt0.stderr.txt",
+      "bytes": 148,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "scoring/process_e5_small_attempt0.stdout.txt",
+      "bytes": 157,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "scoring/process_minilm_ce_attempt0.stderr.txt",
+      "bytes": 148,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "scoring/process_minilm_ce_attempt0.stdout.txt",
+      "bytes": 158,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/design_A/input.json",
+      "bytes": 6720,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/design_A/raw.json",
+      "bytes": 14057,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/design_B/input.json",
+      "bytes": 6720,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/design_B/raw.json",
+      "bytes": 11849,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_00/input.json",
+      "bytes": 2102,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_00/raw.json",
+      "bytes": 3909,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_01/input.json",
+      "bytes": 2092,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_01/raw.json",
+      "bytes": 5228,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_02/input.json",
+      "bytes": 2150,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_02/raw.json",
+      "bytes": 4349,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_03/input.json",
+      "bytes": 2026,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_03/raw.json",
+      "bytes": 5529,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_04/input.json",
+      "bytes": 1851,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_04/raw.json",
+      "bytes": 4730,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_05/input.json",
+      "bytes": 1943,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_05/raw.json",
+      "bytes": 4773,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_06/input.json",
+      "bytes": 1921,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_06/raw.json",
+      "bytes": 4989,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_07/input.json",
+      "bytes": 1792,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_A_07/raw.json",
+      "bytes": 4765,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_00/input.json",
+      "bytes": 2102,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_00/raw.json",
+      "bytes": 5360,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_01/input.json",
+      "bytes": 2092,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_01/raw.json",
+      "bytes": 5691,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_02/input.json",
+      "bytes": 2150,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_02/raw.json",
+      "bytes": 5814,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_03/input.json",
+      "bytes": 2026,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_03/raw.json",
+      "bytes": 5500,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_04/input.json",
+      "bytes": 1851,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_04/raw.json",
+      "bytes": 4200,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_05/input.json",
+      "bytes": 1943,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_05/raw.json",
+      "bytes": 3910,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_06/input.json",
+      "bytes": 1921,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_06/raw.json",
+      "bytes": 4787,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_07/input.json",
+      "bytes": 1792,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "parser_feasibility",
+      "relative_path": "reviews/semantic_B_07/raw.json",
+      "bytes": 5336,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "MANIFEST.sha256",
+      "bytes": 3718,
+      "reason": "not required by paper/offline replay or material repair history"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "checks/ASSET_IDENTITY.json",
+      "bytes": 629,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "checks/CLEAN_REBUILD.json",
+      "bytes": 391,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "checks/clean_rebuild_compile.txt",
+      "bytes": 21023,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "checks/compile_final.txt",
+      "bytes": 17230,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "checks/DOCUMENT_CHECKS.json",
+      "bytes": 5939,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "checks/DOCUMENT_CHECKS_first.json",
+      "bytes": 5909,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "checks/FINAL_CONTACT_SHEET.png",
+      "bytes": 1299958,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "checks/fonts.txt",
+      "bytes": 1504,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "checks/INPUT_BINDING.json",
+      "bytes": 542,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "editorial/BASELINE_9PAGE_MAIN.tex",
+      "bytes": 43090,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "editorial/BEFORE_LANGUAGE_PASS.tex",
+      "bytes": 41339,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "editorial/FULL_REVISION.diff",
+      "bytes": 71833,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "editorial/HUMANIZER_CHANGES.json",
+      "bytes": 7260,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "editorial/HUMANIZER_PASS.diff",
+      "bytes": 17768,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "editorial/PRE_EDIT_AUDIT.md",
+      "bytes": 1996,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "editorial/STRUCTURE_PASS.tex",
+      "bytes": 41429,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "repo_handoff/CODEX_REPO_PREPARATION.md",
+      "bytes": 13415,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "repo_handoff/MANUSCRIPT_ARTIFACT_MAP.csv",
+      "bytes": 2873,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    },
+    {
+      "source_cohort": "paper",
+      "relative_path": "repo_handoff/START_HERE_REPO.md",
+      "bytes": 1168,
+      "reason": "editorial snapshots/handoff plans/build logs excluded"
+    }
+  ],
+  "whole_project_exclusions": [
+    {
+      "category": "model_cache/weights",
+      "reason": "not needed for stored-score replay"
+    },
+    {
+      "category": "environment/.venv/cache",
+      "reason": "installed runtime not redistributed"
+    },
+    {
+      "category": ".git",
+      "reason": "history/internal configuration not exported"
+    },
+    {
+      "category": "credentials/setup files",
+      "reason": "no credentials in release"
+    },
+    {
+      "category": "unrelated CAIT or personal project files",
+      "reason": "outside requested project"
+    },
+    {
+      "category": "conversations/transport/planning archives",
+      "reason": "not scientific payload"
+    },
+    {
+      "category": "older full manuscript drafts",
+      "reason": "authoritative eight-page manuscript only"
+    },
+    {
+      "category": "invented reviewer acceptance metrics",
+      "reason": "no such evidence generated/exported"
+    }
+  ],
+  "original_files_deleted": false,
+  "selected_source_files": 362,
+  "remaining_original_history": "preserved in the original local project"
+}

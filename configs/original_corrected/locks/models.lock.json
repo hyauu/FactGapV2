@@ -1,0 +1,149 @@
+{
+  "created_at": "2026-09-25T02:45:09.575278+00:00",
+  "generator_enabled": false,
+  "models": {
+    "bge-base": {
+      "artifact_bytes": 438996469,
+      "artifact_file_count": 12,
+      "artifact_manifest_sha256": "33657de480e1a3ca9adca0889ddd8736ed5911ddf85f72f0970c848c00c81a58",
+      "inference": {
+        "adapter": "legacy_sentence_transformer",
+        "device": "cpu",
+        "document_prefix": "",
+        "dtype": "float32",
+        "max_length": 512,
+        "normalization": "l2",
+        "pooling": "checkpoint_sentence_transformer",
+        "query_prefix": "Represent this sentence for searching relevant passages: ",
+        "score": "cosine_dot_product"
+      },
+      "kind": "retriever",
+      "license": "MIT",
+      "license_url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+      "repository": "BAAI/bge-base-en-v1.5",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "snapshot_path": ".cache/huggingface/hub/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a"
+    },
+    "bge-reranker": {
+      "artifact_bytes": 1134410492,
+      "artifact_file_count": 8,
+      "artifact_manifest_sha256": "2982200db5831eaf983a109ea27a465a572d701ef0b5d0080e19b898320e39a9",
+      "inference": {
+        "adapter": "legacy_sentence_transformer_cross_encoder",
+        "device": "cpu",
+        "dtype": "float32",
+        "max_length": 512,
+        "score": "raw_logit",
+        "score_direction": "higher_is_better"
+      },
+      "kind": "reranker",
+      "license": "MIT",
+      "license_url": "https://huggingface.co/BAAI/bge-reranker-base",
+      "repository": "BAAI/bge-reranker-base",
+      "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+      "snapshot_path": ".cache/huggingface/hub/models--BAAI--bge-reranker-base/snapshots/2cfc18c9415c912f9d8155881c133215df768a70"
+    },
+    "e5-base": {
+      "artifact_bytes": 438969187,
+      "artifact_file_count": 11,
+      "artifact_manifest_sha256": "e6c22aa9bcb2260f50dfebc7c1ad31f4fe139920c98a15782c09bd659ad292a2",
+      "inference": {
+        "adapter": "legacy_sentence_transformer",
+        "device": "cpu",
+        "document_prefix": "passage: ",
+        "dtype": "float32",
+        "max_length": 512,
+        "normalization": "l2",
+        "pooling": "checkpoint_sentence_transformer",
+        "query_prefix": "query: ",
+        "score": "cosine_dot_product"
+      },
+      "kind": "retriever",
+      "license": "MIT",
+      "license_url": "https://huggingface.co/intfloat/e5-base-v2",
+      "repository": "intfloat/e5-base-v2",
+      "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+      "snapshot_path": ".cache/huggingface/hub/models--intfloat--e5-base-v2/snapshots/f52bf8ec8c7124536f0efb74aca902b2995e5bcd"
+    },
+    "legacy-cross-encoder": {
+      "artifact_bytes": 91820221,
+      "artifact_file_count": 8,
+      "artifact_manifest_sha256": "f3cd2384462c021f3ae234e45ff64c212e7af49bf9dd31287ccaaf85fa01658c",
+      "inference": {
+        "adapter": "legacy_sentence_transformer_cross_encoder",
+        "device": "cpu",
+        "dtype": "float32",
+        "max_length": 512,
+        "score": "raw_logit",
+        "score_direction": "higher_is_better"
+      },
+      "kind": "reranker",
+      "license": "Apache-2.0",
+      "license_url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "repository": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "snapshot_path": ".cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L-6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a"
+    },
+    "qwen3-embedding": {
+      "artifact_bytes": 1207489041,
+      "artifact_file_count": 12,
+      "artifact_manifest_sha256": "e03d87c7671dc54caa7bf56dce98ce66ac6bd1be09d9ce1c9c310a463fa7b69e",
+      "inference": {
+        "adapter": "qwen3_embedding_official_transformers",
+        "device": "cuda",
+        "document_prefix": "",
+        "dtype": "float16",
+        "max_length": 512,
+        "normalization": "l2",
+        "pooling": "last_non_padding_token",
+        "query_format": "Instruct: {instruction}\n Query:{query}",
+        "query_instruction": "Given a web search query, retrieve relevant passages that answer the query",
+        "score": "cosine_dot_product"
+      },
+      "kind": "retriever",
+      "license": "Apache-2.0",
+      "license_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+      "repository": "Qwen/Qwen3-Embedding-0.6B",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "snapshot_path": ".cache/huggingface/hub/models--Qwen--Qwen3-Embedding-0.6B/snapshots/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+    },
+    "qwen3-reranker": {
+      "artifact_bytes": 1207485708,
+      "artifact_file_count": 11,
+      "artifact_manifest_sha256": "9e2405e027e7cc67536f6ff38d1cc6e59775ca63b715eeebf8473f389c0de43e",
+      "inference": {
+        "adapter": "qwen3_reranker_yes_no_forward_logits",
+        "device": "cuda",
+        "dtype": "float16",
+        "instruction": "Given a web search query, retrieve relevant passages that answer the query",
+        "max_length": 512,
+        "score": "softmax_yes_over_no_yes",
+        "score_direction": "higher_is_better",
+        "uses_generate": false
+      },
+      "kind": "reranker",
+      "license": "Apache-2.0",
+      "license_url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B",
+      "repository": "Qwen/Qwen3-Reranker-0.6B",
+      "revision": "fd9fb1d26c07223ced488065909faf522e29cc7d",
+      "snapshot_path": ".cache/huggingface/hub/models--Qwen--Qwen3-Reranker-0.6B/snapshots/fd9fb1d26c07223ced488065909faf522e29cc7d"
+    }
+  },
+  "primary_pipelines": [
+    "bge-base->bge-reranker",
+    "bge-base->legacy-cross-encoder",
+    "e5-base->bge-reranker"
+  ],
+  "rerankers": [
+    "bge-reranker",
+    "legacy-cross-encoder",
+    "qwen3-reranker"
+  ],
+  "retrievers": [
+    "bge-base",
+    "e5-base",
+    "qwen3-embedding"
+  ],
+  "schema_version": "phase1.models.lock.v1",
+  "source_phase05_manifest_sha256": "4ab011bdd2d25df91d04ab6eb7df879632d978ca03f0d7ec387c3379e44ce401"
+}

@@ -1,0 +1,7 @@
+provider,condition,TaskA_planned_queries,TaskA_valid_schema_queries,TaskA_exact_correct,TaskA_exact_accuracy,TaskA_lower_correct,TaskA_upper_correct,TaskA_inclusivity_correct,TaskA_invalid,TaskA_malformed,TaskA_technical_missing,TaskB_planned_order_responses,TaskB_OK_order_responses,TaskB_correct_order_responses,TaskB_incorrect_order_responses,TaskB_TIE,TaskB_ABSTAIN,TaskB_malformed,TaskB_technical_missing,TaskB_query_strict_both_orders_correct,TaskB_valid_query_pairs,TaskB_primary_query_accuracy,order_flips,tie_abstain_interactions,components_json
+openai,LITERAL,24,24,24,1.0,24,24,24,0,0,0,48,48,48,0,0,0,0,0,24,24,1.0,0,0,"{""EXTRACT_CORRECT + RANK_CORRECT"": 24}"
+openai,RESOLVED,24,24,24,1.0,24,24,24,0,0,0,48,48,48,0,0,0,0,0,24,24,1.0,0,0,"{""EXTRACT_CORRECT + RANK_CORRECT"": 24}"
+anthropic,LITERAL,24,24,24,1.0,24,24,24,0,0,0,48,48,48,0,0,0,0,0,24,24,1.0,0,0,"{""EXTRACT_CORRECT + RANK_CORRECT"": 24}"
+anthropic,RESOLVED,24,24,24,1.0,24,24,24,0,0,0,48,48,48,0,0,0,0,0,24,24,1.0,0,0,"{""EXTRACT_CORRECT + RANK_CORRECT"": 24}"
+google,LITERAL,24,24,24,1.0,24,24,24,0,0,0,48,48,48,0,0,0,0,0,24,24,1.0,0,0,"{""EXTRACT_CORRECT + RANK_CORRECT"": 24}"
+google,RESOLVED,24,24,24,1.0,24,24,24,0,0,0,48,48,48,0,0,0,0,0,24,24,1.0,0,0,"{""EXTRACT_CORRECT + RANK_CORRECT"": 24}"

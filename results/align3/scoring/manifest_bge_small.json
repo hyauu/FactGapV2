@@ -1,0 +1,185 @@
+{
+  "status": "COMPLETE",
+  "created_at_utc": "2026-10-01T03:38:38.164228+00:00",
+  "model_key": "bge_small",
+  "model_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "identity": {
+    "status": "PASS",
+    "created_at_utc": "2026-10-01T03:38:08.315616+00:00",
+    "selected_identity_checks": [
+      {
+        "path": "<LOCAL_PROJECT>\\tools\\local_score.py",
+        "sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\source_and_model_locks\\model_local_lock.json",
+        "sha256": "3451c18753970ba63cc6be15c020e9002f2aad9eb2cda81cba4ddd3614abb255",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\stage22b\\runs\\stage22b_20260930T083944Z_49e9c6b3\\CONTROL_SCORE_LOCK.json",
+        "sha256": "5848e1ba7792a0ad73f158139f3603f91dfadc313535db9563a486e1b56b1e5c",
+        "matches": true
+      }
+    ],
+    "adapter_preflight_sha256": "5bd0cacb1c07122dfb7b3ad36557ea1f9794f1ae3287ac3fb249fd335975bf53",
+    "baseline_binding_sha256": "d820e69cfa6ccb036e665dd216349fa3c2a7a432fda36e5b2975828c635dfcae",
+    "resource_observer_sha256": "081516db49363bc2adfe7bcc3da55fceacf9aae3f01f60d84ca64667d86426a5",
+    "model_artifacts": [
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\config.json",
+        "bytes": 743,
+        "sha256": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669360659858900
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\model.safetensors",
+        "bytes": 133466304,
+        "sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+        "current_verification": "inherited_weight_SHA_plus_current_path_size_mtime",
+        "mtime_ns": 1790669363411220300
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\special_tokens_map.json",
+        "bytes": 125,
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669360776602300
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\tokenizer.json",
+        "bytes": 711396,
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669360956843300
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\tokenizer_config.json",
+        "bytes": 366,
+        "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669361075159100
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\vocab.txt",
+        "bytes": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669361209349500
+      }
+    ],
+    "model_contract": {
+      "repo_id": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "Represent this sentence for searching relevant passages: ",
+      "document_prefix": "",
+      "pooling": "CLS L2-normalized",
+      "score": "unscaled cosine"
+    },
+    "wrapper_sha256": "19691e5de80d0cd492a17bf026d9f1370cc1db788a0853d2c1c446ec8016a89b"
+  },
+  "environment": {
+    "python": "<LOCAL_HOME>\\Documents\\ChatGPT\\捉摸\\.venv\\Scripts\\python.exe",
+    "python_executable_exists": true,
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "local_only": true,
+    "paid_API_calls": 0,
+    "downloads": 0,
+    "torch": "2.14.0+cu130",
+    "transformers": "5.17.0",
+    "cuda_available": true,
+    "torch_compute_threads": 8,
+    "CUDA": "13.0"
+  },
+  "device": "cuda",
+  "dtype": "float32",
+  "score_scale": "cosine",
+  "configuration": {
+    "model_key": "bge_small",
+    "contract": {
+      "repo_id": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "Represent this sentence for searching relevant passages: ",
+      "document_prefix": "",
+      "pooling": "CLS L2-normalized",
+      "score": "unscaled cosine"
+    },
+    "adapter_sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+    "model_artifacts": [
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\config.json",
+        "bytes": 743,
+        "sha256": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669360659858900
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\model.safetensors",
+        "bytes": 133466304,
+        "sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+        "current_verification": "inherited_weight_SHA_plus_current_path_size_mtime",
+        "mtime_ns": 1790669363411220300
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\special_tokens_map.json",
+        "bytes": 125,
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669360776602300
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\tokenizer.json",
+        "bytes": 711396,
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669360956843300
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\tokenizer_config.json",
+        "bytes": 366,
+        "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669361075159100
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\vocab.txt",
+        "bytes": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+        "current_verification": "current_SHA256",
+        "mtime_ns": 1790669361209349500
+      }
+    ],
+    "model_lock_sha256": "3451c18753970ba63cc6be15c020e9002f2aad9eb2cda81cba4ddd3614abb255",
+    "corpus_file_sha256": "b9eb947869b030dac22e8667610c79d4af35b414e5e5e5f8a785143cc25fca81",
+    "wrapper_sha256": "19691e5de80d0cd492a17bf026d9f1370cc1db788a0853d2c1c446ec8016a89b"
+  },
+  "configuration_sha256": "d13c95b7857f26e8a35c14cd65d98d30b02c28dc6a6221ae87cd256509acfc61",
+  "logical_ranking_requests": 144,
+  "score_rows": 288,
+  "unique_query_document_pairs_scored": 144,
+  "reused_candidate_score_occurrences": 144,
+  "actual_model_forward_calls": 4,
+  "actual_model_sequence_occurrences": 96,
+  "elapsed_ms": 29814.323800000013,
+  "input_sha256": "8818b1fb55b1b7d5754de0f1f4bedaf5a9cbb6730873169b81af7a01c91382ab",
+  "corpus_sha256": "b9eb947869b030dac22e8667610c79d4af35b414e5e5e5f8a785143cc25fca81",
+  "raw_sha256": "de36b2742df510eb99d530445ff2bbe17e634a070b3ca552bb2b1b8a3e37bdee",
+  "forward_audit_sha256": "acb92756e00d2980c192da7b528b2e0fc0469a8ead52aff68067fa7ee8a1fcb9",
+  "neutral_receipt_sha256": "bf0fa3092978a59c5125fba3e23f3fca3977daba2ab28517da647ae669fe95f3",
+  "query_document_pairs_are_not_forward_count": true,
+  "research_metadata_read": false,
+  "old_result_caches_read": false,
+  "resource_receipt": "<LOCAL_PROJECT>\\alignment3\\runs\\20261001T021600Z_8f34c1a2\\scoring\\resources_score_bge_small.json"
+}

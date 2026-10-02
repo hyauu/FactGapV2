@@ -1,0 +1,4 @@
+model_condition,original_accuracy,corrected_accuracy
+"E5 retriever, temporal D0",0.4305555555555556,0.9404761904761904
+"MiniLM reranker, temporal D0",0.8869047619047619,0.6369047619047619
+"BGE reranker, unit P0",0.7238095238095237,0.757142857142857

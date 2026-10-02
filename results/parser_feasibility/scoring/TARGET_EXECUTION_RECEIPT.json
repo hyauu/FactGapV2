@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETE",
+  "created_at_utc": "2026-09-30T20:27:43.611956+00:00",
+  "coordinator_source_sha256": "7266118ee77565f4118070126136ca372db82239f4f68604bdad077fb682e845",
+  "input_lock_sha256": "bccdcc29354667b33da8210123a191c7c6a7a0d4c41a1d9d5d88daaf26868f43",
+  "single_target_model": true,
+  "credential_variables_read": false,
+  "paid_API_calls": 0,
+  "attempts": [
+    {
+      "model_key": "bm25",
+      "attempt": 0,
+      "started_at_utc": "2026-09-30T20:27:43.611956+00:00",
+      "ended_at_utc": "2026-09-30T20:27:43.726483+00:00",
+      "elapsed_seconds": 0.11422370001673698,
+      "exit_code": 0,
+      "stdout_path": "scoring\\process_bm25_attempt0.stdout.txt",
+      "stdout_sha256": "60c5209c74bc9d51b0808a2c98f00286fcbd2fb5c9610392c3c4e53c8d8810e5",
+      "stderr_path": "scoring\\process_bm25_attempt0.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "model_key": "bge_small",
+      "attempt": 0,
+      "started_at_utc": "2026-09-30T20:27:43.729487+00:00",
+      "ended_at_utc": "2026-09-30T20:27:55.409080+00:00",
+      "elapsed_seconds": 11.679120799992234,
+      "exit_code": 0,
+      "stdout_path": "scoring\\process_bge_small_attempt0.stdout.txt",
+      "stdout_sha256": "56008786807cacdff86cc059cf0f3c729110580310b53ede452ce0f282925afc",
+      "stderr_path": "scoring\\process_bge_small_attempt0.stderr.txt",
+      "stderr_sha256": "c2045bce3a7b9c0d246808cc51bf7e657e61d53fe0a43df0d6450a64c592f929"
+    },
+    {
+      "model_key": "e5_small",
+      "attempt": 0,
+      "started_at_utc": "2026-09-30T20:27:55.416712+00:00",
+      "ended_at_utc": "2026-09-30T20:28:07.139155+00:00",
+      "elapsed_seconds": 11.722372700052802,
+      "exit_code": 0,
+      "stdout_path": "scoring\\process_e5_small_attempt0.stdout.txt",
+      "stdout_sha256": "1e05df3bcfd35f2bfdff6d9d2b8f3ad520b1c9f15f4dc3236519c93b1903b757",
+      "stderr_path": "scoring\\process_e5_small_attempt0.stderr.txt",
+      "stderr_sha256": "574807208222a81b9e5d7b8f47aee5bc2327c0bb3abfcbac3ecab9fe37c0b4f4"
+    },
+    {
+      "model_key": "minilm_ce",
+      "attempt": 0,
+      "started_at_utc": "2026-09-30T20:28:07.146668+00:00",
+      "ended_at_utc": "2026-09-30T20:28:18.645674+00:00",
+      "elapsed_seconds": 11.498749800026417,
+      "exit_code": 0,
+      "stdout_path": "scoring\\process_minilm_ce_attempt0.stdout.txt",
+      "stdout_sha256": "0554a393e376c876a256b3c542ea0f5555b4474480a44a49c7ad24f7d6f32ad1",
+      "stderr_path": "scoring\\process_minilm_ce_attempt0.stderr.txt",
+      "stderr_sha256": "b54ef118a75d99cecb64f96bc283fbf0c2a8f7b4ddeff40abb3e99d5f2eb9f90"
+    }
+  ],
+  "ended_at_utc": "2026-09-30T20:28:18.653681+00:00",
+  "target_logical_requests": 704,
+  "score_rows": 1408,
+  "technical_retries": 0,
+  "background_continuation": false
+}

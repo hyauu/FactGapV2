@@ -1,0 +1,95 @@
+{
+  "schema_version": "factgap.corrective.neutralization_audit.v1",
+  "created_at": "2026-09-26T17:37:14.235853+00:00",
+  "status": "PASS",
+  "counts": {
+    "items": 147,
+    "families": 22,
+    "documents": 4704,
+    "changed_document_texts": 4704,
+    "types": {
+      "relative_temporal": 80,
+      "unit_normalization_clean": 67
+    }
+  },
+  "checks": {
+    "item_count_147": true,
+    "family_count_22": true,
+    "temporal_count_80": true,
+    "unit_count_67": true,
+    "queries_byte_identical": true,
+    "document_ids_identical": true,
+    "document_semantics_and_roles_identical": true,
+    "corpora_and_distractor_membership_identical": true,
+    "role_and_type_markers_absent_from_model_visible_text": true,
+    "all_changes_match_authorized_neutralizer": true
+  },
+  "authorized_transform_counts": {
+    "remove_role_bearing_internal_identifier": 1029,
+    "neutralize_role_bearing_entry_label": 735,
+    "remove_unrelated_archive_identifier": 3675
+  },
+  "model_visible_marker_hits": [],
+  "hashes": {
+    "queries_sha256": "163a1d4f12a2f02e24f770dc2c2a7045172f25c74ba71acbae504216e61bfd70",
+    "passages_sha256": "03ccaacbce90cb7d8ebd291a39c263a62eba7e578e079e0533d11feff217f2ec",
+    "distractors_sha256": "3e69eac8ce42bf6f1bb8f5fae56f6db954e9987d9482d30d6e90f2202b3b2276",
+    "pairs_jsonl_sha256": "9fb9d1587a8d6283ca9780ab4bd3bebfcdea18703bd8407f8eb693ff83914d0c",
+    "documents_jsonl_sha256": "52de8b5371a8c05eb66cf5a68b614c57ad1270c8d8386137c3509a9a7be231e4",
+    "corpora_jsonl_sha256": "304df1dbb9c44b739e4b6f60b1304db0b7d67e5395fcf696e2903820016857db"
+  },
+  "examples": [
+    {
+      "doc_id": "ttc-r1-relative_temporal-00-p0-gold",
+      "before": "Register entry ttc-r1-relative_temporal-00-p0-G records the canal review phase 1 in 2401.",
+      "after": "Register entry records the canal review phase 1 in 2401.",
+      "actions": [
+        "remove_role_bearing_internal_identifier"
+      ]
+    },
+    {
+      "doc_id": "ttc-r1-relative_temporal-00-p0-negative",
+      "before": "Register entry ttc-r1-relative_temporal-00-p0-N records the canal review phase 1 in 2400.",
+      "after": "Register entry records the canal review phase 1 in 2400.",
+      "actions": [
+        "remove_role_bearing_internal_identifier"
+      ]
+    },
+    {
+      "doc_id": "ttc-r1-relative_temporal-00-p0-topical-0",
+      "before": "Topical entry ttc-r1-relative_temporal-00-p0-T0 records canal review phase 1 in 2403.",
+      "after": "Register entry records canal review phase 1 in 2403.",
+      "actions": [
+        "remove_role_bearing_internal_identifier",
+        "neutralize_role_bearing_entry_label"
+      ]
+    },
+    {
+      "doc_id": "ttc-r1-relative_temporal-00-p0-topical-1",
+      "before": "Topical entry ttc-r1-relative_temporal-00-p0-T1 records canal review phase 1 preview in 2401.",
+      "after": "Register entry records canal review phase 1 preview in 2401.",
+      "actions": [
+        "remove_role_bearing_internal_identifier",
+        "neutralize_role_bearing_entry_label"
+      ]
+    },
+    {
+      "doc_id": "ttc-r1-relative_temporal-00-p0-topical-2",
+      "before": "Topical entry ttc-r1-relative_temporal-00-p0-T2 records canal review phase 1 in 2399.",
+      "after": "Register entry records canal review phase 1 in 2399.",
+      "actions": [
+        "remove_role_bearing_internal_identifier",
+        "neutralize_role_bearing_entry_label"
+      ]
+    },
+    {
+      "doc_id": "ttc-r1-relative_temporal-00-p0-topical-3",
+      "before": "Topical entry ttc-r1-relative_temporal-00-p0-T3 records canal review phase 1 review in 2401.",
+      "after": "Register entry records canal review phase 1 review in 2401.",
+      "actions": [
+        "remove_role_bearing_internal_identifier",
+        "neutralize_role_bearing_entry_label"
+      ]
+    }
+  ]
+}

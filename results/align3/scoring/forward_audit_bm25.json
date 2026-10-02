@@ -1,0 +1,8 @@
+{
+  "model_key": "bm25",
+  "forward_batches": [],
+  "actual_model_forward_calls": 0,
+  "actual_model_sequence_occurrences": 0,
+  "unique_query_embeddings": 0,
+  "unique_document_embeddings": 0
+}

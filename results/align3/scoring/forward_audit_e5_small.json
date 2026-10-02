@@ -1,0 +1,33 @@
+{
+  "model_key": "e5_small",
+  "forward_batches": [
+    {
+      "batch_id": 0,
+      "sequences": 32,
+      "padded_width": 36,
+      "forward_tensors_sha256": "b11a10af259cf84632c6f08541a02cd597adc9aa379dcde6099c704db2a027bc"
+    },
+    {
+      "batch_id": 1,
+      "sequences": 32,
+      "padded_width": 36,
+      "forward_tensors_sha256": "f68e360ec7d0e37aa2f3eafb3310a920991639f8f7fe94b0b5cae270fa695d61"
+    },
+    {
+      "batch_id": 2,
+      "sequences": 8,
+      "padded_width": 34,
+      "forward_tensors_sha256": "90e7bf68b42daef3794a1efe7367b479f12e052cd8059f0bf72c84195cd4606a"
+    },
+    {
+      "batch_id": 3,
+      "sequences": 24,
+      "padded_width": 16,
+      "forward_tensors_sha256": "ac2c72030a3d24b1c049865cef090bfc789d79196078581e102a5a3bcd43e95e"
+    }
+  ],
+  "actual_model_forward_calls": 4,
+  "actual_model_sequence_occurrences": 96,
+  "unique_query_embeddings": 72,
+  "unique_document_embeddings": 24
+}

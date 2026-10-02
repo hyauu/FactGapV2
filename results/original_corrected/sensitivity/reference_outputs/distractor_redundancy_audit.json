@@ -1,0 +1,22 @@
+{
+  "original": {
+    "hard_corpora": 147,
+    "any_exact_duplicate": 0,
+    "gold_exact_duplicate": 0,
+    "counterpart_exact_duplicate": 0,
+    "relative_temporal_gold_topical_similarity_ge_0_90": 0,
+    "relative_temporal_gold_topical_similarity_ge_0_95": 0,
+    "unit_normalization_clean_gold_topical_similarity_ge_0_90": 67,
+    "unit_normalization_clean_gold_topical_similarity_ge_0_95": 0
+  },
+  "corrected": {
+    "hard_corpora": 147,
+    "any_exact_duplicate": 67,
+    "gold_exact_duplicate": 0,
+    "counterpart_exact_duplicate": 67,
+    "relative_temporal_gold_topical_similarity_ge_0_90": 80,
+    "relative_temporal_gold_topical_similarity_ge_0_95": 66,
+    "unit_normalization_clean_gold_topical_similarity_ge_0_90": 67,
+    "unit_normalization_clean_gold_topical_similarity_ge_0_95": 67
+  }
+}

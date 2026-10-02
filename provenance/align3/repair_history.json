@@ -1,0 +1,23 @@
+{
+  "global_material_repair_limit": 1,
+  "material_repairs": [],
+  "technical_resubmission_limit_per_task": 1,
+  "technical_events": [
+    {
+      "task": "/root/align3_eval_designb1",
+      "attempt": 0,
+      "status": "NO_COMPLETED_SCIENTIFIC_OUTPUT",
+      "reported_at_utc": "2026-10-01T03:30:36.848736+00:00",
+      "cause": "Unknown; task ended without a final scientific response",
+      "raw_message": "No completed scientific final JSON response exists, and no overall verdict was given. No files were archived.",
+      "replacement_context": "/root/align3_eval_designb1_retry",
+      "replacement_attempt": 1,
+      "same_material": true,
+      "valid_negative_judgment_resampled": false,
+      "maximum_retry_not_exceeded": true,
+      "replacement_status": "PASS_LIMITED_SCIENTIFIC_RESPONSE_SAVED",
+      "replacement_response": "audit/raw/eval_designb1.json",
+      "replacement_response_sha256": "ad39fcf61f87aa68df65f1b21b03b7c488967fbe1ce92820e555a8c121a70a67"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-09-30T07:46:38.487833+00:00",
+  "standard": "OPERATIONALLY_BLINDED_AUTOMATED_REVIEW",
+  "scope": "full_repair",
+  "semantic_queries": 48,
+  "semantic_role_judgments": 96,
+  "design_blocks": 6,
+  "design_role_judgments": 12,
+  "semantic_status": "PASS",
+  "design_status": "PASS_LIMITED",
+  "C_status": "C_NOT_NEEDED",
+  "C_routed_items": 0,
+  "C_ledger_sha256_at_seal": "804b9caad67311394a435954822fe67cb5f6c7ef0445b955a874d35d29535922",
+  "scoped_C_resolution_records": [],
+  "known_correctness_blockers": 0,
+  "decision_sha256": {
+    "query": "fe39c2a7f6f5edb24d084542b3c4874f99a3442569a5af17da5dbe786f21e8bd",
+    "design": "fc530c037b27a9ce2a773a33baf50d0acf5ed26b031175d35b5041d71769eb37"
+  },
+  "source_sha256": "88168a96af2333fb4672b3d3ec765253fc5ccbfc828ae4549896b297aa950fb2",
+  "technical_isolation": false,
+  "human_annotation": false
+}

@@ -1,0 +1,19 @@
+# Local verification outputs and machine state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+replay_output/
+manuscript_check/
+archival_tests/
+release_scan.json
+runtime_cache/
+.cache/
+models/
+weights/
+*.log

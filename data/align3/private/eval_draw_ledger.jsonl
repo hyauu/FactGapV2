@@ -1,0 +1,12 @@
+{"block_id":"eval_block_00","seed":851906,"trial":0,"parameters":{"L":328,"U":394,"G":353,"W":394,"N":344,"h":363,"a":31,"lower_inclusive":true,"upper_inclusive":false},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_01","seed":851906,"trial":0,"parameters":{"L":388,"U":461,"G":436,"W":388,"N":390,"h":438,"a":50,"lower_inclusive":false,"upper_inclusive":true},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_02","seed":851906,"trial":0,"parameters":{"L":614,"U":683,"G":641,"W":683,"N":686,"h":640,"a":43,"lower_inclusive":true,"upper_inclusive":false},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_03","seed":851906,"trial":0,"parameters":{"L":356,"U":436,"G":411,"W":356,"N":353,"h":410,"a":54,"lower_inclusive":false,"upper_inclusive":true},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_04","seed":851906,"trial":0,"parameters":{"L":634,"U":716,"G":669,"W":716,"N":715,"h":676,"a":40,"lower_inclusive":true,"upper_inclusive":false},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_05","seed":851906,"trial":0,"parameters":{"L":401,"U":461,"G":434,"W":401,"N":441,"h":431,"a":30,"lower_inclusive":false,"upper_inclusive":true},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_06","seed":851906,"trial":0,"parameters":{"L":511,"U":572,"G":549,"W":572,"N":531,"h":558,"a":14,"lower_inclusive":true,"upper_inclusive":false},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_07","seed":851906,"trial":0,"parameters":{"L":495,"U":579,"G":531,"W":495,"N":498,"h":553,"a":58,"lower_inclusive":false,"upper_inclusive":true},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_08","seed":851906,"trial":0,"parameters":{"L":558,"U":619,"G":581,"W":619,"N":627,"h":561,"a":58,"lower_inclusive":true,"upper_inclusive":false},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_09","seed":851906,"trial":0,"parameters":{"L":383,"U":451,"G":416,"W":383,"N":369,"h":424,"a":41,"lower_inclusive":false,"upper_inclusive":true},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_10","seed":851906,"trial":0,"parameters":{"L":300,"U":366,"G":340,"W":366,"N":346,"h":319,"a":47,"lower_inclusive":true,"upper_inclusive":false},"rejected":false,"reasons":[]}
+{"block_id":"eval_block_11","seed":851906,"trial":0,"parameters":{"L":143,"U":224,"G":194,"W":143,"N":203,"h":164,"a":21,"lower_inclusive":false,"upper_inclusive":true},"rejected":false,"reasons":[]}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "phase1_scoring.analysis_amendment_seal.v1",
+  "sealed_at": "2026-09-26T02:21:41.543706+00:00",
+  "status": "SEALED_PRE_INFERENCE",
+  "analysis_amendment_sha256": "f2175f79247548eb51e1c00a9355b5e92c8aaf853a0b238ad0bcf65733a3f985",
+  "scoring_lock_sha256": "e2d5baccb4286564f091473eb6aecde0aa1b468ae52bfe45d81db1fd1abe34d3",
+  "preflight_sha256": "fbd0f9a79d39688382c02ed3192b8c5f0ba4141e087c2e4ddf3aca903d83b12e",
+  "model_loaded": false,
+  "validation_inference_run": false,
+  "validation_results_inspected": false,
+  "generator_run": false
+}

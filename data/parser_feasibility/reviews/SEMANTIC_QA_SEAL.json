@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-09-30T20:16:21.780434+00:00",
+  "main_queries": 32,
+  "probes": 12,
+  "reviewer_judgments": 88,
+  "evidence_grade": "OPERATIONALLY_BLINDED_AUTOMATED_REVIEW",
+  "technical_isolation_or_human_certification": false,
+  "C": "NOT_NEEDED",
+  "raw_output_sha_locks": [
+    {
+      "path": "reviews\\semantic_A_00\\raw.json",
+      "sha256": "af58d63be9470ca278d2270754683f0dfd945aa596f917352bd2d3c3e151e9a0"
+    },
+    {
+      "path": "reviews\\semantic_A_01\\raw.json",
+      "sha256": "f82dda642e3197af804d297fd4f8a0f174d7a28b4c127a15397fbf0d5d7d3822"
+    },
+    {
+      "path": "reviews\\semantic_A_02\\raw.json",
+      "sha256": "adea0b85c2ac28ace51dd32c375b226771eedbd556d189ddd6a4367b0ab1d780"
+    },
+    {
+      "path": "reviews\\semantic_A_03\\raw.json",
+      "sha256": "9793373fcaf0304eca168aa639c5baa8df36367090839e6feb2d8669731aa853"
+    },
+    {
+      "path": "reviews\\semantic_A_04\\raw.json",
+      "sha256": "486b0fbe191c2a18847998158c547b43a77e00c0942cdf5e719c2143ade4cf61"
+    },
+    {
+      "path": "reviews\\semantic_A_05\\raw.json",
+      "sha256": "8ebad53da117b4b7ab0b024354e63a660be029bb6aae394f6c8e5c4fd8cfd1fa"
+    },
+    {
+      "path": "reviews\\semantic_A_06\\raw.json",
+      "sha256": "a18ae2731d8f06a06b429262fbbfe62cca3849ff647aedc88fa0d97c8484bb09"
+    },
+    {
+      "path": "reviews\\semantic_A_07\\raw.json",
+      "sha256": "33d534c656580b64b3edbc28ff95a44954712d5dfee810b81874ac5297d08c58"
+    },
+    {
+      "path": "reviews\\semantic_B_00\\raw.json",
+      "sha256": "33073c7bc0d4b4dcf88753937c001365de8fdfb9a14e49f88db5b86d3d6feb2d"
+    },
+    {
+      "path": "reviews\\semantic_B_01\\raw.json",
+      "sha256": "1a1ca48162bdcea7a738f161d61c65e973acc398d20cf56ca0a892644953b2ba"
+    },
+    {
+      "path": "reviews\\semantic_B_02\\raw.json",
+      "sha256": "0542ba8f69a7c82956d8dce7c67742aaa4f886edc1427506c0786191545a3031"
+    },
+    {
+      "path": "reviews\\semantic_B_03\\raw.json",
+      "sha256": "8f2e6f4eecc975532db85517f88d6b4c108ceb8fddc90fd73095ea2ee7634e2b"
+    },
+    {
+      "path": "reviews\\semantic_B_04\\raw.json",
+      "sha256": "bae9136af89e7772b25d56119773c899fa3b3e3ee918fc0a86fee42527955270"
+    },
+    {
+      "path": "reviews\\semantic_B_05\\raw.json",
+      "sha256": "352b9b0441ebec28e95420a099811351b7eb5de8c06d7f62396d34a96637af47"
+    },
+    {
+      "path": "reviews\\semantic_B_06\\raw.json",
+      "sha256": "ef946525d2a9736ab5ca622b883a1d827e34ac67570d05da2ca367478e7a90ee"
+    },
+    {
+      "path": "reviews\\semantic_B_07\\raw.json",
+      "sha256": "9349551c833f3727210228d89e74d06bedb22d70b04f2ec5a9fa46c995552896"
+    }
+  ],
+  "data_sha256": {
+    "new_eval.jsonl": "910b55cc86c3f29be0a4255ef630bb116aefc6f9236ffd14076c8ffd5fa4d490",
+    "safety_probes.jsonl": "1a76422581f3cea9bdf4de4fce1a864a64d3f8810c4e2291343d2a0cd4bd3902"
+  },
+  "final_semantic_truths_sha256": "5c00f2b749c234b104589b1144a2bbebb1752b4431e89c406c5c738ccfba3d1d",
+  "truth_file": "reviews/final_semantic_truths.jsonl"
+}

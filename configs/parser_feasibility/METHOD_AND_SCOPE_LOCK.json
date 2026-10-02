@@ -1,0 +1,113 @@
+{
+  "status": "LOCKED_BEFORE_NEW_MATERIAL_CONSTRUCTION",
+  "locked_at_utc": "2026-09-30T19:42:33.162936+00:00",
+  "research_name": "local_constraint_check_feasibility",
+  "method_input_allowlist": [
+    "query:str",
+    "candidates:list[str]",
+    "base_scores:list[finite number]"
+  ],
+  "method_files": [
+    {
+      "path": "method\\constraint_check.py",
+      "sha256": "d7f3c67943f434326f243b1013f440b4473400c2a423c34da71b96c92519e7ea"
+    },
+    {
+      "path": "tests\\test_method.py",
+      "sha256": "d099774269e8f1a910e869041a44f4d5a443f65bb75c4a85329d4720cf6e6366"
+    }
+  ],
+  "scope": {
+    "language": "finite explicit English grammar; not generic NL understanding",
+    "subject": "literal record noun phrase, exact normalized string matching",
+    "property": "literal named count property, exact normalized string matching",
+    "dimension_unit": "positive integer count, individual unit implicit in count; no conversion or external unit knowledge",
+    "constraints": "two opposing explicit bounds or between/from range with explicit lower/upper closure; [L,U) or(L,U] plus equal endpoints handled exactly",
+    "arithmetic": "positive integer literals, single integer addition/subtraction expressed explicitly; no eval",
+    "query_complete": "full-match supported sentence forms; additional/uncovered clauses cause abstention",
+    "document_complete": "full supported grounded fact sentences; recognized ID/model/date metadata ignored, otherwise unsupported clauses cause UNKNOWN",
+    "support_limits": "new syntax not covered remains valid coverage failure, never patched from new eval outcomes"
+  },
+  "M1_rule": "replace only parsed arithmetic expression spans with exact result; all other bytes preserved; same query canonical semantic tuple required, else technical failure; unsupported unchanged ABSTAIN_REWRITE",
+  "M2_rule": "override iff query complete and exactly one candidateSATISFIES and otherVIOLATES from uniquely grounded same-subject/property/unit facts; otherwise base scores/order/tie retained",
+  "M2_score_semantics": "bucket plus original score ranking_key, original base scores and margin retained; no synthetic neural logit or same-scale M2 margin",
+  "toy_query_fixtures": 8,
+  "development_exposure": "old16DEV and48reference text are exposed; no new eval before lock",
+  "material_campaigns_consumed": 1,
+  "remaining_material_campaigns": 0,
+  "models": {
+    "bm25": {
+      "revision": "deterministic_bm25_v1",
+      "query_prefix": "",
+      "document_prefix": "",
+      "k1": 1.2,
+      "b": 0.75,
+      "corpus": "All36 unique new EVAL documents,auxiliary included;fixed across conditions",
+      "score": "BM25float64"
+    },
+    "bge_small": {
+      "repo_id": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "Represent this sentence for searching relevant passages: ",
+      "document_prefix": "",
+      "pooling": "CLS L2-normalized",
+      "score": "unscaled cosine"
+    },
+    "e5_small": {
+      "repo_id": "intfloat/e5-small-v2",
+      "revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--intfloat--e5-small-v2\\snapshots\\ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "query: ",
+      "document_prefix": "passage: ",
+      "pooling": "masked mean L2-normalized",
+      "score": "unscaled cosine"
+    },
+    "minilm_ce": {
+      "repo_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "",
+      "document_prefix": "",
+      "pooling": "raw one-output logit",
+      "score": "raw logit"
+    }
+  },
+  "analysis": {
+    "new_main_queries": 32,
+    "safety_probes": 12,
+    "primary_ranking": "both orientations correct after passage mapping; exact ties fail; technical missing kept separate",
+    "new_main_full_denominator_required": true,
+    "subset_coverage_never_primary": true,
+    "M0_M1_margin": "gold score minus counterpart raw score; +/-1e-6 and1e-5 near ties, report mean/median per model only",
+    "M2_margin": "not applicable; original M0 margin is recorded context",
+    "paired_transitions": [
+      "wrong_to_correct",
+      "correct_to_wrong",
+      "tie_to_correct",
+      "correct_to_tie",
+      "wrong_to_tie",
+      "unchanged"
+    ],
+    "harm_denominator": "number originally correct under M0, NA when zero",
+    "M1_preservation": "text-only canonical comparison plus independent sealed semantic audit, no private-label-driven rewrite",
+    "probes": "separate fallback/actions; no gold accuracy for semantic nonuniqueness",
+    "template_analysis": "fourtemplate descriptive block means andleave-one-template-out only; no population significance",
+    "data_designation": "template_related_exploratory unless independently defensible syntax holdout; oldreference excluded from new denominators"
+  },
+  "no_paid_API": true,
+  "no_download": true,
+  "no_post_lock_outcome_based_change": true
+}

@@ -1,0 +1,40 @@
+{
+  "mode": "score",
+  "start_utc": "2026-10-01T03:38:08.065002+00:00",
+  "attempts": [
+    {
+      "model": "bm25",
+      "exit_code": 0,
+      "elapsed_seconds": 0.14802399999985028,
+      "stdout_sha256": "16400c730ecca67c2ffd22e1bea8576c2069d5b08db7b53740428b32bcd8baa5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "model": "bge_small",
+      "exit_code": 0,
+      "elapsed_seconds": 30.411253500000157,
+      "stdout_sha256": "01e16203242893c663d6551d0133d3b10dea4bed05d92d7e55561ea75b900a4a",
+      "stderr_sha256": "956e3af3d54c7467b7339d51b92c3c52e69b6896dc553ca428c1a98314cfe37a"
+    },
+    {
+      "model": "e5_small",
+      "exit_code": 0,
+      "elapsed_seconds": 10.328409400000055,
+      "stdout_sha256": "5f111b46df4f7c2eca67bd1c612b5e51a093b870cf60c625813edd678baf2aa1",
+      "stderr_sha256": "90f1f62d3f1a5de49b49a3a9476e66b41c2e05bef861b68aff66c989691c171f"
+    },
+    {
+      "model": "minilm_ce",
+      "exit_code": 0,
+      "elapsed_seconds": 10.35137450000002,
+      "stdout_sha256": "f83d35ed74331260e702096d4792433936139cef9093812bf637d6464b0b7807",
+      "stderr_sha256": "a49b46a458f375f906783a6ffbdfe12fa0406005aa051cb5f7100958eebe94d9"
+    }
+  ],
+  "paid_API_calls": 0,
+  "downloads": 0,
+  "one_model_at_a_time": true,
+  "credential_variables_read": false,
+  "end_utc": "2026-10-01T03:38:59.329582+00:00",
+  "status": "COMPLETE"
+}

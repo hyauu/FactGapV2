@@ -1,0 +1,64 @@
+{
+  "records": [
+    {
+      "created_at_utc": "2026-09-30T05:53:37.935260+00:00",
+      "scope": "full",
+      "kind": "semantic",
+      "issue_id": "full-semantic-0007",
+      "query_id": "EVAL-TEMPORAL-2-2:n0l0w1",
+      "block_id": "EVAL-TEMPORAL-2-2",
+      "argument_version": "alias_v2",
+      "supersedes_argument_rendering_only": true,
+      "C1_task_id": "full_semantic_C1_alias_v2_001",
+      "receipt_sha256": "61925030bb7b928b88c4613034c22510891b99a60a90a5901522adcadf3eb11a",
+      "verdict": "CONFIRMED_DEFECT",
+      "evidence": "Date comparisons are 7353 - 7337 = 16 and 7337 - 7337 = 0: if stamp is defined as the reported date, d3d21c50a2a9b is the unique match. Reference code 7321 is expressly irrelevant. A_AMBIGUOUS, B_AMBIGUOUS, A_NON_PASS and B_NON_PASS are supported by the missing date-to-stamp relation, as C0 and both arguments explain. Counterexample: deddc7782cba1 can have date 7353 and stamp 7337 while d3d21c50a2a9b has date 7337 and stamp 7353; both rendered statements remain true and the stamp selection reverses. Both or neither bearing stamp 7337 is also consistent. Thus no candidate is an entailed stamp answer, and the actual stamp answer is not uniquely determined. A_B_PREDICATE_DISAGREEMENT and CANONICALIZATION:Stamp property must receive semantic adjudication: quartz registry stamp identifier are resolved by retaining stamp-value equality without assuming a year unit or a date/stamp identity. A_B_SELECTION_DISAGREEMENT reflects a conditional date match versus no established stamp match; an empty established set does not prove neither actually qualifies. PREDICATE_SOURCE_CONTRADICTION_CHECK and SELECTION_SOURCE_CONTRADICTION_CHECK do not validate the mechanical hypothesis: its year predicate and selection require the missing relation. The supplied alias bridges resolve the prose references to these same candidates.",
+      "issues": [
+        "Neither candidate identifies its appearing date as the stamp requested by the query.",
+        "Canonicalizing the requested stamp as a year and treating date equality as established stamp satisfaction adds an unstated relation."
+      ],
+      "root_cause": "Rendered query and candidate evidence concern different properties without a stated relation between stamp and date.",
+      "required_action": "Change the query to ask which entry has the reported date 7337, yielding d3d21c50a2a9b uniquely, or supply explicit stamp values for the candidates before evaluating stamp equality."
+    },
+    {
+      "created_at_utc": "2026-09-30T05:53:37.935260+00:00",
+      "scope": "full",
+      "kind": "semantic",
+      "issue_id": "full-semantic-0005",
+      "query_id": "EVAL-TEMPORAL-2-1:n0l0w1",
+      "block_id": "EVAL-TEMPORAL-2-1",
+      "argument_version": "alias_v2",
+      "supersedes_argument_rendering_only": true,
+      "C1_task_id": "full_semantic_C1_alias_v2_001",
+      "receipt_sha256": "61925030bb7b928b88c4613034c22510891b99a60a90a5901522adcadf3eb11a",
+      "verdict": "CONFIRMED_DEFECT",
+      "evidence": "Date comparisons are 7304 - 7320 = -16 and 7320 - 7320 = 0; equivalently, argument 1's 7320 - 7304 = 16 is correct. If stamp is defined as the reported date, db9968d0f53ac is the unique match. Reference code 7336 is expressly irrelevant. A_AMBIGUOUS, B_AMBIGUOUS, A_NON_PASS and B_NON_PASS are supported by the unstated date-to-stamp relation identified by C0 and both arguments. Counterexample: d99a8c26179e3 can have date 7304 and stamp 7320 while db9968d0f53ac has date 7320 and stamp 7304, reversing the stamp match without changing either rendered fact. Both or neither bearing stamp 7320 is also possible. No stamp answer is entailed and no unique actual answer follows. A_B_PREDICATE_DISAGREEMENT and CANONICALIZATION:Stamp property must receive semantic adjudication: stamp are resolved by stamp-value equality with its relation to dates unspecified; neither a year nor an index unit resolves that gap. A_B_SELECTION_DISAGREEMENT is between the conditional date selection and no established stamp selection, not proof of an actually empty answer set. PREDICATE_SOURCE_CONTRADICTION_CHECK and SELECTION_SOURCE_CONTRADICTION_CHECK leave the mechanical year predicate and sole selection unsupported except under the added relation. The alias ce43f270dc7d4 names db9968d0f53ac through its supplied bridge, so that conditional match has no alias defect.",
+      "issues": [
+        "The candidate dates do not establish the requested stamp values.",
+        "The mechanical date/year interpretation is conditional; numerical equality alone cannot establish the stamp property."
+      ],
+      "root_cause": "Rendered query and candidate evidence concern different properties without a stated relation between stamp and date.",
+      "required_action": "Change the query to ask which entry has the reported date 7320, yielding db9968d0f53ac uniquely, or supply explicit stamp values for the candidates before evaluating stamp equality."
+    },
+    {
+      "created_at_utc": "2026-09-30T05:53:37.935260+00:00",
+      "scope": "full",
+      "kind": "semantic",
+      "issue_id": "full-semantic-0004",
+      "query_id": "EVAL-TEMPORAL-2-0:n0l1w1",
+      "block_id": "EVAL-TEMPORAL-2-0",
+      "argument_version": "alias_v2",
+      "supersedes_argument_rendering_only": true,
+      "C1_task_id": "full_semantic_C1_alias_v2_001",
+      "receipt_sha256": "61925030bb7b928b88c4613034c22510891b99a60a90a5901522adcadf3eb11a",
+      "verdict": "CONFIRMED_DEFECT",
+      "evidence": "Date comparisons are 7303 - 7303 = 0 and 7319 - 7303 = 16. Under the added relation stamp = reported date, d7e241a548b40 is the unique match; metadata code 7319 remains expressly irrelevant even though it equals the other candidate's date. B_AMBIGUOUS and B_NON_PASS are supported: neither text establishes a stamp. Counterexample: d7e241a548b40 can have date 7303 and stamp 7319 while d2cb155b7d799 has date 7319 and stamp 7303, reversing the stamp match while preserving both texts. Both or neither bearing stamp 7303 is also allowed. No stamp answer is entailed and the actual answer is not uniquely determined. A_B_PREDICATE_DISAGREEMENT and CANONICALIZATION:Stamp property must receive semantic adjudication: stamp_identifier are resolved by retaining stamp-value equality without equating it to a year or reported date. A_B_SELECTION_DISAGREEMENT is explained by argument 1 selecting the date match and argument 2 reporting no established stamp match. Argument 1's PASS/CLEAR judgment is a reviewer error: its correct arithmetic does not supply the missing property relation. C0 and argument 2 correctly identify that omission. PREDICATE_SOURCE_CONTRADICTION_CHECK and SELECTION_SOURCE_CONTRADICTION_CHECK do not substantiate the mechanical year predicate or unconditional selection. The supplied bridge maps cbfbdd62c4518 to d7e241a548b40, so argument 2's conditional date match is correctly referenced.",
+      "issues": [
+        "The requested stamp values are missing from the rendered candidate evidence.",
+        "Argument 1 incorrectly gives PASS/CLEAR by treating the unique date match as an established stamp match; the rendered property omission independently establishes the dataset defect."
+      ],
+      "root_cause": "Rendered query and candidate evidence concern different properties without a stated relation between stamp and date.",
+      "required_action": "Change the query to ask which entry has the reported date 7303, yielding d7e241a548b40 uniquely, or supply explicit stamp values for the candidates before evaluating stamp equality. Reevaluate the unconditional PASS judgment using that corrected property evidence."
+    }
+  ]
+}

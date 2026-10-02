@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-09-30T20:28:51.594570+00:00",
+  "scope": "Full1408 raw rows and352 deterministic M2 decisions; all derived tables/metrics reproduced byte-for-byte",
+  "model_calls": 0,
+  "API_calls": 0,
+  "new_research_logical_requests": 0,
+  "unique_M2_logical_requests": 352,
+  "actual_rerank_computations_this_replay": 352,
+  "actual_rerank_computations_initial_plus_this_replay": 704,
+  "captured_latency_ns_preserved": true,
+  "all_deterministic_decision_fields_compared": true,
+  "output_hashes": {
+    "condition_summary.csv": "a3d1dcec4c05c06310f93019db70b592985f21a1eda6c77b262639bdcfe48c6d",
+    "coverage_harm_and_probe_results.csv": "dbb3125891b8f240485be8d61840773f1e50b56e3e129d25815eb1c3b42de840",
+    "block_template_transitions.csv": "af19a8439367e1fb7ba8575ea90fcabb7308c345939a78922469e424f3c4277f",
+    "OVERALL_METRICS.json": "2c6e8aa2c8ccc81719dc0bfcf47fe4cef7b813435528e61243e541a835369047",
+    "M2_DECISIONS.jsonl": "052393b47ea5b8eff5a3e4b2b5c57342897588b8f2277967611427f2f4f1785c"
+  },
+  "raw_scores_sha256": "56d584a7ce4f16647e3d9fd6d66dddd453d114f08fb3d4ecf78d4896569f7025",
+  "input_model_score_lock_sha256": "bccdcc29354667b33da8210123a191c7c6a7a0d4c41a1d9d5d88daaf26868f43",
+  "analyzer_sha256": "48a8da5cf4ae2a4fe12f74b050c3701160eb0ca7924fbd848f711bee7c9ccdd2"
+}

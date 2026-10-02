@@ -1,0 +1,40 @@
+{
+  "mode": "precheck",
+  "start_utc": "2026-10-01T02:27:22.441798+00:00",
+  "attempts": [
+    {
+      "model": "bm25",
+      "exit_code": 0,
+      "elapsed_seconds": 0.1078815000000759,
+      "stdout_sha256": "e0be5de1c167c61648762cc0eaedcf219d721149a26f7793bcc121cde44a285e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "model": "bge_small",
+      "exit_code": 0,
+      "elapsed_seconds": 29.537525800000367,
+      "stdout_sha256": "2cadf4c3b149eede1ae17c8c8c1043b5ca506cca60439aaf16570539705834d8",
+      "stderr_sha256": "7f63317197ccdd2647a3db24acdfed4ed342796b9991dcab8bbf5348136f7176"
+    },
+    {
+      "model": "e5_small",
+      "exit_code": 0,
+      "elapsed_seconds": 11.437001499998587,
+      "stdout_sha256": "b98239042407923e1a9bf70f4f55109e883f032786051b69c5629bede0d6b4cb",
+      "stderr_sha256": "73e9b6bb30470633ffcf14959862d4fba4679302e843558f431976557e0da524"
+    },
+    {
+      "model": "minilm_ce",
+      "exit_code": 0,
+      "elapsed_seconds": 10.905648699999801,
+      "stdout_sha256": "cb6a677abdc11bff9f260304443be3b73a53d92ce6aa7672b086732a5844d294",
+      "stderr_sha256": "5c19c8dd7b00e2925a8e339850ef57dedefc38627c6d3e9547a368f63b8a7445"
+    }
+  ],
+  "paid_API_calls": 0,
+  "downloads": 0,
+  "one_model_at_a_time": true,
+  "credential_variables_read": false,
+  "end_utc": "2026-10-01T02:28:14.452291+00:00",
+  "status": "COMPLETE"
+}

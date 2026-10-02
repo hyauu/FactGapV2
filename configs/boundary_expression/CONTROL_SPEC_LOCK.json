@@ -1,0 +1,123 @@
+{
+  "seed": 440917,
+  "conditions": [
+    "LITERAL",
+    "RESOLVED"
+  ],
+  "wordings": [
+    0,
+    1
+  ],
+  "templates": 4,
+  "DEV_blocks": 4,
+  "EVAL_blocks": 12,
+  "queries_per_block": 4,
+  "data_designation": "template-shared exploratory; score-blind numeric allocation",
+  "topic_frames": [
+    [
+      "warehouse inventory",
+      "item count"
+    ],
+    [
+      "library shipment",
+      "book count"
+    ],
+    [
+      "orchard survey",
+      "tree count"
+    ],
+    [
+      "museum catalog",
+      "object count"
+    ]
+  ],
+  "counts_only": true,
+  "candidate_rule": "Correct strictly interior lower+3; counterpart excluded endpoint; auxiliary upper+23",
+  "numeric_rule": "DEV lower=3100+template*101; EVAL lower=7100+template*503+instance*107; width=11+((template+instance)%3)*2; distinct nonzero integer operands chosen before scoring",
+  "nuisance_allocation": {
+    "DEV_excluded": [
+      "upper",
+      "lower",
+      "upper",
+      "lower"
+    ],
+    "DEV_arithmetic": [
+      "add",
+      "sub",
+      "sub",
+      "add"
+    ],
+    "EVAL_excluded": [
+      [
+        "upper",
+        "upper",
+        "lower"
+      ],
+      [
+        "lower",
+        "lower",
+        "upper"
+      ],
+      [
+        "upper",
+        "lower",
+        "lower"
+      ],
+      [
+        "lower",
+        "upper",
+        "upper"
+      ]
+    ],
+    "EVAL_arithmetic": [
+      [
+        "add",
+        "sub",
+        "add"
+      ],
+      [
+        "sub",
+        "add",
+        "sub"
+      ],
+      [
+        "add",
+        "sub",
+        "add"
+      ],
+      [
+        "sub",
+        "add",
+        "sub"
+      ]
+    ]
+  },
+  "analysis": {
+    "success": "margin>0; tie fails",
+    "primary": "RESOLVED-LITERAL within new matched block; average2wordings/orders then3instances/template then equal4templates",
+    "near_ties": [
+      1e-06,
+      1e-05
+    ],
+    "metrics": [
+      "correct",
+      "incorrect",
+      "exact_tie",
+      "near_tie",
+      "mean/median margin",
+      "paired change",
+      "block/template",
+      "leave-one-template-out"
+    ],
+    "old_scores": "Descriptive historical context only; not intervention contrast across datasets or BM25 indices",
+    "statistical_inference": "NONE; no selection/significance criterion"
+  },
+  "scope": "Specified exact endpoint-expression substitution plus arithmetic and length changes; not pure internal reasoning isolation",
+  "fallback_used": false,
+  "no_outcome_driven_selection": true,
+  "material_repair_cap": 1,
+  "context_cap": 64,
+  "new_blocks_cap": 32,
+  "locked_at_utc": "2026-09-30T09:22:29.146860+00:00",
+  "new_target_scores_observed": false
+}

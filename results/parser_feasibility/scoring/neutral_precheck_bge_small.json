@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-09-30T19:43:54.447673+00:00",
+  "model_key": "bge_small",
+  "identity": {
+    "status": "PASS",
+    "created_at_utc": "2026-09-30T19:43:31.389115+00:00",
+    "selected_identity_checks": [
+      {
+        "path": "<LOCAL_PROJECT>\\tools\\local_score.py",
+        "sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\source_and_model_locks\\model_local_lock.json",
+        "sha256": "3451c18753970ba63cc6be15c020e9002f2aad9eb2cda81cba4ddd3614abb255",
+        "matches": true
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\stage22b\\runs\\stage22b_20260930T083944Z_49e9c6b3\\CONTROL_SCORE_LOCK.json",
+        "sha256": "5848e1ba7792a0ad73f158139f3603f91dfadc313535db9563a486e1b56b1e5c",
+        "matches": true
+      }
+    ],
+    "adapter_preflight_sha256": "5bd0cacb1c07122dfb7b3ad36557ea1f9794f1ae3287ac3fb249fd335975bf53",
+    "baseline_binding_sha256": "d820e69cfa6ccb036e665dd216349fa3c2a7a432fda36e5b2975828c635dfcae",
+    "resource_observer_sha256": "081516db49363bc2adfe7bcc3da55fceacf9aae3f01f60d84ca64667d86426a5",
+    "model_artifacts": [
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\config.json",
+        "bytes": 743,
+        "sha256": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750"
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\model.safetensors",
+        "bytes": 133466304,
+        "sha256": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad"
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\special_tokens_map.json",
+        "bytes": 125,
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\tokenizer.json",
+        "bytes": 711396,
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\tokenizer_config.json",
+        "bytes": 366,
+        "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3"
+      },
+      {
+        "path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a\\vocab.txt",
+        "bytes": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      }
+    ],
+    "model_contract": {
+      "repo_id": "BAAI/bge-small-en-v1.5",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "snapshot_path": "<LOCAL_PROJECT>\\model_cache\\hub\\models--BAAI--bge-small-en-v1.5\\snapshots\\5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "dtype": "float32",
+      "max_tokens": 512,
+      "truncation": false,
+      "local_files_only": true,
+      "query_prefix": "Represent this sentence for searching relevant passages: ",
+      "document_prefix": "",
+      "pooling": "CLS L2-normalized",
+      "score": "unscaled cosine"
+    },
+    "wrapper_sha256": "5b4359995994aed50740235af4a9a1f4fc39bc9da49a13aa00489ecd5f14fd21"
+  },
+  "environment": {
+    "python": "<LOCAL_HOME>\\Documents\\ChatGPT\\捉摸\\.venv\\Scripts\\python.exe",
+    "python_executable_exists": true,
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "local_only": true,
+    "paid_API_calls": 0,
+    "downloads": 0,
+    "torch": "2.14.0+cu130",
+    "transformers": "5.17.0",
+    "cuda_available": true,
+    "torch_compute_threads": 8,
+    "CUDA": "13.0"
+  },
+  "device": "cuda",
+  "neutral_query": "Find the passage about a silver lantern.",
+  "neutral_candidates": [
+    "A silver lantern is on the table.",
+    "A copper bucket is beside the door."
+  ],
+  "scores_forward_display": [
+    0.6524785757064819,
+    0.4213200509548187
+  ],
+  "scores_reverse_display": [
+    0.4213200509548187,
+    0.6524785757064819
+  ],
+  "scores_fresh_AA_display": [
+    0.6524785757064819,
+    0.4213200509548187
+  ],
+  "singleton_score": 0.6524786353111267,
+  "differences": {
+    "fresh_array_order_max_abs": 0.0,
+    "batch_vs_single_abs": 5.960464477539063e-08,
+    "fresh_AA_max_abs": 0.0
+  },
+  "tolerance_abs": 0.0001,
+  "inherited_neutral_max_abs_difference": 0.0,
+  "token_records": [
+    [
+      "e12f34bd7d44eceed70aa0b6fb4ce40378bb92f88d47cac880d48d124fc1bb87",
+      18,
+      10
+    ],
+    [
+      "376508649e69a3df6a56902c085ae34fdc705e241870d8867b52011c900e3337",
+      18,
+      10
+    ]
+  ],
+  "logical_neutral_ranking_requests": 4,
+  "neutral_candidate_score_occurrences": 7,
+  "fresh_adapter_calls": 4,
+  "pair_cache_used": false,
+  "research_queries_read": 0,
+  "research_forward_calls": 0,
+  "actual_model_forward_calls": 8,
+  "actual_model_sequence_occurrences": 11,
+  "forward_batches": [
+    {
+      "batch_id": 0,
+      "sequences": 1,
+      "padded_width": 18,
+      "forward_tensors_sha256": "fe1970d6c9b5b69cee7fb67ef4179c7a79151cf2178b1fe8667edfeb9dbb63f8"
+    },
+    {
+      "batch_id": 1,
+      "sequences": 2,
+      "padded_width": 10,
+      "forward_tensors_sha256": "e1159384e2f5099937662da695e633146abdbc17244aeaaa5598ca9ffde0c8a7"
+    },
+    {
+      "batch_id": 2,
+      "sequences": 1,
+      "padded_width": 18,
+      "forward_tensors_sha256": "fe1970d6c9b5b69cee7fb67ef4179c7a79151cf2178b1fe8667edfeb9dbb63f8"
+    },
+    {
+      "batch_id": 3,
+      "sequences": 2,
+      "padded_width": 10,
+      "forward_tensors_sha256": "e1159384e2f5099937662da695e633146abdbc17244aeaaa5598ca9ffde0c8a7"
+    },
+    {
+      "batch_id": 4,
+      "sequences": 1,
+      "padded_width": 18,
+      "forward_tensors_sha256": "fe1970d6c9b5b69cee7fb67ef4179c7a79151cf2178b1fe8667edfeb9dbb63f8"
+    },
+    {
+      "batch_id": 5,
+      "sequences": 1,
+      "padded_width": 10,
+      "forward_tensors_sha256": "86156c5f74f59068d48179b3372823bc8febbb29131383931a069f62200c4e8e"
+    },
+    {
+      "batch_id": 6,
+      "sequences": 1,
+      "padded_width": 18,
+      "forward_tensors_sha256": "fe1970d6c9b5b69cee7fb67ef4179c7a79151cf2178b1fe8667edfeb9dbb63f8"
+    },
+    {
+      "batch_id": 7,
+      "sequences": 2,
+      "padded_width": 10,
+      "forward_tensors_sha256": "e1159384e2f5099937662da695e633146abdbc17244aeaaa5598ca9ffde0c8a7"
+    }
+  ],
+  "resource_receipt": "<LOCAL_PROJECT>\\stage4a\\runs\\20260930T192807Z_a697a439\\scoring\\resources_precheck_bge_small.json"
+}

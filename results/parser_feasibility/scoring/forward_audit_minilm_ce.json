@@ -1,0 +1,27 @@
+{
+  "model_key": "minilm_ce",
+  "forward_batches": [
+    {
+      "batch_id": 0,
+      "sequences": 32,
+      "padded_width": 52,
+      "forward_tensors_sha256": "f551ee1c6d5ea283441df474369ac30578c1d53eb58289cda2dbd509f860acc9"
+    },
+    {
+      "batch_id": 1,
+      "sequences": 32,
+      "padded_width": 54,
+      "forward_tensors_sha256": "2f6311cdd9036fb1dd7fa401dea2db09db3ae128b36ba68165eb01914a6fe2aa"
+    },
+    {
+      "batch_id": 2,
+      "sequences": 24,
+      "padded_width": 52,
+      "forward_tensors_sha256": "768c6ec84d181fb2ce0dd43dbce7e9ecf0c8415777a945dbd1d8ac9a6a548803"
+    }
+  ],
+  "actual_model_forward_calls": 3,
+  "actual_model_sequence_occurrences": 88,
+  "unique_query_embeddings": 0,
+  "unique_document_embeddings": 0
+}

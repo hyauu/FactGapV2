@@ -1,0 +1,98 @@
+[
+  {
+    "block_id": "dev_block_00",
+    "template_id": "template_1",
+    "item_ids": [
+      "q_dd6ede3dc8d5168b",
+      "q_0afca93bb4804f7e",
+      "q_192a71cb8d1dd1e4",
+      "q_9286ec5cc27ad11e",
+      "q_26450923c9708e8b",
+      "q_499d890d366cce5f"
+    ],
+    "parameters": {
+      "L": 137,
+      "U": 213,
+      "G": 181,
+      "W": 213,
+      "N": 165,
+      "h": 159,
+      "a": 54,
+      "lower_inclusive": true,
+      "upper_inclusive": false
+    },
+    "neutral_relative_position": "below_both"
+  },
+  {
+    "block_id": "dev_block_01",
+    "template_id": "template_2",
+    "item_ids": [
+      "q_b5eebc64caf4fb5e",
+      "q_2dfd0e8de09396e5",
+      "q_541979740fd26965",
+      "q_a3531a30c7446ac3",
+      "q_4855ab908e6a806a",
+      "q_546f534692b4dea2"
+    ],
+    "parameters": {
+      "L": 206,
+      "U": 287,
+      "G": 228,
+      "W": 206,
+      "N": 207,
+      "h": 265,
+      "a": 59,
+      "lower_inclusive": false,
+      "upper_inclusive": true
+    },
+    "neutral_relative_position": "between"
+  },
+  {
+    "block_id": "dev_block_02",
+    "template_id": "template_3",
+    "item_ids": [
+      "q_016bbefd802a9b16",
+      "q_6ab9ce33ad8ce199",
+      "q_eb07937438f58e58",
+      "q_1c0c4859abd07477",
+      "q_ea8ac2aba54fbfba",
+      "q_a08a8415d3c89f38"
+    ],
+    "parameters": {
+      "L": 419,
+      "U": 498,
+      "G": 455,
+      "W": 498,
+      "N": 512,
+      "h": 477,
+      "a": 21,
+      "lower_inclusive": true,
+      "upper_inclusive": false
+    },
+    "neutral_relative_position": "above_both"
+  },
+  {
+    "block_id": "dev_block_03",
+    "template_id": "template_4",
+    "item_ids": [
+      "q_cd1e13e497c33559",
+      "q_d8bab39157a37120",
+      "q_b6e72c27c1a06b43",
+      "q_ec7f6ffbb36c48e1",
+      "q_330fc6cb5125290f",
+      "q_6468c53af40481b8"
+    ],
+    "parameters": {
+      "L": 565,
+      "U": 638,
+      "G": 592,
+      "W": 565,
+      "N": 548,
+      "h": 614,
+      "a": 49,
+      "lower_inclusive": false,
+      "upper_inclusive": true
+    },
+    "neutral_relative_position": "below_both"
+  }
+]

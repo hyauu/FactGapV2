@@ -1,0 +1,9 @@
+{
+  "status": "FAIL",
+  "test_exit_code": 1,
+  "raw_stdout": "",
+  "raw_stderr": "Traceback (most recent call last):\n  File \"<LOCAL_PROJECT>\\stage4a\\runs\\20260930T192807Z_a697a439\\tests\\test_method.py\", line 48, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"<LOCAL_PROJECT>\\stage4a\\runs\\20260930T192807Z_a697a439\\tests\\test_method.py\", line 9, in main\n    d=rerank(q1,[a,b],[0,2]);assert d['choice']=='A' and d['override_rule_applied']\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "prelock_development_technical_retry": 1,
+  "fix": "Whitespace in whose branch after toy1 failed; unchanged support semantics",
+  "material_campaign_consumed": false
+}

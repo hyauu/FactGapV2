@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-09-30T10:11:37.763525+00:00",
+  "status": "COMPLETE",
+  "model_key": "minilm_ce",
+  "model_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "dtype": "float32",
+  "score_scale": "raw_logit",
+  "logical_ranking_requests": 96,
+  "score_rows": 192,
+  "unique_forward_pairs": 96,
+  "elapsed_ms": 9366.014599974733,
+  "peak_gpu_bytes": 157346816,
+  "device": "cuda",
+  "raw_sha256": "0978995568e1c2d1b2ea08a634dbfab56fa1b8fad51e2cf00ea23f26308e68ba",
+  "input_sha256": "852e6b84c8221c253979e47f5ce076a29acd9956a61369f09cc336795dcfaaca",
+  "corpus_sha256": "f856544fec0023c4066ec0c8e25d3011d332652cd022633c84d6d1e2b249dfa6",
+  "adapter_sha256": "b85d8ca6d114ca63f14f6b5bade7410c34aa907afe37b4cd6e865e5c141e7c39",
+  "wrapper_sha256": "1501f9e40709ad8d32fddfaa594f6457056983472e89ed450ce404eaf3d22998",
+  "prospective_lock_sha256": "5848e1ba7792a0ad73f158139f3603f91dfadc313535db9563a486e1b56b1e5c"
+}

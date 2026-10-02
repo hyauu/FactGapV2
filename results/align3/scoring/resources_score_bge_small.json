@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "created_at_utc": "2026-10-01T03:38:08.318231+00:00",
+  "pid": 27368,
+  "samples": 66,
+  "RAM_cap_fraction": 0.6,
+  "VRAM_cap_fraction": 0.8,
+  "CPU_threads_cap": 8,
+  "sample_period_seconds": 0.5,
+  "start_deadline_utc": "2026-10-01T05:46:00+00:00",
+  "end_deadline_utc": "2026-10-01T05:46:00+00:00",
+  "max_process_peak_working_set_bytes": 1544138752,
+  "max_cuda_allocated_bytes": 191929856,
+  "max_cuda_reserved_bytes": 226492416,
+  "max_total_cuda_used_bytes": 1659305984,
+  "last_memory": {
+    "total_physical_bytes": 33456324608,
+    "available_physical_bytes": 15361224704,
+    "process_working_set_bytes": 1542336512,
+    "process_peak_working_set_bytes": 1544138752,
+    "process_peak_pagefile_bytes": 3115835392
+  },
+  "total_cuda_bytes": 17066033152,
+  "error": null,
+  "terminal_at_utc": "2026-10-01T03:38:38.173744+00:00",
+  "process_RAM_fraction": 0.04615386687247675,
+  "configured_torch_intraop_threads": 8
+}

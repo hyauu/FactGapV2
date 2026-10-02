@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "queries_checked": 48,
+  "documents_checked": 18,
+  "original_expressions_preserved_and_exactly_recalculated": true,
+  "all_other_blocks_and_payloads_identical": true,
+  "new_full_corpus_documents": 144,
+  "source_hash": "34de29ae6735a88d841e9ebd65465419b2a515077a6854ead9177a92632a772b",
+  "fresh_agent_QA_not_replaced_by_regression": true
+}

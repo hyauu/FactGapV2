@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "queries": 24,
+  "blocks": 4,
+  "checks": [
+    {
+      "block_id": "dev_block_00",
+      "wording": 0,
+      "characters": 126,
+      "space_words": 27,
+      "digit_widths": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "block_id": "dev_block_00",
+      "wording": 1,
+      "characters": 128,
+      "space_words": 26,
+      "digit_widths": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "block_id": "dev_block_01",
+      "wording": 0,
+      "characters": 140,
+      "space_words": 28,
+      "digit_widths": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "block_id": "dev_block_01",
+      "wording": 1,
+      "characters": 140,
+      "space_words": 28,
+      "digit_widths": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "block_id": "dev_block_02",
+      "wording": 0,
+      "characters": 136,
+      "space_words": 28,
+      "digit_widths": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "block_id": "dev_block_02",
+      "wording": 1,
+      "characters": 126,
+      "space_words": 27,
+      "digit_widths": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "block_id": "dev_block_03",
+      "wording": 0,
+      "characters": 144,
+      "space_words": 28,
+      "digit_widths": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "block_id": "dev_block_03",
+      "wording": 1,
+      "characters": 136,
+      "space_words": 28,
+      "digit_widths": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "status": "PASS"
+    }
+  ],
+  "score_based_selection": false,
+  "seed": 431730
+}

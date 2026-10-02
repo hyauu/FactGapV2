@@ -1,0 +1,33 @@
+{
+  "model_key": "bge_small",
+  "forward_batches": [
+    {
+      "batch_id": 0,
+      "sequences": 32,
+      "padded_width": 47,
+      "forward_tensors_sha256": "1903cf8fdaf1f75c1f6804af852508ae0d204adffc2a95976377d89e2db91706"
+    },
+    {
+      "batch_id": 1,
+      "sequences": 12,
+      "padded_width": 45,
+      "forward_tensors_sha256": "206c6ae47b6e2d8eabd8a2bb68d1f5bd7f0b1bbad74be7e961d88ed104312891"
+    },
+    {
+      "batch_id": 2,
+      "sequences": 32,
+      "padded_width": 19,
+      "forward_tensors_sha256": "f11ec5a313d1aaf4550427de8d702b7703e91411dc3b62436fe74f2300a3e1fd"
+    },
+    {
+      "batch_id": 3,
+      "sequences": 8,
+      "padded_width": 20,
+      "forward_tensors_sha256": "31a53a4fbe372ad7a928a6658691aa974c51738f20444ef0cec89cc322086817"
+    }
+  ],
+  "actual_model_forward_calls": 4,
+  "actual_model_sequence_occurrences": 84,
+  "unique_query_embeddings": 44,
+  "unique_document_embeddings": 40
+}

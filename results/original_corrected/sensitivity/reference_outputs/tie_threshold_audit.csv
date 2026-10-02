@@ -1,0 +1,13 @@
+model,epsilon,near_zero,total
+bge-reranker,1e-08,0,588
+bge-reranker,1e-07,0,588
+bge-reranker,1e-06,0,588
+bge-reranker,1e-05,0,588
+legacy-cross-encoder,1e-08,0,588
+legacy-cross-encoder,1e-07,0,588
+legacy-cross-encoder,1e-06,0,588
+legacy-cross-encoder,1e-05,0,588
+qwen3-reranker,1e-08,0,588
+qwen3-reranker,1e-07,0,588
+qwen3-reranker,1e-06,14,588
+qwen3-reranker,1e-05,107,588

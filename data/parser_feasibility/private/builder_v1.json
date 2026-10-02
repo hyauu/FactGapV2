@@ -1,0 +1,694 @@
+{
+  "blocks": [
+    {
+      "block_id": "b01",
+      "template_id": "t1_band",
+      "subject": "orchard survey record",
+      "property": "pear tree count",
+      "lower": 9400,
+      "upper": 9700,
+      "include_lower": true,
+      "include_upper": false,
+      "candidates": [
+        "Elmford orchard survey record reports a pear tree count of 9526.",
+        "Rivermark orchard survey record reports a pear tree count of 9700."
+      ],
+      "candidate_values": [
+        9526,
+        9700
+      ],
+      "gold_candidate_index": 0,
+      "queries": [
+        {
+          "condition": "LITERAL",
+          "wording": 0,
+          "text": "Which orchard survey record has a pear tree count within the band beginning at 9400, inclusive, and ending at 9700, exclusive?"
+        },
+        {
+          "condition": "LITERAL",
+          "wording": 1,
+          "text": "Find the orchard survey record whose pear tree count lies in a band with 9400 as its included start and 9700 as its excluded end."
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 0,
+          "text": "Which orchard survey record has a pear tree count within the band beginning at 9400, inclusive, and ending at the sum of 9600 and 100, exclusive?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 1,
+          "text": "Find the orchard survey record whose pear tree count lies in a band with 9400 as its included start and the sum of 9600 and 100 as its excluded end."
+        }
+      ]
+    },
+    {
+      "block_id": "b02",
+      "template_id": "t1_band",
+      "subject": "warehouse stock record",
+      "property": "carton count",
+      "lower": 10200,
+      "upper": 10600,
+      "include_lower": true,
+      "include_upper": false,
+      "candidates": [
+        "Bexley warehouse stock record reports a carton count of 10600.",
+        "Harrow warehouse stock record reports a carton count of 10457."
+      ],
+      "candidate_values": [
+        10600,
+        10457
+      ],
+      "gold_candidate_index": 1,
+      "queries": [
+        {
+          "condition": "LITERAL",
+          "wording": 0,
+          "text": "Which warehouse stock record has a carton count within the band beginning at 10200, inclusive, and ending at 10600, exclusive?"
+        },
+        {
+          "condition": "LITERAL",
+          "wording": 1,
+          "text": "Find the warehouse stock record whose carton count lies in a band with 10200 as its included start and 10600 as its excluded end."
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 0,
+          "text": "Which warehouse stock record has a carton count within the band beginning at 10200, inclusive, and ending at the result of 11000 minus 400, exclusive?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 1,
+          "text": "Find the warehouse stock record whose carton count lies in a band with 10200 as its included start and the result of 11000 minus 400 as its excluded end."
+        }
+      ]
+    },
+    {
+      "block_id": "b03",
+      "template_id": "t2_qualification",
+      "subject": "laboratory storage record",
+      "property": "vial count",
+      "lower": 11400,
+      "upper": 11900,
+      "include_lower": true,
+      "include_upper": false,
+      "candidates": [
+        "Sable laboratory storage record reports a vial count of 11900.",
+        "Merton laboratory storage record reports a vial count of 11731."
+      ],
+      "candidate_values": [
+        11900,
+        11731
+      ],
+      "gold_candidate_index": 1,
+      "queries": [
+        {
+          "condition": "LITERAL",
+          "wording": 0,
+          "text": "A laboratory storage record qualifies when its vial count is no smaller than 11400 and smaller than 11900. Which record qualifies?"
+        },
+        {
+          "condition": "LITERAL",
+          "wording": 1,
+          "text": "For a laboratory storage record, a vial count of 11400 or more qualifies provided the count remains under 11900. Which record qualifies?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 0,
+          "text": "A laboratory storage record qualifies when its vial count is no smaller than 11400 and smaller than the sum of 11800 and 100. Which record qualifies?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 1,
+          "text": "For a laboratory storage record, a vial count of 11400 or more qualifies provided the count remains under the sum of 11800 and 100. Which record qualifies?"
+        }
+      ]
+    },
+    {
+      "block_id": "b04",
+      "template_id": "t2_qualification",
+      "subject": "aviary census record",
+      "property": "finch count",
+      "lower": 12300,
+      "upper": 12750,
+      "include_lower": true,
+      "include_upper": false,
+      "candidates": [
+        "Aster aviary census record reports a finch count of 12522.",
+        "Bellmoor aviary census record reports a finch count of 12750."
+      ],
+      "candidate_values": [
+        12522,
+        12750
+      ],
+      "gold_candidate_index": 0,
+      "queries": [
+        {
+          "condition": "LITERAL",
+          "wording": 0,
+          "text": "An aviary census record qualifies when its finch count is no smaller than 12300 and smaller than 12750. Which record qualifies?"
+        },
+        {
+          "condition": "LITERAL",
+          "wording": 1,
+          "text": "For an aviary census record, a finch count of 12300 or more qualifies provided the count remains under 12750. Which record qualifies?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 0,
+          "text": "An aviary census record qualifies when its finch count is no smaller than 12300 and smaller than the result of 13000 minus 250. Which record qualifies?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 1,
+          "text": "For an aviary census record, a finch count of 12300 or more qualifies provided the count remains under the result of 13000 minus 250. Which record qualifies?"
+        }
+      ]
+    },
+    {
+      "block_id": "b05",
+      "template_id": "t3_requirement",
+      "subject": "library inventory record",
+      "property": "pamphlet count",
+      "lower": 13200,
+      "upper": 13600,
+      "include_lower": false,
+      "include_upper": true,
+      "candidates": [
+        "Redmere library inventory record reports a pamphlet count of 13200.",
+        "Creston library inventory record reports a pamphlet count of 13418."
+      ],
+      "candidate_values": [
+        13200,
+        13418
+      ],
+      "gold_candidate_index": 1,
+      "queries": [
+        {
+          "condition": "LITERAL",
+          "wording": 0,
+          "text": "Which library inventory record meets the pamphlet count requirement: more than 13200, but no more than 13600?"
+        },
+        {
+          "condition": "LITERAL",
+          "wording": 1,
+          "text": "Find a library inventory record whose pamphlet count exceeds 13200 without exceeding 13600."
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 0,
+          "text": "Which library inventory record meets the pamphlet count requirement: more than the sum of 13100 and 100, but no more than 13600?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 1,
+          "text": "Find a library inventory record whose pamphlet count exceeds the sum of 13100 and 100 without exceeding 13600."
+        }
+      ]
+    },
+    {
+      "block_id": "b06",
+      "template_id": "t3_requirement",
+      "subject": "seed bank inventory record",
+      "property": "seed packet count",
+      "lower": 14100,
+      "upper": 14550,
+      "include_lower": false,
+      "include_upper": true,
+      "candidates": [
+        "Bracken seed bank inventory record reports a seed packet count of 14309.",
+        "Fennel seed bank inventory record reports a seed packet count of 14100."
+      ],
+      "candidate_values": [
+        14309,
+        14100
+      ],
+      "gold_candidate_index": 0,
+      "queries": [
+        {
+          "condition": "LITERAL",
+          "wording": 0,
+          "text": "Which seed bank inventory record meets the seed packet count requirement: more than 14100, but no more than 14550?"
+        },
+        {
+          "condition": "LITERAL",
+          "wording": 1,
+          "text": "Find a seed bank inventory record whose seed packet count exceeds 14100 without exceeding 14550."
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 0,
+          "text": "Which seed bank inventory record meets the seed packet count requirement: more than the result of 14600 minus 500, but no more than 14550?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 1,
+          "text": "Find a seed bank inventory record whose seed packet count exceeds the result of 14600 minus 500 without exceeding 14550."
+        }
+      ]
+    },
+    {
+      "block_id": "b07",
+      "template_id": "t4_endpoint_interval",
+      "subject": "port tally record",
+      "property": "crate count",
+      "lower": 15200,
+      "upper": 15700,
+      "include_lower": false,
+      "include_upper": true,
+      "candidates": [
+        "Marlowe port tally record reports a crate count of 15463.",
+        "Tern port tally record reports a crate count of 15200."
+      ],
+      "candidate_values": [
+        15463,
+        15200
+      ],
+      "gold_candidate_index": 0,
+      "queries": [
+        {
+          "condition": "LITERAL",
+          "wording": 0,
+          "text": "The allowed crate count for a port tally record runs from 15200 (excluded) through 15700 (included). Which entry is eligible?"
+        },
+        {
+          "condition": "LITERAL",
+          "wording": 1,
+          "text": "Which port tally record has a crate count in an interval with an open lower endpoint at 15200 and a closed upper endpoint at 15700?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 0,
+          "text": "The allowed crate count for a port tally record runs from the sum of 15100 and 100 (excluded) through 15700 (included). Which entry is eligible?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 1,
+          "text": "Which port tally record has a crate count in an interval with an open lower endpoint at the sum of 15100 and 100 and a closed upper endpoint at 15700?"
+        }
+      ]
+    },
+    {
+      "block_id": "b08",
+      "template_id": "t4_endpoint_interval",
+      "subject": "archive inventory record",
+      "property": "folder count",
+      "lower": 16300,
+      "upper": 16800,
+      "include_lower": false,
+      "include_upper": true,
+      "candidates": [
+        "Ashcombe archive inventory record reports a folder count of 16300.",
+        "Fenwick archive inventory record reports a folder count of 16541."
+      ],
+      "candidate_values": [
+        16300,
+        16541
+      ],
+      "gold_candidate_index": 1,
+      "queries": [
+        {
+          "condition": "LITERAL",
+          "wording": 0,
+          "text": "The allowed folder count for an archive inventory record runs from 16300 (excluded) through 16800 (included). Which entry is eligible?"
+        },
+        {
+          "condition": "LITERAL",
+          "wording": 1,
+          "text": "Which archive inventory record has a folder count in an interval with an open lower endpoint at 16300 and a closed upper endpoint at 16800?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 0,
+          "text": "The allowed folder count for an archive inventory record runs from the result of 17000 minus 700 (excluded) through 16800 (included). Which entry is eligible?"
+        },
+        {
+          "condition": "RESOLVED",
+          "wording": 1,
+          "text": "Which archive inventory record has a folder count in an interval with an open lower endpoint at the result of 17000 minus 700 and a closed upper endpoint at 16800?"
+        }
+      ]
+    }
+  ],
+  "probes": [
+    {
+      "probe_id": "p01",
+      "probe_type": "no_constraint_no_numbers",
+      "query": "Find the equipment register entry for a microscope.",
+      "candidates": [
+        "Weston equipment register lists a microscope in the preparation room.",
+        "Briar equipment register lists a microscope in the observation room."
+      ],
+      "expected_satisfaction": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "semantic_note": "The query specifies an equipment topic but no count constraint. Count satisfaction is undefined for both passages; topic relevance is not the target of this probe."
+    },
+    {
+      "probe_id": "p02",
+      "probe_type": "no_constraint_no_numbers",
+      "query": "Locate the habitat report describing nesting conditions for wrens.",
+      "candidates": [
+        "Cedar habitat report describes wrens nesting in reed beds.",
+        "Fern habitat report describes wrens nesting in hedges."
+      ],
+      "expected_satisfaction": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "semantic_note": "No numerical count requirement is present. Neither passage can be assigned a count-constraint satisfaction value from this query."
+    },
+    {
+      "probe_id": "p03",
+      "probe_type": "no_constraint_identifier",
+      "query": "Find the inspection note for pump model 18420.",
+      "candidates": [
+        "The inlet inspection note concerns pump model 18420 and reports an impeller count of 6.",
+        "The outlet inspection note concerns pump model 18420 and reports an impeller count of 9."
+      ],
+      "expected_satisfaction": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "semantic_note": "18420 identifies a pump model; it is not a requested count or interval endpoint. The candidate impeller counts have no applicable count constraint."
+    },
+    {
+      "probe_id": "p04",
+      "probe_type": "no_constraint_identifier",
+      "query": "Retrieve the stock record filed under ID 19635.",
+      "candidates": [
+        "Stock record ID 19635 lists a bearing count of 14.",
+        "Stock record ID 19635 lists a bearing count of 22."
+      ],
+      "expected_satisfaction": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "semantic_note": "19635 is a filing identifier. The query does not constrain the bearing count, so count satisfaction is undefined for both passages."
+    },
+    {
+      "probe_id": "p05",
+      "probe_type": "ambiguous_or_unsupported",
+      "query": "Which workshop record has a count greater than 20 and at most 30?",
+      "candidates": [
+        "Alder workshop record lists 24 bolts and 36 washers.",
+        "Birch workshop record lists 34 bolts and 26 washers."
+      ],
+      "expected_satisfaction": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "semantic_note": "The query does not name the counted property. The bolt interpretation and washer interpretation select different passages; neither satisfaction value is uniquely determined."
+    },
+    {
+      "probe_id": "p06",
+      "probe_type": "ambiguous_or_unsupported",
+      "query": "Find the visitor report with more than 40 and no more than 50 visitors.",
+      "candidates": [
+        "Lark visitor report lists 23 morning visitors and 24 afternoon visitors; overlap is not recorded.",
+        "Willow visitor report lists 27 morning visitors and 21 afternoon visitors; overlap is not recorded."
+      ],
+      "expected_satisfaction": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "semantic_note": "Unique individual visitors cannot be recovered without overlap information. The possible unique totals are 24 through 47 and 27 through 48, respectively, spanning satisfaction and violation; adding session counts would impose an unsupported assumption."
+    },
+    {
+      "probe_id": "p07",
+      "probe_type": "ambiguous_or_unsupported",
+      "query": "Which field report has more than 2 and at most 3 seedlings per square metre?",
+      "candidates": [
+        "Dune field report records 18 seedlings; the surveyed area is not stated.",
+        "Grove field report records 26 seedlings; the surveyed area is not stated."
+      ],
+      "expected_satisfaction": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "semantic_note": "The query constrains a density rather than a simple individual count. Neither surveyed area is supplied, so the density and satisfaction cannot be determined."
+    },
+    {
+      "probe_id": "p08",
+      "probe_type": "ambiguous_or_unsupported",
+      "query": "Find the supply record with approximately 60 screws.",
+      "candidates": [
+        "Pine supply record lists a screw count of 57.",
+        "Oak supply record lists a screw count of 64."
+      ],
+      "expected_satisfaction": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "semantic_note": "Approximately has no specified tolerance. This is not an exact count interval, and the query does not determine whether either count is close enough."
+    },
+    {
+      "probe_id": "p09",
+      "probe_type": "both_satisfy",
+      "query": "Which greenhouse census record has a fern count greater than 200 and no more than 260?",
+      "candidates": [
+        "Meadow greenhouse census record reports a fern count of 214.",
+        "Stone greenhouse census record reports a fern count of 246."
+      ],
+      "expected_satisfaction": [
+        true,
+        true
+      ],
+      "semantic_note": "The interval is (200, 260]. Both 214 and 246 satisfy it; there is no unique winner under this count constraint."
+    },
+    {
+      "probe_id": "p10",
+      "probe_type": "both_satisfy",
+      "query": "Find the depot inventory record with a pallet count from 410 inclusive up to 470 exclusive.",
+      "candidates": [
+        "Rowan depot inventory record reports a pallet count of 410.",
+        "Bramble depot inventory record reports a pallet count of 469."
+      ],
+      "expected_satisfaction": [
+        true,
+        true
+      ],
+      "semantic_note": "The interval is [410, 470). Both 410 and 469 satisfy it; the lower endpoint is explicitly included."
+    },
+    {
+      "probe_id": "p11",
+      "probe_type": "both_violate",
+      "query": "Which aquarium census record reports a guppy count of at least 520 and less than 580?",
+      "candidates": [
+        "Coral aquarium census record reports a guppy count of 510.",
+        "Pebble aquarium census record reports a guppy count of 580."
+      ],
+      "expected_satisfaction": [
+        false,
+        false
+      ],
+      "semantic_note": "The interval is [520, 580). 510 is below the lower endpoint and 580 equals the excluded upper endpoint. Neither passage satisfies the count constraint."
+    },
+    {
+      "probe_id": "p12",
+      "probe_type": "both_violate",
+      "query": "Find the vineyard survey record whose vine count exceeds 630 without exceeding 690.",
+      "candidates": [
+        "Hawthorn vineyard survey record reports a vine count of 630.",
+        "Laurel vineyard survey record reports a vine count of 701."
+      ],
+      "expected_satisfaction": [
+        false,
+        false
+      ],
+      "semantic_note": "The interval is (630, 690]. 630 equals the excluded lower endpoint and 701 exceeds the upper endpoint. Neither passage satisfies the count constraint."
+    }
+  ],
+  "data_designation": "template_related_exploratory",
+  "construction_notes": {
+    "provenance": "Constructed from the builder instruction alone, without inspecting any method, configuration, scores, locks, previous reviews, reference materials, or outcome source. No network or scoring was used.",
+    "designation_reason": "All four structures express exact individual count intervals using familiar English bound language. Structural independence cannot be established from this construction alone; the material is exploratory and must not be described as a confirmation set.",
+    "template_summary": [
+      {
+        "template_id": "t1_band",
+        "interval_form": "[L,U)",
+        "wording0": "Inclusive start and exclusive end described as a band.",
+        "wording1": "Included start and excluded end described as a band."
+      },
+      {
+        "template_id": "t2_qualification",
+        "interval_form": "[L,U)",
+        "wording0": "No smaller than the lower bound and smaller than the upper bound.",
+        "wording1": "Lower bound or more, provided the count remains under the upper bound."
+      },
+      {
+        "template_id": "t3_requirement",
+        "interval_form": "(L,U]",
+        "wording0": "More than the lower bound, but no more than the upper bound.",
+        "wording1": "Exceeds the lower bound without exceeding the upper bound."
+      },
+      {
+        "template_id": "t4_endpoint_interval",
+        "interval_form": "(L,U]",
+        "wording0": "Excluded start and included end of an allowed range.",
+        "wording1": "Open lower endpoint and closed upper endpoint."
+      }
+    ],
+    "count_units": "Each block refers to one named property of one record. Counts are stated directly as individual pear trees, cartons, vials, finches, pamphlets, seed packets, crates, or folders, without conversions or aggregation.",
+    "factor_control": "Candidate passages are stored once per block and are shared across all four queries. Within each wording, LITERAL and RESOLVED differ only in the surface representation of the excluded endpoint.",
+    "builder_private_assertions": [
+      {
+        "block_id": "b01",
+        "asserted_interval": "[9400, 9700)",
+        "excluded_endpoint": 9700,
+        "resolved_endpoint_operation": {
+          "left": 9600,
+          "operator": "+",
+          "right": 100,
+          "result": 9700
+        },
+        "asserted_satisfaction": [
+          true,
+          false
+        ],
+        "interior_candidate_index": 0,
+        "excluded_endpoint_candidate_index": 1
+      },
+      {
+        "block_id": "b02",
+        "asserted_interval": "[10200, 10600)",
+        "excluded_endpoint": 10600,
+        "resolved_endpoint_operation": {
+          "left": 11000,
+          "operator": "-",
+          "right": 400,
+          "result": 10600
+        },
+        "asserted_satisfaction": [
+          false,
+          true
+        ],
+        "interior_candidate_index": 1,
+        "excluded_endpoint_candidate_index": 0
+      },
+      {
+        "block_id": "b03",
+        "asserted_interval": "[11400, 11900)",
+        "excluded_endpoint": 11900,
+        "resolved_endpoint_operation": {
+          "left": 11800,
+          "operator": "+",
+          "right": 100,
+          "result": 11900
+        },
+        "asserted_satisfaction": [
+          false,
+          true
+        ],
+        "interior_candidate_index": 1,
+        "excluded_endpoint_candidate_index": 0
+      },
+      {
+        "block_id": "b04",
+        "asserted_interval": "[12300, 12750)",
+        "excluded_endpoint": 12750,
+        "resolved_endpoint_operation": {
+          "left": 13000,
+          "operator": "-",
+          "right": 250,
+          "result": 12750
+        },
+        "asserted_satisfaction": [
+          true,
+          false
+        ],
+        "interior_candidate_index": 0,
+        "excluded_endpoint_candidate_index": 1
+      },
+      {
+        "block_id": "b05",
+        "asserted_interval": "(13200, 13600]",
+        "excluded_endpoint": 13200,
+        "resolved_endpoint_operation": {
+          "left": 13100,
+          "operator": "+",
+          "right": 100,
+          "result": 13200
+        },
+        "asserted_satisfaction": [
+          false,
+          true
+        ],
+        "interior_candidate_index": 1,
+        "excluded_endpoint_candidate_index": 0
+      },
+      {
+        "block_id": "b06",
+        "asserted_interval": "(14100, 14550]",
+        "excluded_endpoint": 14100,
+        "resolved_endpoint_operation": {
+          "left": 14600,
+          "operator": "-",
+          "right": 500,
+          "result": 14100
+        },
+        "asserted_satisfaction": [
+          true,
+          false
+        ],
+        "interior_candidate_index": 0,
+        "excluded_endpoint_candidate_index": 1
+      },
+      {
+        "block_id": "b07",
+        "asserted_interval": "(15200, 15700]",
+        "excluded_endpoint": 15200,
+        "resolved_endpoint_operation": {
+          "left": 15100,
+          "operator": "+",
+          "right": 100,
+          "result": 15200
+        },
+        "asserted_satisfaction": [
+          true,
+          false
+        ],
+        "interior_candidate_index": 0,
+        "excluded_endpoint_candidate_index": 1
+      },
+      {
+        "block_id": "b08",
+        "asserted_interval": "(16300, 16800]",
+        "excluded_endpoint": 16300,
+        "resolved_endpoint_operation": {
+          "left": 17000,
+          "operator": "-",
+          "right": 700,
+          "result": 16300
+        },
+        "asserted_satisfaction": [
+          false,
+          true
+        ],
+        "interior_candidate_index": 1,
+        "excluded_endpoint_candidate_index": 0
+      }
+    ],
+    "balance": {
+      "correct_position_0_blocks": 4,
+      "correct_position_1_blocks": 4,
+      "per_template_one_of_each": true
+    },
+    "probe_purpose": "Safety probes assess whether a count constraint applies, whether its satisfaction can be determined, or whether the constraint leaves no unique winner. They do not measure ordinary relevance accuracy.",
+    "unknown_policy": "UNKNOWN represents absent count constraints or semantic uncertainty; it does not represent false.",
+    "checks": {
+      "blocks": 8,
+      "main_queries": 32,
+      "safety_probes": 12,
+      "max_query_characters": 163,
+      "max_candidate_characters": 99,
+      "query_limit": 320,
+      "candidate_limit": 220,
+      "positive_integer_block_numbers": true,
+      "excluded_endpoint_arithmetic_exact": true,
+      "candidate_positions_balanced": true,
+      "literal_resolved_only_endpoint_replacement": true
+    },
+    "audit_status": "All truth labels and semantic notes are builder assertions awaiting independent blind audit; they are not authoritative."
+  }
+}
