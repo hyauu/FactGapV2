@@ -1,5 +1,5 @@
 {
-  "status": "REPOSITORY_CREATED_UPLOAD_PENDING",
+  "status": "PUBLISHED_REMOTE_COMMIT_VERIFIED",
   "repository_url": "https://github.com/hyauu/FactGapV2",
   "repository_full_name": "hyauu/FactGapV2",
   "repository_id": 1401346001,
@@ -10,5 +10,6 @@
   "new_experiments": false,
   "manuscript_changed": false,
   "paper_submitted": false,
-  "novelty_approved": false
+  "novelty_approved": false,
+  "verified_artifact_commit": "22d697cfaa43b7a8558a82e65b1bf32c6248fa58"
 }

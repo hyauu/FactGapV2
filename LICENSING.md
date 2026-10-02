@@ -24,4 +24,4 @@ Archived provider answers are included as research evidence. The CC BY grant app
 
 ## Current distribution
 
-The user requested an **public GitHub repository**. No public announcement, submission, DOI, acceptance, or novelty certification accompanies this upload.
+The user requested a **public GitHub repository**. No public announcement, submission, DOI, acceptance, or novelty certification accompanies this upload.

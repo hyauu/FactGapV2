@@ -60,12 +60,12 @@
     },
     "privacy_scan": {
       "status": "PASS",
-      "files_checked": 398,
+      "files_checked": 399,
       "findings": 0,
       "scope": "repository_payload_excluding_git_metadata"
     }
   },
-  "completed_utc": "2026-10-02T08:00:49.340788+00:00",
+  "completed_utc": "2026-10-02T08:06:17.006033+00:00",
   "repository_url": "https://github.com/hyauu/FactGapV2",
   "visibility_verified_at_creation": "public",
   "source_candidate_unchanged": true
