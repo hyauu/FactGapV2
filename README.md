@@ -43,10 +43,10 @@ Broader 336-query development and its post-score property clarifications are ret
 Use Python 3.12 with the packages recorded in `requirements-replay.txt` already installed. No model weights, API credentials, GPU, or parent project files are needed. From this extracted directory:
 
 ```console
-python scripts/replay_all.py --output replay_output
-python scripts/verify_manuscript_artifacts.py --output manuscript_check
-python scripts/check_archival_tests.py --output archival_tests
-python scripts/scan_release.py --output release_scan.json
+python scripts/replay_all.py --output ../replay_output
+python scripts/verify_manuscript_artifacts.py --output ../manuscript_check
+python scripts/check_archival_tests.py --output ../archival_tests
+python scripts/scan_release.py --output ../release_scan.json
 ```
 
 Place output directories **outside** this immutable candidate when preserving the original release seal. For example, replace `replay_output` with `../replay_output`. The replay command denies Python socket calls, removes API credential environment entries from its process, checks release hashes, reconstructs results from stored raw records, and compares them with archived outputs. It does not invoke rankers, providers, tokenizers, or new reviews. This process guard is not an OS-wide network sandbox.
@@ -71,4 +71,4 @@ Automated QA uses operationally separated contexts with shared backends and inco
 
 Code is licensed under **MIT**; author-owned synthetic data and figures under **CC BY 4.0**; the paper retains copyright. Third-party rights remain applicable. See [LICENSING.md](LICENSING.md), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), and [AI_DISCLOSURE.md](AI_DISCLOSURE.md).
 
-The latest user instruction is an **public repository**. This edition adds packaging, licensing, and documentation only. It introduces no experiments, reviews, new scoring, or manuscript edits. Paper submission is not part of this upload.
+The latest user instruction is a **public repository**. This edition adds packaging, licensing, and documentation only. It introduces no experiments, reviews, new scoring, or manuscript edits. Paper submission is not part of this upload.
